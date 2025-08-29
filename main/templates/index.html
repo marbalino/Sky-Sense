@@ -1,0 +1,476 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Environment and Infrastructure Monitoring
+            </h1>
+            
+
+            <p class="hero-description">
+                Detect pipe breaks, flood risks, extreme weather, chemical contamination, and infrastructure anomalies 
+                before they escalate. Our monitoring systems combine off grid communication, sensor arrays and advanced modeling techniques for real time protection.
+           </p>
+            
+            <div class="hero-buttons">
+                <a href="#hardware" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    Explore Technology
+                </a>
+                <a href="#services" class="btn btn-secondary">
+                    <i class="fas fa-arrow-right"></i>
+                    Our Services
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number stat-with-percent">100</span>
+                    <span class="stat-label">Off Grid</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Monitoring</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Range*</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">$0</span>
+                    <span class="stat-label">Communication Cost</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="network-visualization">
+                <div class="node gateway" data-tooltip="Gateway">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <div class="node mesh-node" data-tooltip="Mesh Node">
+                    <i class="fas fa-broadcast-tower"></i>
+                </div>
+                <div class="node sensor" data-tooltip="Environmental Sensor">
+                    <i class="fas fa-thermometer-half"></i>
+                </div>
+                <div class="node sensor" data-tooltip="Water Quality Sensor">
+                    <i class="fas fa-tint"></i>
+                </div>
+                
+                <!-- Connection lines -->
+                <svg class="connections" viewBox="0 0 400 300">
+                    <path class="connection-line" d="M100,150 L200,100"></path>
+                    <path class="connection-line" d="M200,100 L300,80"></path>
+                    <path class="connection-line" d="M200,100 L280,180"></path>
+                    <path class="connection-line" d="M100,150 L180,220"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Live Demo Section -->
+<section class="demo-section">
+    <div class="demo-container">
+        <div class="demo-header">
+            <h2>Digital Twins</h2>
+            <p>Berkeley's watershed and sewer infrastructure with real-time sensor data</p>
+            
+        </div>
+        
+        <div class="live-map-container" id="liveMapContainer">
+            <div class="map-frame">
+                <div class="map-header">
+                    <div class="map-status">
+                        <div class="status-indicator live"></div>
+                        <span>Live Data</span>
+                    </div>
+                    <div class="map-title">Strawberry Creek Environmental Monitoring</div>
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <div class="legend-dot sensor-dot"></div>
+                            <span>Sensors</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-line creek-line"></div>
+                            <span>Creeks</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-line sewer-line"></div>
+                            <span>Sewer Lines</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="embedded-map">
+                    <div class="map-and-sensors-container">
+                        <div class="map-container-wrapper">
+                            <div id="skysense-map" class="interactive-map"></div>
+                        </div>
+                        
+                        <!-- Integrated Sensor Panel -->
+                        <div class="integrated-sensor-panel" id="integrated-sensor-panel">
+                            <div class="sensor-panel-header">
+                                <h4 class="sensor-panel-title"><i class="fas fa-broadcast-tower"></i> Live Sensors</h4>
+                                <div class="sensor-panel-controls">
+                                    <button id="toggle-panel" class="panel-toggle-btn" title="Show/Hide Sensor Data">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sensor-panel-content" id="sensor-panel-content">
+                                <div id="live-sensor-dashboard" class="integrated-sensor-dashboard">
+                                    <!-- Sensor cards will be dynamically added here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-controls">
+                        <div class="layer-controls">
+                            <label class="control-item">
+                                <input type="checkbox" id="toggle-sensors" checked>
+                                <span>Sensors</span>
+                            </label>
+                            <label class="control-item">
+                                <input type="checkbox" id="toggle-creeks" checked>
+                                <span>Creeks</span>
+                            </label>
+                            <label class="control-item">
+                                <input type="checkbox" id="toggle-sewers" checked>
+                                <span>Sewer Lines</span>
+                            </label>
+                            <label class="control-item">
+                                <input type="checkbox" id="toggle-storms" checked>
+                                <span>Storm Drains</span>
+                            </label>
+                        </div>
+                        <div class="map-actions">
+                            <button id="reset-view" class="map-btn" title="Reset to default view">
+                                <i class="fas fa-home"></i>
+                            </button>
+                            <button id="locate-user" class="map-btn" title="Find my location">
+                                <i class="fas fa-crosshairs"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Keep the original dashboard for backward compatibility -->
+                    <div class="sensor-dashboard" id="sensor-dashboard" style="display: none;">
+                        <div class="dashboard-header">
+                            <h4><i class="fas fa-broadcast-tower"></i> Live Sensors</h4>
+                            <button id="close-dashboard" class="close-btn">×</button>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="loading-text">Click on a sensor to view data...</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="demo-stats">
+            <div class="stat-card">
+                <i class="fas fa-broadcast-tower"></i>
+                <div class="stat-info">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Active Sensors</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-clock"></i>
+                <div class="stat-info">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Live Monitoring</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-database"></i>
+                <div class="stat-info">
+                    <span class="stat-number">1M+</span>
+                    <span class="stat-label">Data Points</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <div class="stat-info">
+                    <span class="stat-number">Open</span>
+                    <span class="stat-label">Public Access</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hardware Section -->
+<section id="hardware" class="hardware-section">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Hardware</span>
+            <h2>LoRa Meshtastic Network</h2>
+            <p>Unlimited off-grid range and no communication fees with our mesh networking solution</p>
+        </div>
+        
+        <div class="hardware-grid">
+            <div class="hardware-card gateway-card">
+                <div class="card-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h3>Gateway</h3>
+                <p>Connected to WiFi, receives LoRa messages and transmits to the internet</p>
+                
+                <div class="hardware-specs">
+                    <h4>Required Hardware</h4>
+                    <ul>
+                        <li><i class="fas fa-microchip"></i> Raspberry Pi (3.3v standards)</li>
+                        <li><i class="fas fa-satellite"></i> Grove-Wio-E5 LoRa Module</li>
+                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
+                    </ul>
+                </div>
+                
+                <div class="price-tag">
+                    <span class="price">$40</span>
+                    <span class="price-note">for 2 modules</span>
+                </div>
+            </div>
+            
+            <div class="hardware-card node-card">
+                <div class="card-icon">
+                    <i class="fas fa-broadcast-tower"></i>
+                </div>
+                <h3>Mesh Nodes</h3>
+                <p>Create mesh networks to extend WiFi connection beyond gateway reach</p>
+                
+                <div class="hardware-specs">
+                    <h4>Required Hardware</h4>
+                    <ul>
+                        <li><i class="fas fa-satellite"></i> Grove-Wio-E5 LoRa Module</li>
+                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
+                    </ul>
+                </div>
+                
+                <div class="price-tag">
+                    <span class="price">Included</span>
+                    <span class="price-note">with gateway kit</span>
+                </div>
+            </div>
+            
+            <div class="hardware-card transmitter-card">
+                <div class="card-icon">
+                    <i class="fas fa-satellite-dish"></i>
+                </div>
+                <h3>Transmitters</h3>
+                <p>Send sensor data through Meshtastic network to the world wide web</p>
+                
+                <div class="hardware-specs">
+                    <h4>Required Hardware</h4>
+                    <ul>
+                        <li><i class="fas fa-microchip"></i> Microcontroller</li>
+                        <li><i class="fas fa-radio"></i> RFM95W LoRa Transceiver</li>
+                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
+                    </ul>
+                </div>
+                
+                <div class="price-tag">
+                    <span class="price">$25</span>
+                    <span class="price-note">per transceiver</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hardware-links">
+            <a href="https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html" target="_blank" class="hardware-link">
+                <i class="fas fa-external-link-alt"></i>
+                Grove-Wio-E5 Modules
+            </a>
+            <a href="https://www.adafruit.com/product/3072" target="_blank" class="hardware-link">
+                <i class="fas fa-external-link-alt"></i>
+                RFM95W Transceivers
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Services</span>
+            <h2>Complete Solutions</h2>
+            <p>From concept to deployment - we handle the whole package</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Software Development</h3>
+                <p>Custom environmental monitoring applications, real-time dashboards, and data analytics platforms.</p>
+                <ul>
+                    <li>Real-time monitoring dashboards</li>
+                    <li>Mobile applications</li>
+                    <li>API development</li>
+                    <li>Cloud integration</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h3>Hardware Design</h3>
+                <p>Custom sensor networks, IoT devices, and communication systems for harsh environments.</p>
+                <ul>
+                    <li>Sensor network design</li>
+                    <li>LoRa mesh networks</li>
+                    <li>Weatherproof enclosures</li>
+                    <li>Power management</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Educational Outreach</h3>
+                <p>Training programs, workshops, and educational resources for communities and organizations.</p>
+                <ul>
+                    <li>Community workshops</li>
+                    <li>Technical training</li>
+                    <li>Educational materials</li>
+                    <li>Open source contributions</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Custom Installations</h3>
+                <p>End-to-end deployment of monitoring systems tailored to your specific environmental needs.</p>
+                <ul>
+                    <li>Site assessment</li>
+                    <li>System design</li>
+                    <li>Installation & setup</li>
+                    <li>Ongoing maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Section -->
+<section id="technology" class="technology-section">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">AI Technology</span>
+            <h2>Advanced Anomaly Detection</h2>
+            <p>Machine learning and neural networks for intelligent environmental monitoring</p>
+        </div>
+        
+        <div class="tech-content">
+            <div class="tech-features">          
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Graph Neural Networks</h3>
+                        <p>Advanced GNN architectures that understand the relationships between sensors, enabling system-wide anomaly detection and root cause analysis.</p>
+                    </div>
+                </div>
+                
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Digital Twins</h3>
+                        <p>Real-time digital replicas of physical infrastructure that enable predictive maintenance and scenario simulation.</p>
+                    </div>
+                </div>
+                
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Early Warning Systems</h3>
+                        <p>Detect pipe breaks, flood risks, chemical contamination, and other damaging events before they escalate into major problems.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-visual">
+                <div class="ai-network">
+                    <div class="network-layer input-layer">
+                        <div class="neuron">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="neuron">
+                            <i class="fas fa-thermometer-half"></i>
+                        </div>
+                        <div class="neuron">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="network-layer hidden-layer">
+                        <div class="neuron"></div>
+                        <div class="neuron"></div>
+                        <div class="neuron"></div>
+                        <div class="neuron"></div>
+                    </div>
+                    
+                    <div class="network-layer output-layer">
+                        <div class="neuron prediction">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>Ready to Monitor Your Environment?</h2>
+        <p>Join the future of environment and infrastructure monitoring with open-source, transparent solutions.</p>
+        
+        <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-rocket"></i>
+                Get Started
+            </a>
+            <a href="https://github.com/your-org" target="_blank" class="btn btn-outline">
+                <i class="fab fa-github"></i>
+                View on GitHub
+            </a>
+        </div>
+        
+        <div class="cta-features">
+            <div class="cta-feature">
+                <i class="fas fa-open-source"></i>
+                <span>Open Source</span>
+            </div>
+            <div class="cta-feature">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Transparent Pricing</span>
+            </div>
+            <div class="cta-feature">
+                <i class="fas fa-users"></i>
+                <span>Community Driven</span>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

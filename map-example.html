@@ -1,0 +1,257 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block extra_head %}
+    <title>{{ map_title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="{% static 'css/map.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ map_title }}</h1>
+            <div class="map-container">
+                <div id="map"></div>
+                <div id="sensor-dashboard">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// 1. Initialize the map and set it to use the Canvas renderer for better performance
+var map = L.map('map', { renderer: L.canvas() }).setView([37.875, -122.265], 14);
+
+// 2. Add CartoDB Positron base layer
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19,
+    subdomains: 'abcd',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+}).addTo(map);
+
+// 3. Initialize Layer Groups
+// Layers added to the map here will be visible by default.
+var sensorsLayer = L.layerGroup().addTo(map);
+var creeksLayer = L.layerGroup().addTo(map);
+// These layers are created but not added to the map, so they are off by default.
+var sewerMainsLayer = L.layerGroup();
+var stormDrainsLayer = L.layerGroup();
+
+
+// ------------------------------------------------ //
+// --- 🗺️ LOAD THE CREEK LINES --- //
+// ------------------------------------------------ //
+fetch("{% static 'gis/creeks.geojson' %}")
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            style: {
+                color: "#3388ff", // A nice blue color for the creeks
+                weight: 2,
+                opacity: 0.7
+            }
+        }).addTo(creeksLayer); // Add to the creeks layer group
+    })
+    .catch(error => console.error('Error loading the creeks GeoJSON data:', error));
+// ------------------------------------------------ //
+
+
+// ------------------------------------------------ //
+// --- 🗺️ LOAD THE SEWER MAINS --- //
+// ------------------------------------------------ //
+fetch("{% static 'gis/sewer-mains.geojson' %}")
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            style: {
+                color: "#5a5a5a", // A dark gray for the sewer mains
+                weight: 2,
+                opacity: 0.65
+            }
+        }).addTo(sewerMainsLayer); // Add to the sewer mains layer group
+    })
+    .catch(error => console.error('Error loading the sewer mains GeoJSON data:', error));
+// ------------------------------------------------ //
+
+// ------------------------------------------------ //
+// --- 🗺️ LOAD THE STORM DRAINS --- //
+// ------------------------------------------------ //
+fetch("{% static 'gis/storm-drains.json' %}")
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            // Use pointToLayer to create efficient circle markers instead of heavy default icons
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius: 2.5, // Tiny dot size
+                    fillColor: "#e76f51",
+                    color: "#000",
+                    weight: 0.5,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+            }
+        }).addTo(stormDrainsLayer); // Add to the storm drains layer group
+    })
+    .catch(error => console.error('Error loading the storm drains GeoJSON data:', error));
+// ------------------------------------------------ //
+
+
+// --- Layer Control ---
+var overlayMaps = {
+    "Sensors": sensorsLayer,
+    "Creeks": creeksLayer,
+    "Sewer Mains": sewerMainsLayer,
+    "Storm Drains": stormDrainsLayer
+};
+L.control.layers(null, overlayMaps, { position: 'topright', collapsed: false }).addTo(map);
+
+// --- Static Legend ---
+var legend = L.control({position: 'bottomright'});
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'leaflet-legend');
+    div.innerHTML +=
+        '<h5>Legend</h5>' +
+        '<div class="legend-item">' +
+        '<div class="legend-dot" style="background-color: #2e7d32;"></div>' +
+        '<span>Sensor</span>' +
+        '</div>' +
+        '<div class="legend-item">' +
+        '<div class="legend-dot" style="background-color: #e76f51; width: 8px; height: 8px; margin-top: 6px;"></div>' +
+        '<span>Storm Drain</span>' +
+        '</div>' +
+        '<div class="legend-item">' +
+        '<div class="legend-line" style="background-color: #3388ff;"></div>' +
+        '<span>Creek</span>' +
+        '</div>' +
+        '<div class="legend-item">' +
+        '<div class="legend-line" style="background-color: #5a5a5a;"></div>' +
+        '<span>Sewer Main</span>' +
+        '</div>';
+    return div;
+};
+legend.addTo(map);
+
+
+// 4. Sensor-specific code (now adds markers to sensorsLayer)
+var sensorMarkers = {};
+
+function createSensorIcon() {
+    return L.divIcon({
+        html: '<div style="background-color: #2e7d32; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.6);"></div>',
+        iconSize: [16, 16],
+        iconAnchor: [8, 8],
+        className: 'custom-dot-icon'
+    });
+}
+
+var sensorInfo = [
+    { name: 'South Fork 2', coords: '37°52\'13.0"N 122°15\'35.1"W', siteId: 'south_fork_2', isDMS: true },
+    { name: 'North Fork 0', coords: '37°52\'25.2"N 122°15\'42.3"W', siteId: 'north_fork_0', isDMS: true },
+    { name: 'North Fork 1', coords: '37°52\'20.8"N 122°15\'43.4"W', siteId: 'scnf010', isDMS: true },
+    { name: 'South Fork 3', coords: '37°52\'15.7"N 122°15\'48.3"W', siteId: 'south_fork_3', isDMS: true },
+    { name: 'South Fork 1', coords: '37°52\'17.2"N 122°15\'26.2"W', siteId: 'south_fork_1', isDMS: true },
+    { name: 'South Fork 0', coords: '37°52\'20.1"N 122°15\'19.0"W', siteId: 'south_fork_0', isDMS: true },
+    { name: 'Kingman Hall', coords: { lat: 37.877042904, lon: -122.25749995 }, siteId: 'kingman_hall', isDMS: false },
+    { name: 'University House', coords: { lat: 37.8744, lon: -122.261 }, siteId: 'university_house', isDMS: false },
+    { name: 'Oxford Street', coords: { lat: 37.871, lon: -122.265 }, siteId: 'oxford', isDMS: false },
+    { name: 'Codornices Creek', coords: { lat: 37.883, lon: -122.294 }, siteId: 'codornices', isDMS: false }
+];
+
+function parseDMS(dmsStr) {
+    var parts = dmsStr.trim().match(/(\d+(\.\d+)?)[°\s](\d+(\.\d+)?)?['\s](\d+(\.\d+)?)?"?\s*([NSEW])/i);
+    if (!parts) return NaN;
+    var degrees = parseFloat(parts[1]);
+    var minutes = parts[3] ? parseFloat(parts[3]) : 0;
+    var seconds = parts[5] ? parseFloat(parts[5]) : 0;
+    var hemisphere = parts[7].toUpperCase();
+    var decimal = degrees + (minutes / 60) + (seconds / 3600);
+    if (hemisphere === 'S' || hemisphere === 'W') {
+        decimal = -decimal;
+    }
+    return decimal;
+}
+
+const dashboard = document.getElementById('sensor-dashboard');
+
+sensorInfo.forEach(function(s) {
+    const card = document.createElement('div');
+    card.className = 'sensor-card';
+    card.id = `card-${s.siteId}`;
+    card.innerHTML = `<h5>${s.name}</h5><div class="card-content"><i>Loading data...</i></div>`;
+    dashboard.appendChild(card);
+
+    var lat, lon;
+    if (s.isDMS) {
+        var latStr = s.coords.substring(0, s.coords.indexOf('N') + 1);
+        var lonStr = s.coords.substring(s.coords.indexOf('N') + 1).trim();
+        lat = parseDMS(latStr);
+        lon = parseDMS(lonStr);
+    } else {
+        lat = s.coords.lat;
+        lon = s.coords.lon;
+    }
+
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+        var marker = L.marker([lat, lon], { icon: createSensorIcon() }).addTo(sensorsLayer);
+        marker.bindTooltip(s.name, { permanent: true, direction: 'top', offset: [0, -10], className: 'sensor-label' });
+        marker.on('click', () => {
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            card.style.borderColor = '#007bff';
+            setTimeout(() => { card.style.borderColor = '#ddd'; }, 2000);
+        });
+    } else {
+        console.error("Could not parse coordinates for sensor:", s.name);
+    }
+});
+
+function fetchCreekData() {
+    var now = new Date();
+    var sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+    var end_time = now.toISOString();
+    var start_time = sevenDaysAgo.toISOString();
+    var vars = 'Meter_Hydros21_Cond,Meter_Hydros21_Depth,Meter_Hydros21_Temp,EnviroDIY_Mayfly_Batt';
+
+    sensorInfo.forEach(function(sensor) {
+        var url = `/api/creek-data/?site=${sensor.siteId}&start=${start_time}&end=${end_time}&vars=${vars}`;
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const cardContent = document.querySelector(`#card-${sensor.siteId} .card-content`);
+                if (!cardContent) return;
+
+                var contentHTML = '';
+                if (data && data.length > 0) {
+                    var latest = data[data.length - 1];
+                    contentHTML += '<ul>';
+                    if(latest.Meter_Hydros21_Cond != null) contentHTML += `<li>Cond: <strong>${Number(latest.Meter_Hydros21_Cond).toFixed(2)} µS/cm</strong></li>`;
+                    if(latest.Meter_Hydros21_Temp != null) contentHTML += `<li>Temp: <strong>${Number(latest.Meter_Hydros21_Temp).toFixed(2)} °C</strong></li>`;
+                    if(latest.Meter_Hydros21_Depth != null) contentHTML += `<li>Depth: <strong>${Number(latest.Meter_Hydros21_Depth).toFixed(2)} mm</strong></li>`;
+                    if(latest.EnviroDIY_Mayfly_Batt != null) contentHTML += `<li>Battery: <strong>${Number(latest.EnviroDIY_Mayfly_Batt).toFixed(2)} V</strong></li>`;
+                    contentHTML += '</ul>';
+                    contentHTML += '<div class="timestamp">Last Reading: ' + new Date(latest.DateTimeUTC).toLocaleString() + ' UTC</div>';
+                } else {
+                    contentHTML += '<em>No recent data found.</em>';
+                }
+                cardContent.innerHTML = contentHTML;
+            })
+            .catch(error => {
+                console.error('Error loading data for ' + sensor.name + ':', error)
+                const cardContent = document.querySelector(`#card-${sensor.siteId} .card-content`);
+                if(cardContent) cardContent.innerHTML = '<em>Failed to load data.</em>';
+            });
+    });
+}
+
+// Initial Load and set to refresh every 5 minutes
+fetchCreekData();
+setInterval(fetchCreekData, 300000);
+
+</script>
+{% endblock %}

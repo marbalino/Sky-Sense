@@ -1,0 +1,1125 @@
+[2025-08-29 06:33:40 +0000] [3395961] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 06:33:40 +0000] [3395961] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (3395961)
+[2025-08-29 06:33:40 +0000] [3395961] [INFO] Using worker: sync
+[2025-08-29 06:33:40 +0000] [3395965] [INFO] Booting worker with pid: 3395965
+[2025-08-29 06:33:40 +0000] [3395966] [INFO] Booting worker with pid: 3395966
+[2025-08-29 06:33:41 +0000] [3395967] [INFO] Booting worker with pid: 3395967
+[2025-08-29 06:33:41 +0000] [3395968] [INFO] Booting worker with pid: 3395968
+[2025-08-29 06:33:41 +0000] [3395969] [INFO] Booting worker with pid: 3395969
+[2025-08-29 06:41:06 +0000] [3395967] [INFO] Worker exiting (pid: 3395967)
+[2025-08-29 06:41:06 +0000] [3395965] [INFO] Worker exiting (pid: 3395965)
+[2025-08-29 06:41:06 +0000] [3395966] [INFO] Worker exiting (pid: 3395966)
+[2025-08-29 06:41:06 +0000] [3395969] [INFO] Worker exiting (pid: 3395969)
+[2025-08-29 06:41:06 +0000] [3395961] [INFO] Handling signal: term
+[2025-08-29 06:41:06 +0000] [3395968] [INFO] Worker exiting (pid: 3395968)
+[2025-08-29 06:41:38 +0000] [3395961] [ERROR] Worker (pid:3395965) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 06:41:39 +0000] [3395961] [ERROR] Worker (pid:3395966) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 06:41:39 +0000] [3395961] [ERROR] Worker (pid:3395967) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 06:41:39 +0000] [3395961] [ERROR] Worker (pid:3395968) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 06:41:39 +0000] [3395961] [ERROR] Worker (pid:3395969) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 06:41:39 +0000] [3395961] [INFO] Shutting down: Master
+[2025-08-29 06:42:12 +0000] [3397157] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 06:42:12 +0000] [3397157] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (3397157)
+[2025-08-29 06:42:12 +0000] [3397157] [INFO] Using worker: sync
+[2025-08-29 06:42:12 +0000] [3397163] [INFO] Booting worker with pid: 3397163
+[2025-08-29 06:42:12 +0000] [3397164] [INFO] Booting worker with pid: 3397164
+[2025-08-29 06:42:13 +0000] [3397165] [INFO] Booting worker with pid: 3397165
+[2025-08-29 06:42:13 +0000] [3397166] [INFO] Booting worker with pid: 3397166
+[2025-08-29 06:42:13 +0000] [3397167] [INFO] Booting worker with pid: 3397167
+[2025-08-29 06:57:40 +0000] [3397165] [INFO] Worker exiting (pid: 3397165)
+[2025-08-29 06:57:40 +0000] [3397163] [INFO] Worker exiting (pid: 3397163)
+[2025-08-29 06:57:40 +0000] [3397164] [INFO] Worker exiting (pid: 3397164)
+[2025-08-29 06:57:40 +0000] [3397157] [INFO] Handling signal: term
+[2025-08-29 06:57:40 +0000] [3397167] [INFO] Worker exiting (pid: 3397167)
+[2025-08-29 06:57:40 +0000] [3397166] [INFO] Worker exiting (pid: 3397166)
+[2025-08-29 06:57:42 +0000] [3397157] [ERROR] Worker (pid:3397165) was sent SIGTERM!
+[2025-08-29 06:58:11 +0000] [3397157] [INFO] Shutting down: Master
+[2025-08-29 06:58:25 +0000] [3398279] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 06:58:25 +0000] [3398279] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (3398279)
+[2025-08-29 06:58:25 +0000] [3398279] [INFO] Using worker: sync
+[2025-08-29 06:58:25 +0000] [3398285] [INFO] Booting worker with pid: 3398285
+[2025-08-29 06:58:25 +0000] [3398286] [INFO] Booting worker with pid: 3398286
+[2025-08-29 06:58:25 +0000] [3398287] [INFO] Booting worker with pid: 3398287
+[2025-08-29 06:58:25 +0000] [3398288] [INFO] Booting worker with pid: 3398288
+[2025-08-29 06:58:25 +0000] [3398289] [INFO] Booting worker with pid: 3398289
+[2025-08-29 07:14:05 +0000] [3398289] [INFO] Worker exiting (pid: 3398289)
+[2025-08-29 07:14:04 +0000] [3398286] [INFO] Worker exiting (pid: 3398286)
+[2025-08-29 07:14:04 +0000] [3398287] [INFO] Worker exiting (pid: 3398287)
+[2025-08-29 07:14:05 +0000] [3398285] [INFO] Worker exiting (pid: 3398285)
+[2025-08-29 07:14:05 +0000] [3398279] [INFO] Handling signal: term
+[2025-08-29 07:14:05 +0000] [3398288] [INFO] Worker exiting (pid: 3398288)
+[2025-08-29 07:14:35 +0000] [3398279] [INFO] Shutting down: Master
+[2025-08-29 07:14:54 +0000] [3399455] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 07:14:54 +0000] [3399455] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (3399455)
+[2025-08-29 07:14:54 +0000] [3399455] [INFO] Using worker: sync
+[2025-08-29 07:14:54 +0000] [3399461] [INFO] Booting worker with pid: 3399461
+[2025-08-29 07:14:54 +0000] [3399462] [INFO] Booting worker with pid: 3399462
+[2025-08-29 07:14:55 +0000] [3399463] [INFO] Booting worker with pid: 3399463
+[2025-08-29 07:14:55 +0000] [3399464] [INFO] Booting worker with pid: 3399464
+[2025-08-29 07:14:55 +0000] [3399465] [INFO] Booting worker with pid: 3399465
+[2025-08-29 07:52:26 +0000] [3399455] [CRITICAL] WORKER TIMEOUT (pid:3399465)
+[2025-08-29 07:57:06 +0000] [3399465] [INFO] Worker exiting (pid: 3399465)
+[2025-08-29 07:57:25 +0000] [3399455] [ERROR] Worker (pid:3399465) was sent SIGKILL! Perhaps out of memory?
+[2025-08-29 07:57:26 +0000] [3400680] [INFO] Booting worker with pid: 3400680
+[2025-08-29 08:04:59 +0000] [703] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 08:04:59 +0000] [703] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (703)
+[2025-08-29 08:04:59 +0000] [703] [INFO] Using worker: sync
+[2025-08-29 08:04:59 +0000] [993] [INFO] Booting worker with pid: 993
+[2025-08-29 08:04:59 +0000] [995] [INFO] Booting worker with pid: 995
+[2025-08-29 08:05:00 +0000] [997] [INFO] Booting worker with pid: 997
+[2025-08-29 08:05:00 +0000] [996] [INFO] Booting worker with pid: 996
+[2025-08-29 08:05:00 +0000] [1004] [INFO] Booting worker with pid: 1004
+[2025-08-29 18:19:48 +0000] [1004] [INFO] Worker exiting (pid: 1004)
+[2025-08-29 18:19:48 +0000] [997] [INFO] Worker exiting (pid: 997)
+[2025-08-29 18:19:48 +0000] [993] [INFO] Worker exiting (pid: 993)
+[2025-08-29 18:19:48 +0000] [703] [INFO] Handling signal: term
+[2025-08-29 18:19:48 +0000] [996] [INFO] Worker exiting (pid: 996)
+[2025-08-29 18:19:48 +0000] [995] [INFO] Worker exiting (pid: 995)
+[2025-08-29 18:19:49 +0000] [703] [ERROR] Worker (pid:1004) was sent SIGTERM!
+[2025-08-29 18:19:56 +0000] [703] [INFO] Shutting down: Master
+[2025-08-29 18:19:59 +0000] [20149] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:19:59 +0000] [20149] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (20149)
+[2025-08-29 18:19:59 +0000] [20149] [INFO] Using worker: sync
+[2025-08-29 18:19:59 +0000] [20151] [INFO] Booting worker with pid: 20151
+[2025-08-29 18:19:59 +0000] [20152] [INFO] Booting worker with pid: 20152
+[2025-08-29 18:19:59 +0000] [20153] [INFO] Booting worker with pid: 20153
+[2025-08-29 18:19:59 +0000] [20154] [INFO] Booting worker with pid: 20154
+[2025-08-29 18:19:59 +0000] [20155] [INFO] Booting worker with pid: 20155
+[2025-08-29 18:20:05 +0000] [20151] [INFO] Worker exiting (pid: 20151)
+[2025-08-29 18:20:05 +0000] [20152] [INFO] Worker exiting (pid: 20152)
+[2025-08-29 18:20:05 +0000] [20153] [INFO] Worker exiting (pid: 20153)
+[2025-08-29 18:20:05 +0000] [20154] [INFO] Worker exiting (pid: 20154)
+[2025-08-29 18:20:05 +0000] [20155] [INFO] Worker exiting (pid: 20155)
+[2025-08-29 18:20:05 +0000] [20149] [INFO] Handling signal: term
+[2025-08-29 18:20:05 +0000] [20149] [ERROR] Worker (pid:20154) was sent SIGTERM!
+[2025-08-29 18:20:05 +0000] [20149] [ERROR] Worker (pid:20153) was sent SIGTERM!
+[2025-08-29 18:20:05 +0000] [20149] [ERROR] Worker (pid:20155) was sent SIGTERM!
+[2025-08-29 18:20:05 +0000] [20149] [ERROR] Worker (pid:20152) was sent SIGTERM!
+[2025-08-29 18:20:05 +0000] [20149] [ERROR] Worker (pid:20151) was sent SIGTERM!
+[2025-08-29 18:20:05 +0000] [20149] [INFO] Shutting down: Master
+[2025-08-29 18:20:07 +0000] [20207] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:20:07 +0000] [20207] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (20207)
+[2025-08-29 18:20:07 +0000] [20207] [INFO] Using worker: sync
+[2025-08-29 18:20:07 +0000] [20212] [INFO] Booting worker with pid: 20212
+[2025-08-29 18:20:07 +0000] [20213] [INFO] Booting worker with pid: 20213
+[2025-08-29 18:20:07 +0000] [20214] [INFO] Booting worker with pid: 20214
+[2025-08-29 18:20:07 +0000] [20215] [INFO] Booting worker with pid: 20215
+[2025-08-29 18:20:08 +0000] [20216] [INFO] Booting worker with pid: 20216
+[2025-08-29 18:26:37 +0000] [20216] [INFO] Worker exiting (pid: 20216)
+[2025-08-29 18:26:37 +0000] [20215] [INFO] Worker exiting (pid: 20215)
+[2025-08-29 18:26:37 +0000] [20214] [INFO] Worker exiting (pid: 20214)
+[2025-08-29 18:26:37 +0000] [20213] [INFO] Worker exiting (pid: 20213)
+[2025-08-29 18:26:37 +0000] [20212] [INFO] Worker exiting (pid: 20212)
+[2025-08-29 18:26:37 +0000] [20207] [INFO] Handling signal: term
+[2025-08-29 18:26:37 +0000] [20207] [ERROR] Worker (pid:20213) was sent SIGTERM!
+[2025-08-29 18:26:37 +0000] [20207] [ERROR] Worker (pid:20214) was sent SIGTERM!
+[2025-08-29 18:26:37 +0000] [20207] [ERROR] Worker (pid:20215) was sent SIGTERM!
+[2025-08-29 18:26:37 +0000] [20207] [ERROR] Worker (pid:20216) was sent SIGTERM!
+[2025-08-29 18:26:39 +0000] [20207] [INFO] Shutting down: Master
+[2025-08-29 18:26:41 +0000] [20630] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:26:41 +0000] [20630] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (20630)
+[2025-08-29 18:26:41 +0000] [20630] [INFO] Using worker: sync
+[2025-08-29 18:26:41 +0000] [20633] [INFO] Booting worker with pid: 20633
+[2025-08-29 18:26:41 +0000] [20634] [INFO] Booting worker with pid: 20634
+[2025-08-29 18:26:41 +0000] [20635] [INFO] Booting worker with pid: 20635
+[2025-08-29 18:26:41 +0000] [20636] [INFO] Booting worker with pid: 20636
+[2025-08-29 18:26:42 +0000] [20637] [INFO] Booting worker with pid: 20637
+[2025-08-29 18:30:23 +0000] [20634] [INFO] Worker exiting (pid: 20634)
+[2025-08-29 18:30:23 +0000] [20637] [INFO] Worker exiting (pid: 20637)
+[2025-08-29 18:30:23 +0000] [20635] [INFO] Worker exiting (pid: 20635)
+[2025-08-29 18:30:23 +0000] [20633] [INFO] Worker exiting (pid: 20633)
+[2025-08-29 18:30:23 +0000] [20636] [INFO] Worker exiting (pid: 20636)
+[2025-08-29 18:30:24 +0000] [20630] [INFO] Handling signal: term
+[2025-08-29 18:30:24 +0000] [20630] [ERROR] Worker (pid:20633) was sent SIGTERM!
+[2025-08-29 18:30:24 +0000] [20630] [ERROR] Worker (pid:20634) was sent SIGTERM!
+[2025-08-29 18:30:24 +0000] [20630] [ERROR] Worker (pid:20636) was sent SIGTERM!
+[2025-08-29 18:30:24 +0000] [20630] [ERROR] Worker (pid:20637) was sent SIGTERM!
+[2025-08-29 18:30:24 +0000] [20630] [ERROR] Worker (pid:20635) was sent SIGTERM!
+[2025-08-29 18:30:24 +0000] [20630] [INFO] Shutting down: Master
+[2025-08-29 18:30:27 +0000] [20783] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:30:27 +0000] [20783] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (20783)
+[2025-08-29 18:30:27 +0000] [20783] [INFO] Using worker: sync
+[2025-08-29 18:30:27 +0000] [20785] [INFO] Booting worker with pid: 20785
+[2025-08-29 18:30:28 +0000] [20786] [INFO] Booting worker with pid: 20786
+[2025-08-29 18:30:28 +0000] [20787] [INFO] Booting worker with pid: 20787
+[2025-08-29 18:30:28 +0000] [20788] [INFO] Booting worker with pid: 20788
+[2025-08-29 18:30:28 +0000] [20789] [INFO] Booting worker with pid: 20789
+[2025-08-29 18:33:06 +0000] [20783] [INFO] Handling signal: term
+[2025-08-29 18:33:06 +0000] [20789] [INFO] Worker exiting (pid: 20789)
+[2025-08-29 18:33:06 +0000] [20785] [INFO] Worker exiting (pid: 20785)
+[2025-08-29 18:33:06 +0000] [20787] [INFO] Worker exiting (pid: 20787)
+[2025-08-29 18:33:06 +0000] [20786] [INFO] Worker exiting (pid: 20786)
+[2025-08-29 18:33:06 +0000] [20788] [INFO] Worker exiting (pid: 20788)
+[2025-08-29 18:33:06 +0000] [20783] [ERROR] Worker (pid:20789) was sent SIGTERM!
+[2025-08-29 18:33:06 +0000] [20783] [ERROR] Worker (pid:20786) was sent SIGTERM!
+[2025-08-29 18:33:06 +0000] [20783] [ERROR] Worker (pid:20785) was sent SIGTERM!
+[2025-08-29 18:33:06 +0000] [20783] [ERROR] Worker (pid:20787) was sent SIGTERM!
+[2025-08-29 18:33:06 +0000] [20783] [ERROR] Worker (pid:20788) was sent SIGTERM!
+[2025-08-29 18:33:06 +0000] [20783] [INFO] Shutting down: Master
+[2025-08-29 18:33:08 +0000] [20877] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:33:08 +0000] [20877] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (20877)
+[2025-08-29 18:33:08 +0000] [20877] [INFO] Using worker: sync
+[2025-08-29 18:33:08 +0000] [20880] [INFO] Booting worker with pid: 20880
+[2025-08-29 18:33:08 +0000] [20881] [INFO] Booting worker with pid: 20881
+[2025-08-29 18:33:08 +0000] [20882] [INFO] Booting worker with pid: 20882
+[2025-08-29 18:33:08 +0000] [20883] [INFO] Booting worker with pid: 20883
+[2025-08-29 18:33:08 +0000] [20884] [INFO] Booting worker with pid: 20884
+[2025-08-29 18:38:06 +0000] [20881] [INFO] Worker exiting (pid: 20881)
+[2025-08-29 18:38:06 +0000] [20882] [INFO] Worker exiting (pid: 20882)
+[2025-08-29 18:38:06 +0000] [20883] [INFO] Worker exiting (pid: 20883)
+[2025-08-29 18:38:06 +0000] [20884] [INFO] Worker exiting (pid: 20884)
+[2025-08-29 18:38:06 +0000] [20880] [INFO] Worker exiting (pid: 20880)
+[2025-08-29 18:38:06 +0000] [20877] [INFO] Handling signal: term
+[2025-08-29 18:38:06 +0000] [20877] [ERROR] Worker (pid:20880) was sent SIGTERM!
+[2025-08-29 18:38:06 +0000] [20877] [ERROR] Worker (pid:20881) was sent SIGTERM!
+[2025-08-29 18:38:06 +0000] [20877] [ERROR] Worker (pid:20882) was sent SIGTERM!
+[2025-08-29 18:38:06 +0000] [20877] [ERROR] Worker (pid:20883) was sent SIGTERM!
+[2025-08-29 18:38:06 +0000] [20877] [ERROR] Worker (pid:20884) was sent SIGTERM!
+[2025-08-29 18:38:06 +0000] [20877] [INFO] Shutting down: Master
+[2025-08-29 18:38:09 +0000] [21034] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:38:09 +0000] [21034] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21034)
+[2025-08-29 18:38:09 +0000] [21034] [INFO] Using worker: sync
+[2025-08-29 18:38:09 +0000] [21036] [INFO] Booting worker with pid: 21036
+[2025-08-29 18:38:09 +0000] [21037] [INFO] Booting worker with pid: 21037
+[2025-08-29 18:38:09 +0000] [21038] [INFO] Booting worker with pid: 21038
+[2025-08-29 18:38:09 +0000] [21039] [INFO] Booting worker with pid: 21039
+[2025-08-29 18:38:09 +0000] [21040] [INFO] Booting worker with pid: 21040
+[2025-08-29 18:41:56 +0000] [21034] [INFO] Handling signal: term
+[2025-08-29 18:41:56 +0000] [21037] [INFO] Worker exiting (pid: 21037)
+[2025-08-29 18:41:56 +0000] [21036] [INFO] Worker exiting (pid: 21036)
+[2025-08-29 18:41:56 +0000] [21038] [INFO] Worker exiting (pid: 21038)
+[2025-08-29 18:41:56 +0000] [21039] [INFO] Worker exiting (pid: 21039)
+[2025-08-29 18:41:56 +0000] [21040] [INFO] Worker exiting (pid: 21040)
+[2025-08-29 18:41:56 +0000] [21034] [ERROR] Worker (pid:21036) was sent SIGTERM!
+[2025-08-29 18:41:56 +0000] [21034] [ERROR] Worker (pid:21040) was sent SIGTERM!
+[2025-08-29 18:41:56 +0000] [21034] [ERROR] Worker (pid:21039) was sent SIGTERM!
+[2025-08-29 18:41:56 +0000] [21034] [ERROR] Worker (pid:21037) was sent SIGTERM!
+[2025-08-29 18:41:56 +0000] [21034] [ERROR] Worker (pid:21038) was sent SIGTERM!
+[2025-08-29 18:41:56 +0000] [21034] [INFO] Shutting down: Master
+[2025-08-29 18:41:58 +0000] [21135] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:41:58 +0000] [21135] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21135)
+[2025-08-29 18:41:58 +0000] [21135] [INFO] Using worker: sync
+[2025-08-29 18:41:58 +0000] [21138] [INFO] Booting worker with pid: 21138
+[2025-08-29 18:41:58 +0000] [21139] [INFO] Booting worker with pid: 21139
+[2025-08-29 18:41:58 +0000] [21140] [INFO] Booting worker with pid: 21140
+[2025-08-29 18:41:58 +0000] [21141] [INFO] Booting worker with pid: 21141
+[2025-08-29 18:41:58 +0000] [21142] [INFO] Booting worker with pid: 21142
+[2025-08-29 18:46:27 +0000] [21139] [INFO] Worker exiting (pid: 21139)
+[2025-08-29 18:46:27 +0000] [21141] [INFO] Worker exiting (pid: 21141)
+[2025-08-29 18:46:27 +0000] [21142] [INFO] Worker exiting (pid: 21142)
+[2025-08-29 18:46:27 +0000] [21138] [INFO] Worker exiting (pid: 21138)
+[2025-08-29 18:46:27 +0000] [21140] [INFO] Worker exiting (pid: 21140)
+[2025-08-29 18:46:27 +0000] [21135] [INFO] Handling signal: term
+[2025-08-29 18:46:27 +0000] [21135] [ERROR] Worker (pid:21138) was sent SIGTERM!
+[2025-08-29 18:46:28 +0000] [21135] [INFO] Shutting down: Master
+[2025-08-29 18:46:30 +0000] [21252] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:46:30 +0000] [21252] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21252)
+[2025-08-29 18:46:30 +0000] [21252] [INFO] Using worker: sync
+[2025-08-29 18:46:30 +0000] [21254] [INFO] Booting worker with pid: 21254
+[2025-08-29 18:46:30 +0000] [21255] [INFO] Booting worker with pid: 21255
+[2025-08-29 18:46:30 +0000] [21256] [INFO] Booting worker with pid: 21256
+[2025-08-29 18:46:30 +0000] [21257] [INFO] Booting worker with pid: 21257
+[2025-08-29 18:46:30 +0000] [21258] [INFO] Booting worker with pid: 21258
+[2025-08-29 18:52:32 +0000] [21258] [INFO] Worker exiting (pid: 21258)
+[2025-08-29 18:52:32 +0000] [21256] [INFO] Worker exiting (pid: 21256)
+[2025-08-29 18:52:32 +0000] [21255] [INFO] Worker exiting (pid: 21255)
+[2025-08-29 18:52:32 +0000] [21252] [INFO] Handling signal: term
+[2025-08-29 18:52:32 +0000] [21257] [INFO] Worker exiting (pid: 21257)
+[2025-08-29 18:52:32 +0000] [21254] [INFO] Worker exiting (pid: 21254)
+[2025-08-29 18:52:33 +0000] [21252] [ERROR] Worker (pid:21258) was sent SIGTERM!
+[2025-08-29 18:52:33 +0000] [21252] [ERROR] Worker (pid:21256) was sent SIGTERM!
+[2025-08-29 18:52:36 +0000] [21252] [INFO] Shutting down: Master
+[2025-08-29 18:52:40 +0000] [21401] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:52:40 +0000] [21401] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21401)
+[2025-08-29 18:52:40 +0000] [21401] [INFO] Using worker: sync
+[2025-08-29 18:52:40 +0000] [21406] [INFO] Booting worker with pid: 21406
+[2025-08-29 18:52:40 +0000] [21407] [INFO] Booting worker with pid: 21407
+[2025-08-29 18:52:40 +0000] [21408] [INFO] Booting worker with pid: 21408
+[2025-08-29 18:52:40 +0000] [21409] [INFO] Booting worker with pid: 21409
+[2025-08-29 18:52:40 +0000] [21410] [INFO] Booting worker with pid: 21410
+[2025-08-29 18:55:37 +0000] [21407] [INFO] Worker exiting (pid: 21407)
+[2025-08-29 18:55:37 +0000] [21406] [INFO] Worker exiting (pid: 21406)
+[2025-08-29 18:55:37 +0000] [21408] [INFO] Worker exiting (pid: 21408)
+[2025-08-29 18:55:37 +0000] [21410] [INFO] Worker exiting (pid: 21410)
+[2025-08-29 18:55:37 +0000] [21409] [INFO] Worker exiting (pid: 21409)
+[2025-08-29 18:55:37 +0000] [21401] [INFO] Handling signal: term
+[2025-08-29 18:55:38 +0000] [21401] [ERROR] Worker (pid:21406) was sent SIGTERM!
+[2025-08-29 18:55:38 +0000] [21401] [ERROR] Worker (pid:21408) was sent SIGTERM!
+[2025-08-29 18:55:38 +0000] [21401] [ERROR] Worker (pid:21409) was sent SIGTERM!
+[2025-08-29 18:55:38 +0000] [21401] [ERROR] Worker (pid:21410) was sent SIGTERM!
+[2025-08-29 18:55:38 +0000] [21401] [ERROR] Worker (pid:21407) was sent SIGTERM!
+[2025-08-29 18:55:38 +0000] [21401] [INFO] Shutting down: Master
+[2025-08-29 18:55:41 +0000] [21526] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 18:55:41 +0000] [21526] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21526)
+[2025-08-29 18:55:41 +0000] [21526] [INFO] Using worker: sync
+[2025-08-29 18:55:41 +0000] [21528] [INFO] Booting worker with pid: 21528
+[2025-08-29 18:55:41 +0000] [21529] [INFO] Booting worker with pid: 21529
+[2025-08-29 18:55:41 +0000] [21530] [INFO] Booting worker with pid: 21530
+[2025-08-29 18:55:41 +0000] [21531] [INFO] Booting worker with pid: 21531
+[2025-08-29 18:55:41 +0000] [21532] [INFO] Booting worker with pid: 21532
+[2025-08-29 19:01:24 +0000] [21531] [INFO] Worker exiting (pid: 21531)
+[2025-08-29 19:01:24 +0000] [21528] [INFO] Worker exiting (pid: 21528)
+[2025-08-29 19:01:24 +0000] [21532] [INFO] Worker exiting (pid: 21532)
+[2025-08-29 19:01:24 +0000] [21530] [INFO] Worker exiting (pid: 21530)
+[2025-08-29 19:01:24 +0000] [21529] [INFO] Worker exiting (pid: 21529)
+[2025-08-29 19:01:24 +0000] [21526] [INFO] Handling signal: term
+[2025-08-29 19:01:25 +0000] [21526] [ERROR] Worker (pid:21529) was sent SIGTERM!
+[2025-08-29 19:01:25 +0000] [21526] [ERROR] Worker (pid:21531) was sent SIGTERM!
+[2025-08-29 19:01:25 +0000] [21526] [ERROR] Worker (pid:21532) was sent SIGTERM!
+[2025-08-29 19:01:25 +0000] [21526] [ERROR] Worker (pid:21528) was sent SIGTERM!
+[2025-08-29 19:01:25 +0000] [21526] [ERROR] Worker (pid:21530) was sent SIGTERM!
+[2025-08-29 19:01:25 +0000] [21526] [INFO] Shutting down: Master
+[2025-08-29 19:01:30 +0000] [21627] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:01:30 +0000] [21627] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (21627)
+[2025-08-29 19:01:30 +0000] [21627] [INFO] Using worker: sync
+[2025-08-29 19:01:30 +0000] [21632] [INFO] Booting worker with pid: 21632
+[2025-08-29 19:01:30 +0000] [21633] [INFO] Booting worker with pid: 21633
+[2025-08-29 19:01:30 +0000] [21634] [INFO] Booting worker with pid: 21634
+[2025-08-29 19:01:30 +0000] [21635] [INFO] Booting worker with pid: 21635
+[2025-08-29 19:01:30 +0000] [21636] [INFO] Booting worker with pid: 21636
+[2025-08-29 19:08:26 +0000] [21632] [INFO] Worker exiting (pid: 21632)
+[2025-08-29 19:08:26 +0000] [21635] [INFO] Worker exiting (pid: 21635)
+[2025-08-29 19:08:26 +0000] [21627] [INFO] Handling signal: term
+[2025-08-29 19:08:26 +0000] [21636] [INFO] Worker exiting (pid: 21636)
+[2025-08-29 19:08:26 +0000] [21634] [INFO] Worker exiting (pid: 21634)
+[2025-08-29 19:08:26 +0000] [21633] [INFO] Worker exiting (pid: 21633)
+[2025-08-29 19:08:26 +0000] [21627] [ERROR] Worker (pid:21632) was sent SIGTERM!
+[2025-08-29 19:08:26 +0000] [21627] [ERROR] Worker (pid:21636) was sent SIGTERM!
+[2025-08-29 19:08:27 +0000] [21627] [INFO] Shutting down: Master
+[2025-08-29 19:08:28 +0000] [22006] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:08:28 +0000] [22006] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22006)
+[2025-08-29 19:08:28 +0000] [22006] [INFO] Using worker: sync
+[2025-08-29 19:08:28 +0000] [22009] [INFO] Booting worker with pid: 22009
+[2025-08-29 19:08:28 +0000] [22010] [INFO] Booting worker with pid: 22010
+[2025-08-29 19:08:28 +0000] [22011] [INFO] Booting worker with pid: 22011
+[2025-08-29 19:08:28 +0000] [22012] [INFO] Booting worker with pid: 22012
+[2025-08-29 19:08:28 +0000] [22013] [INFO] Booting worker with pid: 22013
+[2025-08-29 19:09:30 +0000] [22012] [INFO] Worker exiting (pid: 22012)
+[2025-08-29 19:09:30 +0000] [22009] [INFO] Worker exiting (pid: 22009)
+[2025-08-29 19:09:30 +0000] [22011] [INFO] Worker exiting (pid: 22011)
+[2025-08-29 19:09:30 +0000] [22006] [INFO] Handling signal: term
+[2025-08-29 19:09:30 +0000] [22013] [INFO] Worker exiting (pid: 22013)
+[2025-08-29 19:09:30 +0000] [22006] [ERROR] Worker (pid:22009) was sent SIGTERM!
+[2025-08-29 19:09:30 +0000] [22010] [INFO] Worker exiting (pid: 22010)
+[2025-08-29 19:09:30 +0000] [22006] [ERROR] Worker (pid:22011) was sent SIGTERM!
+[2025-08-29 19:09:30 +0000] [22006] [ERROR] Worker (pid:22012) was sent SIGTERM!
+[2025-08-29 19:09:31 +0000] [22006] [INFO] Shutting down: Master
+[2025-08-29 19:09:32 +0000] [22022] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:09:32 +0000] [22022] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22022)
+[2025-08-29 19:09:32 +0000] [22022] [INFO] Using worker: sync
+[2025-08-29 19:09:32 +0000] [22024] [INFO] Booting worker with pid: 22024
+[2025-08-29 19:09:32 +0000] [22025] [INFO] Booting worker with pid: 22025
+[2025-08-29 19:09:32 +0000] [22026] [INFO] Booting worker with pid: 22026
+[2025-08-29 19:09:32 +0000] [22027] [INFO] Booting worker with pid: 22027
+[2025-08-29 19:09:32 +0000] [22028] [INFO] Booting worker with pid: 22028
+[2025-08-29 19:10:08 +0000] [22024] [INFO] Worker exiting (pid: 22024)
+[2025-08-29 19:10:08 +0000] [22026] [INFO] Worker exiting (pid: 22026)
+[2025-08-29 19:10:08 +0000] [22022] [INFO] Handling signal: term
+[2025-08-29 19:10:08 +0000] [22025] [INFO] Worker exiting (pid: 22025)
+[2025-08-29 19:10:08 +0000] [22028] [INFO] Worker exiting (pid: 22028)
+[2025-08-29 19:10:08 +0000] [22022] [ERROR] Worker (pid:22026) was sent SIGTERM!
+[2025-08-29 19:10:08 +0000] [22027] [INFO] Worker exiting (pid: 22027)
+[2025-08-29 19:10:08 +0000] [22022] [ERROR] Worker (pid:22024) was sent SIGTERM!
+[2025-08-29 19:10:09 +0000] [22022] [INFO] Shutting down: Master
+[2025-08-29 19:10:10 +0000] [22037] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:10:10 +0000] [22037] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22037)
+[2025-08-29 19:10:10 +0000] [22037] [INFO] Using worker: sync
+[2025-08-29 19:10:10 +0000] [22040] [INFO] Booting worker with pid: 22040
+[2025-08-29 19:10:10 +0000] [22041] [INFO] Booting worker with pid: 22041
+[2025-08-29 19:10:10 +0000] [22042] [INFO] Booting worker with pid: 22042
+[2025-08-29 19:10:10 +0000] [22043] [INFO] Booting worker with pid: 22043
+[2025-08-29 19:10:10 +0000] [22044] [INFO] Booting worker with pid: 22044
+[2025-08-29 19:10:37 +0000] [22042] [INFO] Worker exiting (pid: 22042)
+[2025-08-29 19:10:37 +0000] [22037] [INFO] Handling signal: term
+[2025-08-29 19:10:37 +0000] [22044] [INFO] Worker exiting (pid: 22044)
+[2025-08-29 19:10:37 +0000] [22043] [INFO] Worker exiting (pid: 22043)
+[2025-08-29 19:10:37 +0000] [22037] [ERROR] Worker (pid:22042) was sent SIGTERM!
+[2025-08-29 19:10:37 +0000] [22041] [INFO] Worker exiting (pid: 22041)
+[2025-08-29 19:10:37 +0000] [22040] [INFO] Worker exiting (pid: 22040)
+[2025-08-29 19:10:38 +0000] [22037] [INFO] Shutting down: Master
+[2025-08-29 19:10:39 +0000] [22049] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:10:39 +0000] [22049] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22049)
+[2025-08-29 19:10:39 +0000] [22049] [INFO] Using worker: sync
+[2025-08-29 19:10:39 +0000] [22051] [INFO] Booting worker with pid: 22051
+[2025-08-29 19:10:39 +0000] [22052] [INFO] Booting worker with pid: 22052
+[2025-08-29 19:10:39 +0000] [22053] [INFO] Booting worker with pid: 22053
+[2025-08-29 19:10:39 +0000] [22054] [INFO] Booting worker with pid: 22054
+[2025-08-29 19:10:39 +0000] [22055] [INFO] Booting worker with pid: 22055
+[2025-08-29 19:12:08 +0000] [22051] [INFO] Worker exiting (pid: 22051)
+[2025-08-29 19:12:08 +0000] [22054] [INFO] Worker exiting (pid: 22054)
+[2025-08-29 19:12:08 +0000] [22053] [INFO] Worker exiting (pid: 22053)
+[2025-08-29 19:12:08 +0000] [22055] [INFO] Worker exiting (pid: 22055)
+[2025-08-29 19:12:08 +0000] [22049] [INFO] Handling signal: term
+[2025-08-29 19:12:08 +0000] [22052] [INFO] Worker exiting (pid: 22052)
+[2025-08-29 19:12:08 +0000] [22049] [ERROR] Worker (pid:22051) was sent SIGTERM!
+[2025-08-29 19:12:08 +0000] [22049] [ERROR] Worker (pid:22055) was sent SIGTERM!
+[2025-08-29 19:12:08 +0000] [22049] [ERROR] Worker (pid:22054) was sent SIGTERM!
+[2025-08-29 19:12:08 +0000] [22049] [ERROR] Worker (pid:22053) was sent SIGTERM!
+[2025-08-29 19:12:08 +0000] [22049] [INFO] Shutting down: Master
+[2025-08-29 19:12:09 +0000] [22071] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:12:09 +0000] [22071] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22071)
+[2025-08-29 19:12:09 +0000] [22071] [INFO] Using worker: sync
+[2025-08-29 19:12:09 +0000] [22073] [INFO] Booting worker with pid: 22073
+[2025-08-29 19:12:09 +0000] [22074] [INFO] Booting worker with pid: 22074
+[2025-08-29 19:12:09 +0000] [22075] [INFO] Booting worker with pid: 22075
+[2025-08-29 19:12:09 +0000] [22076] [INFO] Booting worker with pid: 22076
+[2025-08-29 19:12:09 +0000] [22077] [INFO] Booting worker with pid: 22077
+[2025-08-29 19:12:52 +0000] [22076] [INFO] Worker exiting (pid: 22076)
+[2025-08-29 19:12:52 +0000] [22071] [INFO] Handling signal: term
+[2025-08-29 19:12:52 +0000] [22073] [INFO] Worker exiting (pid: 22073)
+[2025-08-29 19:12:52 +0000] [22075] [INFO] Worker exiting (pid: 22075)
+[2025-08-29 19:12:52 +0000] [22074] [INFO] Worker exiting (pid: 22074)
+[2025-08-29 19:12:52 +0000] [22071] [ERROR] Worker (pid:22076) was sent SIGTERM!
+[2025-08-29 19:12:52 +0000] [22077] [INFO] Worker exiting (pid: 22077)
+[2025-08-29 19:12:54 +0000] [22071] [INFO] Shutting down: Master
+[2025-08-29 19:12:55 +0000] [22084] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:12:55 +0000] [22084] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22084)
+[2025-08-29 19:12:55 +0000] [22084] [INFO] Using worker: sync
+[2025-08-29 19:12:55 +0000] [22086] [INFO] Booting worker with pid: 22086
+[2025-08-29 19:12:55 +0000] [22087] [INFO] Booting worker with pid: 22087
+[2025-08-29 19:12:55 +0000] [22088] [INFO] Booting worker with pid: 22088
+[2025-08-29 19:12:55 +0000] [22089] [INFO] Booting worker with pid: 22089
+[2025-08-29 19:12:55 +0000] [22090] [INFO] Booting worker with pid: 22090
+[2025-08-29 19:30:14 +0000] [22089] [INFO] Worker exiting (pid: 22089)
+[2025-08-29 19:30:14 +0000] [22088] [INFO] Worker exiting (pid: 22088)
+[2025-08-29 19:30:14 +0000] [22086] [INFO] Worker exiting (pid: 22086)
+[2025-08-29 19:30:14 +0000] [22090] [INFO] Worker exiting (pid: 22090)
+[2025-08-29 19:30:14 +0000] [22087] [INFO] Worker exiting (pid: 22087)
+[2025-08-29 19:30:14 +0000] [22084] [INFO] Handling signal: term
+[2025-08-29 19:30:14 +0000] [22084] [ERROR] Worker (pid:22088) was sent SIGTERM!
+[2025-08-29 19:30:14 +0000] [22084] [ERROR] Worker (pid:22089) was sent SIGTERM!
+[2025-08-29 19:30:14 +0000] [22084] [ERROR] Worker (pid:22090) was sent SIGTERM!
+[2025-08-29 19:30:14 +0000] [22084] [ERROR] Worker (pid:22087) was sent SIGTERM!
+[2025-08-29 19:30:14 +0000] [22084] [ERROR] Worker (pid:22086) was sent SIGTERM!
+[2025-08-29 19:30:14 +0000] [22084] [INFO] Shutting down: Master
+[2025-08-29 19:30:18 +0000] [22213] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:30:18 +0000] [22213] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22213)
+[2025-08-29 19:30:18 +0000] [22213] [INFO] Using worker: sync
+[2025-08-29 19:30:18 +0000] [22216] [INFO] Booting worker with pid: 22216
+[2025-08-29 19:30:18 +0000] [22217] [INFO] Booting worker with pid: 22217
+[2025-08-29 19:30:18 +0000] [22218] [INFO] Booting worker with pid: 22218
+[2025-08-29 19:30:18 +0000] [22219] [INFO] Booting worker with pid: 22219
+[2025-08-29 19:30:18 +0000] [22220] [INFO] Booting worker with pid: 22220
+[2025-08-29 19:33:33 +0000] [22213] [INFO] Handling signal: term
+[2025-08-29 19:33:33 +0000] [22217] [INFO] Worker exiting (pid: 22217)
+[2025-08-29 19:33:33 +0000] [22216] [INFO] Worker exiting (pid: 22216)
+[2025-08-29 19:33:34 +0000] [22219] [INFO] Worker exiting (pid: 22219)
+[2025-08-29 19:33:39 +0000] [22218] [INFO] Worker exiting (pid: 22218)
+[2025-08-29 19:33:41 +0000] [22220] [INFO] Worker exiting (pid: 22220)
+[2025-08-29 19:33:41 +0000] [22213] [INFO] Shutting down: Master
+[2025-08-29 19:33:42 +0000] [22233] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:33:42 +0000] [22233] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22233)
+[2025-08-29 19:33:42 +0000] [22233] [INFO] Using worker: sync
+[2025-08-29 19:33:42 +0000] [22235] [INFO] Booting worker with pid: 22235
+[2025-08-29 19:33:42 +0000] [22236] [INFO] Booting worker with pid: 22236
+[2025-08-29 19:33:42 +0000] [22237] [INFO] Booting worker with pid: 22237
+[2025-08-29 19:33:42 +0000] [22238] [INFO] Booting worker with pid: 22238
+[2025-08-29 19:33:43 +0000] [22239] [INFO] Booting worker with pid: 22239
+[2025-08-29 19:34:16 +0000] [22238] [INFO] Worker exiting (pid: 22238)
+[2025-08-29 19:34:16 +0000] [22239] [INFO] Worker exiting (pid: 22239)
+[2025-08-29 19:34:16 +0000] [22237] [INFO] Worker exiting (pid: 22237)
+[2025-08-29 19:34:16 +0000] [22233] [INFO] Handling signal: term
+[2025-08-29 19:34:16 +0000] [22233] [ERROR] Worker (pid:22239) was sent SIGTERM!
+[2025-08-29 19:34:16 +0000] [22236] [INFO] Worker exiting (pid: 22236)
+[2025-08-29 19:34:16 +0000] [22235] [INFO] Worker exiting (pid: 22235)
+[2025-08-29 19:34:16 +0000] [22233] [INFO] Shutting down: Master
+[2025-08-29 19:34:17 +0000] [22244] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:34:17 +0000] [22244] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22244)
+[2025-08-29 19:34:17 +0000] [22244] [INFO] Using worker: sync
+[2025-08-29 19:34:17 +0000] [22247] [INFO] Booting worker with pid: 22247
+[2025-08-29 19:34:17 +0000] [22248] [INFO] Booting worker with pid: 22248
+[2025-08-29 19:34:17 +0000] [22249] [INFO] Booting worker with pid: 22249
+[2025-08-29 19:34:17 +0000] [22250] [INFO] Booting worker with pid: 22250
+[2025-08-29 19:34:17 +0000] [22251] [INFO] Booting worker with pid: 22251
+[2025-08-29 19:37:04 +0000] [22248] [INFO] Worker exiting (pid: 22248)
+[2025-08-29 19:37:04 +0000] [22250] [INFO] Worker exiting (pid: 22250)
+[2025-08-29 19:37:04 +0000] [22244] [INFO] Handling signal: term
+[2025-08-29 19:37:04 +0000] [22251] [INFO] Worker exiting (pid: 22251)
+[2025-08-29 19:37:04 +0000] [22247] [INFO] Worker exiting (pid: 22247)
+[2025-08-29 19:37:04 +0000] [22249] [INFO] Worker exiting (pid: 22249)
+[2025-08-29 19:37:04 +0000] [22244] [ERROR] Worker (pid:22248) was sent SIGTERM!
+[2025-08-29 19:37:04 +0000] [22244] [ERROR] Worker (pid:22250) was sent SIGTERM!
+[2025-08-29 19:37:05 +0000] [22244] [INFO] Shutting down: Master
+[2025-08-29 19:37:06 +0000] [22262] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:37:06 +0000] [22262] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22262)
+[2025-08-29 19:37:06 +0000] [22262] [INFO] Using worker: sync
+[2025-08-29 19:37:06 +0000] [22265] [INFO] Booting worker with pid: 22265
+[2025-08-29 19:37:06 +0000] [22266] [INFO] Booting worker with pid: 22266
+[2025-08-29 19:37:06 +0000] [22267] [INFO] Booting worker with pid: 22267
+[2025-08-29 19:37:06 +0000] [22268] [INFO] Booting worker with pid: 22268
+[2025-08-29 19:37:06 +0000] [22269] [INFO] Booting worker with pid: 22269
+[2025-08-29 19:43:40 +0000] [22268] [INFO] Worker exiting (pid: 22268)
+[2025-08-29 19:43:40 +0000] [22262] [INFO] Handling signal: term
+[2025-08-29 19:43:40 +0000] [22262] [ERROR] Worker (pid:22268) was sent SIGTERM!
+[2025-08-29 19:43:40 +0000] [22266] [INFO] Worker exiting (pid: 22266)
+[2025-08-29 19:43:40 +0000] [22265] [INFO] Worker exiting (pid: 22265)
+[2025-08-29 19:43:41 +0000] [22269] [INFO] Worker exiting (pid: 22269)
+[2025-08-29 19:43:41 +0000] [22267] [INFO] Worker exiting (pid: 22267)
+[2025-08-29 19:43:42 +0000] [22262] [INFO] Shutting down: Master
+[2025-08-29 19:43:44 +0000] [22585] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:43:44 +0000] [22585] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22585)
+[2025-08-29 19:43:44 +0000] [22585] [INFO] Using worker: sync
+[2025-08-29 19:43:44 +0000] [22588] [INFO] Booting worker with pid: 22588
+[2025-08-29 19:43:44 +0000] [22589] [INFO] Booting worker with pid: 22589
+[2025-08-29 19:43:45 +0000] [22590] [INFO] Booting worker with pid: 22590
+[2025-08-29 19:43:45 +0000] [22591] [INFO] Booting worker with pid: 22591
+[2025-08-29 19:43:45 +0000] [22592] [INFO] Booting worker with pid: 22592
+[2025-08-29 19:44:52 +0000] [22592] [INFO] Worker exiting (pid: 22592)
+[2025-08-29 19:44:52 +0000] [22589] [INFO] Worker exiting (pid: 22589)
+[2025-08-29 19:44:52 +0000] [22590] [INFO] Worker exiting (pid: 22590)
+[2025-08-29 19:44:52 +0000] [22591] [INFO] Worker exiting (pid: 22591)
+[2025-08-29 19:44:52 +0000] [22585] [INFO] Handling signal: term
+[2025-08-29 19:44:52 +0000] [22588] [INFO] Worker exiting (pid: 22588)
+[2025-08-29 19:44:52 +0000] [22585] [ERROR] Worker (pid:22592) was sent SIGTERM!
+[2025-08-29 19:44:52 +0000] [22585] [ERROR] Worker (pid:22591) was sent SIGTERM!
+[2025-08-29 19:44:52 +0000] [22585] [ERROR] Worker (pid:22590) was sent SIGTERM!
+[2025-08-29 19:44:52 +0000] [22585] [ERROR] Worker (pid:22589) was sent SIGTERM!
+[2025-08-29 19:44:53 +0000] [22585] [INFO] Shutting down: Master
+[2025-08-29 19:44:54 +0000] [22599] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:44:54 +0000] [22599] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22599)
+[2025-08-29 19:44:54 +0000] [22599] [INFO] Using worker: sync
+[2025-08-29 19:44:54 +0000] [22602] [INFO] Booting worker with pid: 22602
+[2025-08-29 19:44:54 +0000] [22603] [INFO] Booting worker with pid: 22603
+[2025-08-29 19:44:54 +0000] [22604] [INFO] Booting worker with pid: 22604
+[2025-08-29 19:44:54 +0000] [22605] [INFO] Booting worker with pid: 22605
+[2025-08-29 19:44:54 +0000] [22606] [INFO] Booting worker with pid: 22606
+[2025-08-29 19:45:25 +0000] [22604] [INFO] Worker exiting (pid: 22604)
+[2025-08-29 19:45:25 +0000] [22603] [INFO] Worker exiting (pid: 22603)
+[2025-08-29 19:45:25 +0000] [22602] [INFO] Worker exiting (pid: 22602)
+[2025-08-29 19:45:25 +0000] [22599] [INFO] Handling signal: term
+[2025-08-29 19:45:25 +0000] [22606] [INFO] Worker exiting (pid: 22606)
+[2025-08-29 19:45:25 +0000] [22599] [ERROR] Worker (pid:22604) was sent SIGTERM!
+[2025-08-29 19:45:25 +0000] [22605] [INFO] Worker exiting (pid: 22605)
+[2025-08-29 19:45:25 +0000] [22599] [ERROR] Worker (pid:22602) was sent SIGTERM!
+[2025-08-29 19:45:25 +0000] [22599] [ERROR] Worker (pid:22603) was sent SIGTERM!
+[2025-08-29 19:45:26 +0000] [22599] [INFO] Shutting down: Master
+[2025-08-29 19:45:27 +0000] [22613] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:45:27 +0000] [22613] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22613)
+[2025-08-29 19:45:27 +0000] [22613] [INFO] Using worker: sync
+[2025-08-29 19:45:27 +0000] [22615] [INFO] Booting worker with pid: 22615
+[2025-08-29 19:45:27 +0000] [22616] [INFO] Booting worker with pid: 22616
+[2025-08-29 19:45:27 +0000] [22617] [INFO] Booting worker with pid: 22617
+[2025-08-29 19:45:27 +0000] [22618] [INFO] Booting worker with pid: 22618
+[2025-08-29 19:45:27 +0000] [22619] [INFO] Booting worker with pid: 22619
+[2025-08-29 19:46:32 +0000] [22617] [INFO] Worker exiting (pid: 22617)
+[2025-08-29 19:46:32 +0000] [22619] [INFO] Worker exiting (pid: 22619)
+[2025-08-29 19:46:32 +0000] [22615] [INFO] Worker exiting (pid: 22615)
+[2025-08-29 19:46:32 +0000] [22618] [INFO] Worker exiting (pid: 22618)
+[2025-08-29 19:46:32 +0000] [22613] [INFO] Handling signal: term
+[2025-08-29 19:46:33 +0000] [22613] [ERROR] Worker (pid:22615) was sent SIGTERM!
+[2025-08-29 19:46:33 +0000] [22613] [ERROR] Worker (pid:22618) was sent SIGTERM!
+[2025-08-29 19:46:33 +0000] [22616] [INFO] Worker exiting (pid: 22616)
+[2025-08-29 19:46:33 +0000] [22613] [ERROR] Worker (pid:22617) was sent SIGTERM!
+[2025-08-29 19:46:33 +0000] [22613] [ERROR] Worker (pid:22619) was sent SIGTERM!
+[2025-08-29 19:46:33 +0000] [22613] [INFO] Shutting down: Master
+[2025-08-29 19:46:34 +0000] [22626] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:46:34 +0000] [22626] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22626)
+[2025-08-29 19:46:34 +0000] [22626] [INFO] Using worker: sync
+[2025-08-29 19:46:34 +0000] [22628] [INFO] Booting worker with pid: 22628
+[2025-08-29 19:46:34 +0000] [22629] [INFO] Booting worker with pid: 22629
+[2025-08-29 19:46:34 +0000] [22630] [INFO] Booting worker with pid: 22630
+[2025-08-29 19:46:34 +0000] [22631] [INFO] Booting worker with pid: 22631
+[2025-08-29 19:46:34 +0000] [22632] [INFO] Booting worker with pid: 22632
+[2025-08-29 19:48:20 +0000] [22630] [INFO] Worker exiting (pid: 22630)
+[2025-08-29 19:48:20 +0000] [22629] [INFO] Worker exiting (pid: 22629)
+[2025-08-29 19:48:20 +0000] [22631] [INFO] Worker exiting (pid: 22631)
+[2025-08-29 19:48:20 +0000] [22632] [INFO] Worker exiting (pid: 22632)
+[2025-08-29 19:48:20 +0000] [22628] [INFO] Worker exiting (pid: 22628)
+[2025-08-29 19:48:20 +0000] [22626] [INFO] Handling signal: term
+[2025-08-29 19:48:20 +0000] [22626] [ERROR] Worker (pid:22629) was sent SIGTERM!
+[2025-08-29 19:48:20 +0000] [22626] [ERROR] Worker (pid:22631) was sent SIGTERM!
+[2025-08-29 19:48:20 +0000] [22626] [ERROR] Worker (pid:22632) was sent SIGTERM!
+[2025-08-29 19:48:20 +0000] [22626] [ERROR] Worker (pid:22628) was sent SIGTERM!
+[2025-08-29 19:48:20 +0000] [22626] [ERROR] Worker (pid:22630) was sent SIGTERM!
+[2025-08-29 19:48:20 +0000] [22626] [INFO] Shutting down: Master
+[2025-08-29 19:48:23 +0000] [22798] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:48:23 +0000] [22798] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (22798)
+[2025-08-29 19:48:23 +0000] [22798] [INFO] Using worker: sync
+[2025-08-29 19:48:23 +0000] [22800] [INFO] Booting worker with pid: 22800
+[2025-08-29 19:48:23 +0000] [22801] [INFO] Booting worker with pid: 22801
+[2025-08-29 19:48:23 +0000] [22802] [INFO] Booting worker with pid: 22802
+[2025-08-29 19:48:23 +0000] [22803] [INFO] Booting worker with pid: 22803
+[2025-08-29 19:48:23 +0000] [22804] [INFO] Booting worker with pid: 22804
+[2025-08-29 19:50:29 +0000] [22798] [INFO] Handling signal: term
+[2025-08-29 19:50:36 +0000] [22803] [INFO] Worker exiting (pid: 22803)
+[2025-08-29 19:50:37 +0000] [22804] [INFO] Worker exiting (pid: 22804)
+[2025-08-29 19:50:37 +0000] [22800] [INFO] Worker exiting (pid: 22800)
+[2025-08-29 19:50:38 +0000] [22802] [INFO] Worker exiting (pid: 22802)
+[2025-08-29 19:50:38 +0000] [22801] [INFO] Worker exiting (pid: 22801)
+[2025-08-29 19:50:39 +0000] [22798] [INFO] Shutting down: Master
+[2025-08-29 19:50:40 +0000] [23258] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:50:40 +0000] [23258] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23258)
+[2025-08-29 19:50:40 +0000] [23258] [INFO] Using worker: sync
+[2025-08-29 19:50:40 +0000] [23261] [INFO] Booting worker with pid: 23261
+[2025-08-29 19:50:40 +0000] [23262] [INFO] Booting worker with pid: 23262
+[2025-08-29 19:50:40 +0000] [23263] [INFO] Booting worker with pid: 23263
+[2025-08-29 19:50:40 +0000] [23264] [INFO] Booting worker with pid: 23264
+[2025-08-29 19:50:40 +0000] [23265] [INFO] Booting worker with pid: 23265
+[2025-08-29 19:51:40 +0000] [23258] [INFO] Handling signal: term
+[2025-08-29 19:51:42 +0000] [23261] [INFO] Worker exiting (pid: 23261)
+[2025-08-29 19:51:42 +0000] [23264] [INFO] Worker exiting (pid: 23264)
+[2025-08-29 19:51:42 +0000] [23262] [INFO] Worker exiting (pid: 23262)
+[2025-08-29 19:51:42 +0000] [23263] [INFO] Worker exiting (pid: 23263)
+[2025-08-29 19:51:42 +0000] [23265] [INFO] Worker exiting (pid: 23265)
+[2025-08-29 19:51:44 +0000] [23258] [INFO] Shutting down: Master
+[2025-08-29 19:51:45 +0000] [23281] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:51:45 +0000] [23281] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23281)
+[2025-08-29 19:51:45 +0000] [23281] [INFO] Using worker: sync
+[2025-08-29 19:51:45 +0000] [23285] [INFO] Booting worker with pid: 23285
+[2025-08-29 19:51:45 +0000] [23286] [INFO] Booting worker with pid: 23286
+[2025-08-29 19:51:45 +0000] [23287] [INFO] Booting worker with pid: 23287
+[2025-08-29 19:51:45 +0000] [23288] [INFO] Booting worker with pid: 23288
+[2025-08-29 19:51:45 +0000] [23289] [INFO] Booting worker with pid: 23289
+[2025-08-29 19:52:28 +0000] [23285] [INFO] Worker exiting (pid: 23285)
+[2025-08-29 19:52:28 +0000] [23286] [INFO] Worker exiting (pid: 23286)
+[2025-08-29 19:52:28 +0000] [23281] [INFO] Handling signal: term
+[2025-08-29 19:52:28 +0000] [23287] [INFO] Worker exiting (pid: 23287)
+[2025-08-29 19:52:28 +0000] [23289] [INFO] Worker exiting (pid: 23289)
+[2025-08-29 19:52:28 +0000] [23281] [ERROR] Worker (pid:23286) was sent SIGTERM!
+[2025-08-29 19:52:28 +0000] [23281] [ERROR] Worker (pid:23285) was sent SIGTERM!
+[2025-08-29 19:52:28 +0000] [23288] [INFO] Worker exiting (pid: 23288)
+[2025-08-29 19:52:29 +0000] [23281] [INFO] Shutting down: Master
+[2025-08-29 19:52:30 +0000] [23300] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:52:30 +0000] [23300] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23300)
+[2025-08-29 19:52:30 +0000] [23300] [INFO] Using worker: sync
+[2025-08-29 19:52:30 +0000] [23303] [INFO] Booting worker with pid: 23303
+[2025-08-29 19:52:31 +0000] [23304] [INFO] Booting worker with pid: 23304
+[2025-08-29 19:52:31 +0000] [23305] [INFO] Booting worker with pid: 23305
+[2025-08-29 19:52:31 +0000] [23306] [INFO] Booting worker with pid: 23306
+[2025-08-29 19:52:31 +0000] [23307] [INFO] Booting worker with pid: 23307
+[2025-08-29 19:54:49 +0000] [23300] [INFO] Handling signal: term
+[2025-08-29 19:54:50 +0000] [23307] [INFO] Worker exiting (pid: 23307)
+[2025-08-29 19:54:56 +0000] [23304] [INFO] Worker exiting (pid: 23304)
+[2025-08-29 19:54:56 +0000] [23303] [INFO] Worker exiting (pid: 23303)
+[2025-08-29 19:54:57 +0000] [23306] [INFO] Worker exiting (pid: 23306)
+[2025-08-29 19:54:58 +0000] [23305] [INFO] Worker exiting (pid: 23305)
+[2025-08-29 19:54:58 +0000] [23300] [INFO] Shutting down: Master
+[2025-08-29 19:54:59 +0000] [23660] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:54:59 +0000] [23660] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23660)
+[2025-08-29 19:54:59 +0000] [23660] [INFO] Using worker: sync
+[2025-08-29 19:54:59 +0000] [23662] [INFO] Booting worker with pid: 23662
+[2025-08-29 19:54:59 +0000] [23663] [INFO] Booting worker with pid: 23663
+[2025-08-29 19:54:59 +0000] [23664] [INFO] Booting worker with pid: 23664
+[2025-08-29 19:54:59 +0000] [23665] [INFO] Booting worker with pid: 23665
+[2025-08-29 19:54:59 +0000] [23666] [INFO] Booting worker with pid: 23666
+[2025-08-29 19:56:05 +0000] [23660] [INFO] Handling signal: term
+[2025-08-29 19:56:05 +0000] [23665] [INFO] Worker exiting (pid: 23665)
+[2025-08-29 19:56:06 +0000] [23663] [INFO] Worker exiting (pid: 23663)
+[2025-08-29 19:56:07 +0000] [23662] [INFO] Worker exiting (pid: 23662)
+[2025-08-29 19:56:07 +0000] [23666] [INFO] Worker exiting (pid: 23666)
+[2025-08-29 19:56:07 +0000] [23664] [INFO] Worker exiting (pid: 23664)
+[2025-08-29 19:56:08 +0000] [23660] [INFO] Shutting down: Master
+[2025-08-29 19:56:09 +0000] [23711] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:56:09 +0000] [23711] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23711)
+[2025-08-29 19:56:09 +0000] [23711] [INFO] Using worker: sync
+[2025-08-29 19:56:09 +0000] [23714] [INFO] Booting worker with pid: 23714
+[2025-08-29 19:56:09 +0000] [23715] [INFO] Booting worker with pid: 23715
+[2025-08-29 19:56:09 +0000] [23716] [INFO] Booting worker with pid: 23716
+[2025-08-29 19:56:09 +0000] [23717] [INFO] Booting worker with pid: 23717
+[2025-08-29 19:56:09 +0000] [23718] [INFO] Booting worker with pid: 23718
+[2025-08-29 19:57:53 +0000] [23714] [INFO] Worker exiting (pid: 23714)
+[2025-08-29 19:57:53 +0000] [23716] [INFO] Worker exiting (pid: 23716)
+[2025-08-29 19:57:53 +0000] [23717] [INFO] Worker exiting (pid: 23717)
+[2025-08-29 19:57:53 +0000] [23718] [INFO] Worker exiting (pid: 23718)
+[2025-08-29 19:57:53 +0000] [23711] [INFO] Handling signal: term
+[2025-08-29 19:57:53 +0000] [23711] [ERROR] Worker (pid:23718) was sent SIGTERM!
+[2025-08-29 19:57:53 +0000] [23715] [INFO] Worker exiting (pid: 23715)
+[2025-08-29 19:57:53 +0000] [23711] [ERROR] Worker (pid:23716) was sent SIGTERM!
+[2025-08-29 19:57:53 +0000] [23711] [ERROR] Worker (pid:23717) was sent SIGTERM!
+[2025-08-29 19:57:53 +0000] [23711] [ERROR] Worker (pid:23714) was sent SIGTERM!
+[2025-08-29 19:57:53 +0000] [23711] [INFO] Shutting down: Master
+[2025-08-29 19:57:54 +0000] [23732] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 19:57:54 +0000] [23732] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23732)
+[2025-08-29 19:57:54 +0000] [23732] [INFO] Using worker: sync
+[2025-08-29 19:57:54 +0000] [23735] [INFO] Booting worker with pid: 23735
+[2025-08-29 19:57:55 +0000] [23736] [INFO] Booting worker with pid: 23736
+[2025-08-29 19:57:55 +0000] [23737] [INFO] Booting worker with pid: 23737
+[2025-08-29 19:57:55 +0000] [23738] [INFO] Booting worker with pid: 23738
+[2025-08-29 19:57:55 +0000] [23739] [INFO] Booting worker with pid: 23739
+[2025-08-29 20:00:34 +0000] [23732] [INFO] Handling signal: term
+[2025-08-29 20:00:35 +0000] [23736] [INFO] Worker exiting (pid: 23736)
+[2025-08-29 20:00:35 +0000] [23735] [INFO] Worker exiting (pid: 23735)
+[2025-08-29 20:00:38 +0000] [23739] [INFO] Worker exiting (pid: 23739)
+[2025-08-29 20:00:38 +0000] [23737] [INFO] Worker exiting (pid: 23737)
+[2025-08-29 20:00:43 +0000] [23738] [INFO] Worker exiting (pid: 23738)
+[2025-08-29 20:00:44 +0000] [23732] [INFO] Shutting down: Master
+[2025-08-29 20:00:45 +0000] [23785] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 20:00:45 +0000] [23785] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23785)
+[2025-08-29 20:00:45 +0000] [23785] [INFO] Using worker: sync
+[2025-08-29 20:00:45 +0000] [23787] [INFO] Booting worker with pid: 23787
+[2025-08-29 20:00:45 +0000] [23788] [INFO] Booting worker with pid: 23788
+[2025-08-29 20:00:45 +0000] [23789] [INFO] Booting worker with pid: 23789
+[2025-08-29 20:00:45 +0000] [23790] [INFO] Booting worker with pid: 23790
+[2025-08-29 20:00:45 +0000] [23791] [INFO] Booting worker with pid: 23791
+[2025-08-29 20:04:08 +0000] [23787] [INFO] Worker exiting (pid: 23787)
+[2025-08-29 20:04:08 +0000] [23785] [INFO] Handling signal: term
+[2025-08-29 20:04:08 +0000] [23791] [INFO] Worker exiting (pid: 23791)
+[2025-08-29 20:04:08 +0000] [23789] [INFO] Worker exiting (pid: 23789)
+[2025-08-29 20:04:08 +0000] [23790] [INFO] Worker exiting (pid: 23790)
+[2025-08-29 20:04:08 +0000] [23785] [ERROR] Worker (pid:23787) was sent SIGTERM!
+[2025-08-29 20:04:08 +0000] [23788] [INFO] Worker exiting (pid: 23788)
+[2025-08-29 20:04:10 +0000] [23785] [INFO] Shutting down: Master
+[2025-08-29 20:04:11 +0000] [23818] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 20:04:11 +0000] [23818] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (23818)
+[2025-08-29 20:04:11 +0000] [23818] [INFO] Using worker: sync
+[2025-08-29 20:04:11 +0000] [23821] [INFO] Booting worker with pid: 23821
+[2025-08-29 20:04:11 +0000] [23822] [INFO] Booting worker with pid: 23822
+[2025-08-29 20:04:11 +0000] [23823] [INFO] Booting worker with pid: 23823
+[2025-08-29 20:04:11 +0000] [23824] [INFO] Booting worker with pid: 23824
+[2025-08-29 20:04:11 +0000] [23825] [INFO] Booting worker with pid: 23825
+[2025-08-29 20:17:41 +0000] [23825] [INFO] Worker exiting (pid: 23825)
+[2025-08-29 20:17:41 +0000] [23821] [INFO] Worker exiting (pid: 23821)
+[2025-08-29 20:17:41 +0000] [23818] [INFO] Handling signal: term
+[2025-08-29 20:17:41 +0000] [23823] [INFO] Worker exiting (pid: 23823)
+[2025-08-29 20:17:41 +0000] [23822] [INFO] Worker exiting (pid: 23822)
+[2025-08-29 20:17:41 +0000] [23824] [INFO] Worker exiting (pid: 23824)
+[2025-08-29 20:17:42 +0000] [23818] [INFO] Shutting down: Master
+[2025-08-29 20:17:44 +0000] [24012] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 20:17:44 +0000] [24012] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (24012)
+[2025-08-29 20:17:44 +0000] [24012] [INFO] Using worker: sync
+[2025-08-29 20:17:44 +0000] [24015] [INFO] Booting worker with pid: 24015
+[2025-08-29 20:17:44 +0000] [24016] [INFO] Booting worker with pid: 24016
+[2025-08-29 20:17:44 +0000] [24017] [INFO] Booting worker with pid: 24017
+[2025-08-29 20:17:44 +0000] [24018] [INFO] Booting worker with pid: 24018
+[2025-08-29 20:17:44 +0000] [24019] [INFO] Booting worker with pid: 24019
+[2025-08-29 20:33:20 +0000] [24017] [INFO] Worker exiting (pid: 24017)
+[2025-08-29 20:33:20 +0000] [24016] [INFO] Worker exiting (pid: 24016)
+[2025-08-29 20:33:20 +0000] [24012] [INFO] Handling signal: term
+[2025-08-29 20:33:20 +0000] [24019] [INFO] Worker exiting (pid: 24019)
+[2025-08-29 20:33:20 +0000] [24015] [INFO] Worker exiting (pid: 24015)
+[2025-08-29 20:33:20 +0000] [24012] [ERROR] Worker (pid:24017) was sent SIGTERM!
+[2025-08-29 20:33:20 +0000] [24018] [INFO] Worker exiting (pid: 24018)
+[2025-08-29 20:33:21 +0000] [24012] [INFO] Shutting down: Master
+[2025-08-29 20:33:22 +0000] [24334] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 20:33:22 +0000] [24334] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (24334)
+[2025-08-29 20:33:22 +0000] [24334] [INFO] Using worker: sync
+[2025-08-29 20:33:22 +0000] [24337] [INFO] Booting worker with pid: 24337
+[2025-08-29 20:33:23 +0000] [24338] [INFO] Booting worker with pid: 24338
+[2025-08-29 20:33:23 +0000] [24339] [INFO] Booting worker with pid: 24339
+[2025-08-29 20:33:23 +0000] [24340] [INFO] Booting worker with pid: 24340
+[2025-08-29 20:33:23 +0000] [24341] [INFO] Booting worker with pid: 24341
+[2025-08-29 21:14:55 +0000] [24334] [INFO] Handling signal: term
+[2025-08-29 21:14:56 +0000] [24337] [INFO] Worker exiting (pid: 24337)
+[2025-08-29 21:14:56 +0000] [24339] [INFO] Worker exiting (pid: 24339)
+[2025-08-29 21:14:56 +0000] [24338] [INFO] Worker exiting (pid: 24338)
+[2025-08-29 21:14:56 +0000] [24341] [INFO] Worker exiting (pid: 24341)
+[2025-08-29 21:14:56 +0000] [24340] [INFO] Worker exiting (pid: 24340)
+[2025-08-29 21:14:58 +0000] [24334] [INFO] Shutting down: Master
+[2025-08-29 21:15:01 +0000] [24804] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 21:15:01 +0000] [24804] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (24804)
+[2025-08-29 21:15:01 +0000] [24804] [INFO] Using worker: sync
+[2025-08-29 21:15:01 +0000] [24807] [INFO] Booting worker with pid: 24807
+[2025-08-29 21:15:01 +0000] [24808] [INFO] Booting worker with pid: 24808
+[2025-08-29 21:15:01 +0000] [24809] [INFO] Booting worker with pid: 24809
+[2025-08-29 21:15:01 +0000] [24810] [INFO] Booting worker with pid: 24810
+[2025-08-29 21:15:01 +0000] [24811] [INFO] Booting worker with pid: 24811
+[2025-08-29 21:19:06 +0000] [24811] [INFO] Worker exiting (pid: 24811)
+[2025-08-29 21:19:06 +0000] [24804] [INFO] Handling signal: term
+[2025-08-29 21:19:06 +0000] [24809] [INFO] Worker exiting (pid: 24809)
+[2025-08-29 21:19:06 +0000] [24810] [INFO] Worker exiting (pid: 24810)
+[2025-08-29 21:19:06 +0000] [24807] [INFO] Worker exiting (pid: 24807)
+[2025-08-29 21:19:06 +0000] [24808] [INFO] Worker exiting (pid: 24808)
+[2025-08-29 21:19:07 +0000] [24804] [INFO] Shutting down: Master
+[2025-08-29 21:19:09 +0000] [24887] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 21:19:09 +0000] [24887] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (24887)
+[2025-08-29 21:19:09 +0000] [24887] [INFO] Using worker: sync
+[2025-08-29 21:19:09 +0000] [24890] [INFO] Booting worker with pid: 24890
+[2025-08-29 21:19:09 +0000] [24891] [INFO] Booting worker with pid: 24891
+[2025-08-29 21:19:09 +0000] [24892] [INFO] Booting worker with pid: 24892
+[2025-08-29 21:19:09 +0000] [24893] [INFO] Booting worker with pid: 24893
+[2025-08-29 21:19:09 +0000] [24894] [INFO] Booting worker with pid: 24894
+[2025-08-29 21:53:06 +0000] [24893] [INFO] Worker exiting (pid: 24893)
+[2025-08-29 21:53:06 +0000] [24890] [INFO] Worker exiting (pid: 24890)
+[2025-08-29 21:53:06 +0000] [24892] [INFO] Worker exiting (pid: 24892)
+[2025-08-29 21:53:06 +0000] [24891] [INFO] Worker exiting (pid: 24891)
+[2025-08-29 21:53:06 +0000] [24894] [INFO] Worker exiting (pid: 24894)
+[2025-08-29 21:53:07 +0000] [24887] [INFO] Handling signal: term
+[2025-08-29 21:53:09 +0000] [24887] [ERROR] Worker (pid:24890) was sent SIGTERM!
+[2025-08-29 21:53:09 +0000] [24887] [ERROR] Worker (pid:24893) was sent SIGTERM!
+[2025-08-29 21:53:09 +0000] [24887] [ERROR] Worker (pid:24894) was sent SIGTERM!
+[2025-08-29 21:53:09 +0000] [24887] [ERROR] Worker (pid:24891) was sent SIGTERM!
+[2025-08-29 21:53:09 +0000] [24887] [ERROR] Worker (pid:24892) was sent SIGTERM!
+[2025-08-29 21:53:09 +0000] [24887] [INFO] Shutting down: Master
+[2025-08-29 21:53:15 +0000] [26024] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 21:53:15 +0000] [26024] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26024)
+[2025-08-29 21:53:15 +0000] [26024] [INFO] Using worker: sync
+[2025-08-29 21:53:15 +0000] [26027] [INFO] Booting worker with pid: 26027
+[2025-08-29 21:53:16 +0000] [26028] [INFO] Booting worker with pid: 26028
+[2025-08-29 21:53:16 +0000] [26029] [INFO] Booting worker with pid: 26029
+[2025-08-29 21:53:16 +0000] [26030] [INFO] Booting worker with pid: 26030
+[2025-08-29 21:53:16 +0000] [26031] [INFO] Booting worker with pid: 26031
+[2025-08-29 21:57:06 +0000] [26031] [INFO] Worker exiting (pid: 26031)
+[2025-08-29 21:57:06 +0000] [26028] [INFO] Worker exiting (pid: 26028)
+[2025-08-29 21:57:06 +0000] [26029] [INFO] Worker exiting (pid: 26029)
+[2025-08-29 21:57:06 +0000] [26027] [INFO] Worker exiting (pid: 26027)
+[2025-08-29 21:57:06 +0000] [26030] [INFO] Worker exiting (pid: 26030)
+[2025-08-29 21:57:06 +0000] [26024] [INFO] Handling signal: term
+[2025-08-29 21:57:07 +0000] [26024] [ERROR] Worker (pid:26028) was sent SIGTERM!
+[2025-08-29 21:57:07 +0000] [26024] [ERROR] Worker (pid:26029) was sent SIGTERM!
+[2025-08-29 21:57:07 +0000] [26024] [ERROR] Worker (pid:26030) was sent SIGTERM!
+[2025-08-29 21:57:07 +0000] [26024] [ERROR] Worker (pid:26031) was sent SIGTERM!
+[2025-08-29 21:57:07 +0000] [26024] [ERROR] Worker (pid:26027) was sent SIGTERM!
+[2025-08-29 21:57:07 +0000] [26024] [INFO] Shutting down: Master
+[2025-08-29 21:57:10 +0000] [26103] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 21:57:10 +0000] [26103] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26103)
+[2025-08-29 21:57:10 +0000] [26103] [INFO] Using worker: sync
+[2025-08-29 21:57:10 +0000] [26105] [INFO] Booting worker with pid: 26105
+[2025-08-29 21:57:10 +0000] [26106] [INFO] Booting worker with pid: 26106
+[2025-08-29 21:57:10 +0000] [26107] [INFO] Booting worker with pid: 26107
+[2025-08-29 21:57:10 +0000] [26108] [INFO] Booting worker with pid: 26108
+[2025-08-29 21:57:10 +0000] [26109] [INFO] Booting worker with pid: 26109
+[2025-08-29 22:09:54 +0000] [26105] [INFO] Worker exiting (pid: 26105)
+[2025-08-29 22:09:54 +0000] [26106] [INFO] Worker exiting (pid: 26106)
+[2025-08-29 22:09:54 +0000] [26107] [INFO] Worker exiting (pid: 26107)
+[2025-08-29 22:09:54 +0000] [26108] [INFO] Worker exiting (pid: 26108)
+[2025-08-29 22:09:54 +0000] [26109] [INFO] Worker exiting (pid: 26109)
+[2025-08-29 22:09:54 +0000] [26103] [INFO] Handling signal: term
+[2025-08-29 22:09:54 +0000] [26103] [ERROR] Worker (pid:26107) was sent SIGTERM!
+[2025-08-29 22:09:54 +0000] [26103] [ERROR] Worker (pid:26108) was sent SIGTERM!
+[2025-08-29 22:09:54 +0000] [26103] [ERROR] Worker (pid:26109) was sent SIGTERM!
+[2025-08-29 22:09:54 +0000] [26103] [ERROR] Worker (pid:26106) was sent SIGTERM!
+[2025-08-29 22:09:54 +0000] [26103] [ERROR] Worker (pid:26105) was sent SIGTERM!
+[2025-08-29 22:09:54 +0000] [26103] [INFO] Shutting down: Master
+[2025-08-29 22:09:57 +0000] [26216] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:09:57 +0000] [26216] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26216)
+[2025-08-29 22:09:57 +0000] [26216] [INFO] Using worker: sync
+[2025-08-29 22:09:57 +0000] [26219] [INFO] Booting worker with pid: 26219
+[2025-08-29 22:09:57 +0000] [26220] [INFO] Booting worker with pid: 26220
+[2025-08-29 22:09:57 +0000] [26221] [INFO] Booting worker with pid: 26221
+[2025-08-29 22:09:57 +0000] [26222] [INFO] Booting worker with pid: 26222
+[2025-08-29 22:09:57 +0000] [26223] [INFO] Booting worker with pid: 26223
+[2025-08-29 22:10:42 +0000] [26219] [INFO] Worker exiting (pid: 26219)
+[2025-08-29 22:10:42 +0000] [26220] [INFO] Worker exiting (pid: 26220)
+[2025-08-29 22:10:42 +0000] [26222] [INFO] Worker exiting (pid: 26222)
+[2025-08-29 22:10:42 +0000] [26221] [INFO] Worker exiting (pid: 26221)
+[2025-08-29 22:10:42 +0000] [26216] [INFO] Handling signal: term
+[2025-08-29 22:10:42 +0000] [26223] [INFO] Worker exiting (pid: 26223)
+[2025-08-29 22:10:42 +0000] [26216] [ERROR] Worker (pid:26222) was sent SIGTERM!
+[2025-08-29 22:10:42 +0000] [26216] [ERROR] Worker (pid:26221) was sent SIGTERM!
+[2025-08-29 22:10:42 +0000] [26216] [ERROR] Worker (pid:26220) was sent SIGTERM!
+[2025-08-29 22:10:42 +0000] [26216] [ERROR] Worker (pid:26219) was sent SIGTERM!
+[2025-08-29 22:10:42 +0000] [26216] [INFO] Shutting down: Master
+[2025-08-29 22:10:43 +0000] [26230] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:10:43 +0000] [26230] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26230)
+[2025-08-29 22:10:43 +0000] [26230] [INFO] Using worker: sync
+[2025-08-29 22:10:43 +0000] [26234] [INFO] Booting worker with pid: 26234
+[2025-08-29 22:10:43 +0000] [26235] [INFO] Booting worker with pid: 26235
+[2025-08-29 22:10:43 +0000] [26236] [INFO] Booting worker with pid: 26236
+[2025-08-29 22:10:43 +0000] [26237] [INFO] Booting worker with pid: 26237
+[2025-08-29 22:10:43 +0000] [26238] [INFO] Booting worker with pid: 26238
+[2025-08-29 22:12:01 +0000] [26230] [INFO] Handling signal: term
+[2025-08-29 22:12:03 +0000] [26235] [INFO] Worker exiting (pid: 26235)
+[2025-08-29 22:12:03 +0000] [26237] [INFO] Worker exiting (pid: 26237)
+[2025-08-29 22:12:03 +0000] [26236] [INFO] Worker exiting (pid: 26236)
+[2025-08-29 22:12:03 +0000] [26234] [INFO] Worker exiting (pid: 26234)
+[2025-08-29 22:12:03 +0000] [26238] [INFO] Worker exiting (pid: 26238)
+[2025-08-29 22:12:05 +0000] [26230] [INFO] Shutting down: Master
+[2025-08-29 22:12:06 +0000] [26269] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:12:06 +0000] [26269] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26269)
+[2025-08-29 22:12:06 +0000] [26269] [INFO] Using worker: sync
+[2025-08-29 22:12:06 +0000] [26271] [INFO] Booting worker with pid: 26271
+[2025-08-29 22:12:06 +0000] [26272] [INFO] Booting worker with pid: 26272
+[2025-08-29 22:12:07 +0000] [26273] [INFO] Booting worker with pid: 26273
+[2025-08-29 22:12:07 +0000] [26274] [INFO] Booting worker with pid: 26274
+[2025-08-29 22:12:07 +0000] [26275] [INFO] Booting worker with pid: 26275
+[2025-08-29 22:12:58 +0000] [26269] [INFO] Handling signal: term
+[2025-08-29 22:12:58 +0000] [26271] [INFO] Worker exiting (pid: 26271)
+[2025-08-29 22:13:01 +0000] [26274] [INFO] Worker exiting (pid: 26274)
+[2025-08-29 22:13:01 +0000] [26275] [INFO] Worker exiting (pid: 26275)
+[2025-08-29 22:13:01 +0000] [26272] [INFO] Worker exiting (pid: 26272)
+[2025-08-29 22:13:01 +0000] [26273] [INFO] Worker exiting (pid: 26273)
+[2025-08-29 22:13:03 +0000] [26269] [INFO] Shutting down: Master
+[2025-08-29 22:13:06 +0000] [26287] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:13:06 +0000] [26287] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26287)
+[2025-08-29 22:13:06 +0000] [26287] [INFO] Using worker: sync
+[2025-08-29 22:13:06 +0000] [26289] [INFO] Booting worker with pid: 26289
+[2025-08-29 22:13:06 +0000] [26290] [INFO] Booting worker with pid: 26290
+[2025-08-29 22:13:06 +0000] [26291] [INFO] Booting worker with pid: 26291
+[2025-08-29 22:13:06 +0000] [26292] [INFO] Booting worker with pid: 26292
+[2025-08-29 22:13:06 +0000] [26293] [INFO] Booting worker with pid: 26293
+[2025-08-29 22:14:27 +0000] [26293] [INFO] Worker exiting (pid: 26293)
+[2025-08-29 22:14:27 +0000] [26290] [INFO] Worker exiting (pid: 26290)
+[2025-08-29 22:14:27 +0000] [26287] [INFO] Handling signal: term
+[2025-08-29 22:14:27 +0000] [26291] [INFO] Worker exiting (pid: 26291)
+[2025-08-29 22:14:27 +0000] [26289] [INFO] Worker exiting (pid: 26289)
+[2025-08-29 22:14:27 +0000] [26292] [INFO] Worker exiting (pid: 26292)
+[2025-08-29 22:14:27 +0000] [26287] [ERROR] Worker (pid:26293) was sent SIGTERM!
+[2025-08-29 22:14:27 +0000] [26287] [ERROR] Worker (pid:26290) was sent SIGTERM!
+[2025-08-29 22:14:28 +0000] [26287] [INFO] Shutting down: Master
+[2025-08-29 22:14:29 +0000] [26304] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:14:29 +0000] [26304] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26304)
+[2025-08-29 22:14:29 +0000] [26304] [INFO] Using worker: sync
+[2025-08-29 22:14:29 +0000] [26306] [INFO] Booting worker with pid: 26306
+[2025-08-29 22:14:29 +0000] [26307] [INFO] Booting worker with pid: 26307
+[2025-08-29 22:14:29 +0000] [26308] [INFO] Booting worker with pid: 26308
+[2025-08-29 22:14:30 +0000] [26309] [INFO] Booting worker with pid: 26309
+[2025-08-29 22:14:30 +0000] [26310] [INFO] Booting worker with pid: 26310
+[2025-08-29 22:15:52 +0000] [26306] [INFO] Worker exiting (pid: 26306)
+[2025-08-29 22:15:52 +0000] [26304] [INFO] Handling signal: term
+[2025-08-29 22:15:52 +0000] [26309] [INFO] Worker exiting (pid: 26309)
+[2025-08-29 22:15:52 +0000] [26310] [INFO] Worker exiting (pid: 26310)
+[2025-08-29 22:15:52 +0000] [26308] [INFO] Worker exiting (pid: 26308)
+[2025-08-29 22:15:52 +0000] [26307] [INFO] Worker exiting (pid: 26307)
+[2025-08-29 22:15:55 +0000] [26304] [INFO] Shutting down: Master
+[2025-08-29 22:15:57 +0000] [26356] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:15:57 +0000] [26356] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26356)
+[2025-08-29 22:15:57 +0000] [26356] [INFO] Using worker: sync
+[2025-08-29 22:15:57 +0000] [26359] [INFO] Booting worker with pid: 26359
+[2025-08-29 22:15:57 +0000] [26360] [INFO] Booting worker with pid: 26360
+[2025-08-29 22:15:57 +0000] [26361] [INFO] Booting worker with pid: 26361
+[2025-08-29 22:15:57 +0000] [26362] [INFO] Booting worker with pid: 26362
+[2025-08-29 22:15:57 +0000] [26363] [INFO] Booting worker with pid: 26363
+[2025-08-29 22:16:11 +0000] [26362] [INFO] Worker exiting (pid: 26362)
+[2025-08-29 22:16:11 +0000] [26360] [INFO] Worker exiting (pid: 26360)
+[2025-08-29 22:16:11 +0000] [26356] [INFO] Handling signal: term
+[2025-08-29 22:16:11 +0000] [26359] [INFO] Worker exiting (pid: 26359)
+[2025-08-29 22:16:11 +0000] [26363] [INFO] Worker exiting (pid: 26363)
+[2025-08-29 22:16:11 +0000] [26361] [INFO] Worker exiting (pid: 26361)
+[2025-08-29 22:16:11 +0000] [26356] [ERROR] Worker (pid:26360) was sent SIGTERM!
+[2025-08-29 22:16:11 +0000] [26356] [ERROR] Worker (pid:26362) was sent SIGTERM!
+[2025-08-29 22:16:12 +0000] [26356] [INFO] Shutting down: Master
+[2025-08-29 22:16:15 +0000] [26369] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:16:15 +0000] [26369] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26369)
+[2025-08-29 22:16:15 +0000] [26369] [INFO] Using worker: sync
+[2025-08-29 22:16:15 +0000] [26371] [INFO] Booting worker with pid: 26371
+[2025-08-29 22:16:15 +0000] [26372] [INFO] Booting worker with pid: 26372
+[2025-08-29 22:16:15 +0000] [26373] [INFO] Booting worker with pid: 26373
+[2025-08-29 22:16:15 +0000] [26374] [INFO] Booting worker with pid: 26374
+[2025-08-29 22:16:15 +0000] [26375] [INFO] Booting worker with pid: 26375
+[2025-08-29 22:17:24 +0000] [26369] [INFO] Handling signal: term
+[2025-08-29 22:17:27 +0000] [26375] [INFO] Worker exiting (pid: 26375)
+[2025-08-29 22:17:27 +0000] [26373] [INFO] Worker exiting (pid: 26373)
+[2025-08-29 22:17:27 +0000] [26372] [INFO] Worker exiting (pid: 26372)
+[2025-08-29 22:17:27 +0000] [26374] [INFO] Worker exiting (pid: 26374)
+[2025-08-29 22:17:27 +0000] [26371] [INFO] Worker exiting (pid: 26371)
+[2025-08-29 22:17:30 +0000] [26369] [INFO] Shutting down: Master
+[2025-08-29 22:17:32 +0000] [26420] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:17:32 +0000] [26420] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26420)
+[2025-08-29 22:17:32 +0000] [26420] [INFO] Using worker: sync
+[2025-08-29 22:17:32 +0000] [26423] [INFO] Booting worker with pid: 26423
+[2025-08-29 22:17:32 +0000] [26424] [INFO] Booting worker with pid: 26424
+[2025-08-29 22:17:32 +0000] [26425] [INFO] Booting worker with pid: 26425
+[2025-08-29 22:17:33 +0000] [26426] [INFO] Booting worker with pid: 26426
+[2025-08-29 22:17:33 +0000] [26427] [INFO] Booting worker with pid: 26427
+[2025-08-29 22:23:31 +0000] [26425] [INFO] Worker exiting (pid: 26425)
+[2025-08-29 22:23:31 +0000] [26426] [INFO] Worker exiting (pid: 26426)
+[2025-08-29 22:23:31 +0000] [26423] [INFO] Worker exiting (pid: 26423)
+[2025-08-29 22:23:31 +0000] [26427] [INFO] Worker exiting (pid: 26427)
+[2025-08-29 22:23:31 +0000] [26420] [INFO] Handling signal: term
+[2025-08-29 22:23:31 +0000] [26424] [INFO] Worker exiting (pid: 26424)
+[2025-08-29 22:23:31 +0000] [26420] [ERROR] Worker (pid:26423) was sent SIGTERM!
+[2025-08-29 22:23:31 +0000] [26420] [ERROR] Worker (pid:26426) was sent SIGTERM!
+[2025-08-29 22:23:31 +0000] [26420] [ERROR] Worker (pid:26425) was sent SIGTERM!
+[2025-08-29 22:23:31 +0000] [26420] [ERROR] Worker (pid:26427) was sent SIGTERM!
+[2025-08-29 22:23:31 +0000] [26420] [ERROR] Worker (pid:26424) was sent SIGTERM!
+[2025-08-29 22:23:31 +0000] [26420] [INFO] Shutting down: Master
+[2025-08-29 22:23:32 +0000] [26487] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:23:32 +0000] [26487] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26487)
+[2025-08-29 22:23:32 +0000] [26487] [INFO] Using worker: sync
+[2025-08-29 22:23:32 +0000] [26490] [INFO] Booting worker with pid: 26490
+[2025-08-29 22:23:32 +0000] [26491] [INFO] Booting worker with pid: 26491
+[2025-08-29 22:23:32 +0000] [26492] [INFO] Booting worker with pid: 26492
+[2025-08-29 22:23:32 +0000] [26493] [INFO] Booting worker with pid: 26493
+[2025-08-29 22:23:32 +0000] [26494] [INFO] Booting worker with pid: 26494
+[2025-08-29 22:28:04 +0000] [26491] [INFO] Worker exiting (pid: 26491)
+[2025-08-29 22:28:04 +0000] [26492] [INFO] Worker exiting (pid: 26492)
+[2025-08-29 22:28:04 +0000] [26493] [INFO] Worker exiting (pid: 26493)
+[2025-08-29 22:28:04 +0000] [26494] [INFO] Worker exiting (pid: 26494)
+[2025-08-29 22:28:04 +0000] [26490] [INFO] Worker exiting (pid: 26490)
+[2025-08-29 22:28:04 +0000] [26487] [INFO] Handling signal: term
+[2025-08-29 22:28:04 +0000] [26487] [ERROR] Worker (pid:26490) was sent SIGTERM!
+[2025-08-29 22:28:04 +0000] [26487] [ERROR] Worker (pid:26491) was sent SIGTERM!
+[2025-08-29 22:28:04 +0000] [26487] [ERROR] Worker (pid:26492) was sent SIGTERM!
+[2025-08-29 22:28:04 +0000] [26487] [ERROR] Worker (pid:26493) was sent SIGTERM!
+[2025-08-29 22:28:04 +0000] [26487] [ERROR] Worker (pid:26494) was sent SIGTERM!
+[2025-08-29 22:28:04 +0000] [26487] [INFO] Shutting down: Master
+[2025-08-29 22:28:06 +0000] [26540] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:28:06 +0000] [26540] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26540)
+[2025-08-29 22:28:06 +0000] [26540] [INFO] Using worker: sync
+[2025-08-29 22:28:06 +0000] [26542] [INFO] Booting worker with pid: 26542
+[2025-08-29 22:28:06 +0000] [26543] [INFO] Booting worker with pid: 26543
+[2025-08-29 22:28:06 +0000] [26544] [INFO] Booting worker with pid: 26544
+[2025-08-29 22:28:06 +0000] [26545] [INFO] Booting worker with pid: 26545
+[2025-08-29 22:28:06 +0000] [26546] [INFO] Booting worker with pid: 26546
+[2025-08-29 22:30:27 +0000] [26540] [INFO] Handling signal: term
+[2025-08-29 22:30:32 +0000] [26545] [INFO] Worker exiting (pid: 26545)
+[2025-08-29 22:30:36 +0000] [26543] [INFO] Worker exiting (pid: 26543)
+[2025-08-29 22:30:36 +0000] [26542] [INFO] Worker exiting (pid: 26542)
+[2025-08-29 22:30:36 +0000] [26546] [INFO] Worker exiting (pid: 26546)
+[2025-08-29 22:30:36 +0000] [26544] [INFO] Worker exiting (pid: 26544)
+[2025-08-29 22:30:38 +0000] [26540] [INFO] Shutting down: Master
+[2025-08-29 22:30:39 +0000] [26599] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:30:39 +0000] [26599] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26599)
+[2025-08-29 22:30:39 +0000] [26599] [INFO] Using worker: sync
+[2025-08-29 22:30:39 +0000] [26602] [INFO] Booting worker with pid: 26602
+[2025-08-29 22:30:39 +0000] [26603] [INFO] Booting worker with pid: 26603
+[2025-08-29 22:30:39 +0000] [26604] [INFO] Booting worker with pid: 26604
+[2025-08-29 22:30:39 +0000] [26605] [INFO] Booting worker with pid: 26605
+[2025-08-29 22:30:39 +0000] [26606] [INFO] Booting worker with pid: 26606
+[2025-08-29 22:33:09 +0000] [26602] [INFO] Worker exiting (pid: 26602)
+[2025-08-29 22:33:09 +0000] [26604] [INFO] Worker exiting (pid: 26604)
+[2025-08-29 22:33:09 +0000] [26599] [INFO] Handling signal: term
+[2025-08-29 22:33:09 +0000] [26606] [INFO] Worker exiting (pid: 26606)
+[2025-08-29 22:33:09 +0000] [26599] [ERROR] Worker (pid:26604) was sent SIGTERM!
+[2025-08-29 22:33:09 +0000] [26603] [INFO] Worker exiting (pid: 26603)
+[2025-08-29 22:33:09 +0000] [26605] [INFO] Worker exiting (pid: 26605)
+[2025-08-29 22:33:09 +0000] [26599] [ERROR] Worker (pid:26602) was sent SIGTERM!
+[2025-08-29 22:33:10 +0000] [26599] [INFO] Shutting down: Master
+[2025-08-29 22:33:11 +0000] [26647] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:33:11 +0000] [26647] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26647)
+[2025-08-29 22:33:11 +0000] [26647] [INFO] Using worker: sync
+[2025-08-29 22:33:11 +0000] [26649] [INFO] Booting worker with pid: 26649
+[2025-08-29 22:33:11 +0000] [26650] [INFO] Booting worker with pid: 26650
+[2025-08-29 22:33:11 +0000] [26651] [INFO] Booting worker with pid: 26651
+[2025-08-29 22:33:11 +0000] [26652] [INFO] Booting worker with pid: 26652
+[2025-08-29 22:33:11 +0000] [26653] [INFO] Booting worker with pid: 26653
+[2025-08-29 22:38:21 +0000] [26647] [INFO] Handling signal: term
+[2025-08-29 22:38:23 +0000] [26652] [INFO] Worker exiting (pid: 26652)
+[2025-08-29 22:38:25 +0000] [26649] [INFO] Worker exiting (pid: 26649)
+[2025-08-29 22:38:29 +0000] [26651] [INFO] Worker exiting (pid: 26651)
+[2025-08-29 22:38:29 +0000] [26653] [INFO] Worker exiting (pid: 26653)
+[2025-08-29 22:38:29 +0000] [26650] [INFO] Worker exiting (pid: 26650)
+[2025-08-29 22:38:30 +0000] [26647] [INFO] Shutting down: Master
+[2025-08-29 22:38:32 +0000] [26697] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:38:32 +0000] [26697] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26697)
+[2025-08-29 22:38:32 +0000] [26697] [INFO] Using worker: sync
+[2025-08-29 22:38:32 +0000] [26700] [INFO] Booting worker with pid: 26700
+[2025-08-29 22:38:32 +0000] [26701] [INFO] Booting worker with pid: 26701
+[2025-08-29 22:38:32 +0000] [26702] [INFO] Booting worker with pid: 26702
+[2025-08-29 22:38:32 +0000] [26703] [INFO] Booting worker with pid: 26703
+[2025-08-29 22:38:32 +0000] [26704] [INFO] Booting worker with pid: 26704
+[2025-08-29 22:42:02 +0000] [26702] [INFO] Worker exiting (pid: 26702)
+[2025-08-29 22:42:02 +0000] [26701] [INFO] Worker exiting (pid: 26701)
+[2025-08-29 22:42:02 +0000] [26697] [INFO] Handling signal: term
+[2025-08-29 22:42:02 +0000] [26700] [INFO] Worker exiting (pid: 26700)
+[2025-08-29 22:42:02 +0000] [26704] [INFO] Worker exiting (pid: 26704)
+[2025-08-29 22:42:02 +0000] [26703] [INFO] Worker exiting (pid: 26703)
+[2025-08-29 22:42:02 +0000] [26697] [ERROR] Worker (pid:26704) was sent SIGTERM!
+[2025-08-29 22:42:02 +0000] [26697] [ERROR] Worker (pid:26701) was sent SIGTERM!
+[2025-08-29 22:42:02 +0000] [26697] [ERROR] Worker (pid:26702) was sent SIGTERM!
+[2025-08-29 22:42:03 +0000] [26697] [INFO] Shutting down: Master
+[2025-08-29 22:42:04 +0000] [26718] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:42:04 +0000] [26718] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26718)
+[2025-08-29 22:42:04 +0000] [26718] [INFO] Using worker: sync
+[2025-08-29 22:42:04 +0000] [26721] [INFO] Booting worker with pid: 26721
+[2025-08-29 22:42:04 +0000] [26722] [INFO] Booting worker with pid: 26722
+[2025-08-29 22:42:04 +0000] [26723] [INFO] Booting worker with pid: 26723
+[2025-08-29 22:42:05 +0000] [26724] [INFO] Booting worker with pid: 26724
+[2025-08-29 22:42:05 +0000] [26725] [INFO] Booting worker with pid: 26725
+[2025-08-29 22:44:28 +0000] [26724] [INFO] Worker exiting (pid: 26724)
+[2025-08-29 22:44:28 +0000] [26723] [INFO] Worker exiting (pid: 26723)
+[2025-08-29 22:44:28 +0000] [26718] [INFO] Handling signal: term
+[2025-08-29 22:44:28 +0000] [26722] [INFO] Worker exiting (pid: 26722)
+[2025-08-29 22:44:28 +0000] [26721] [INFO] Worker exiting (pid: 26721)
+[2025-08-29 22:44:28 +0000] [26718] [ERROR] Worker (pid:26723) was sent SIGTERM!
+[2025-08-29 22:44:28 +0000] [26725] [INFO] Worker exiting (pid: 26725)
+[2025-08-29 22:44:29 +0000] [26718] [ERROR] Worker (pid:26724) was sent SIGTERM!
+[2025-08-29 22:44:30 +0000] [26718] [INFO] Shutting down: Master
+[2025-08-29 22:44:31 +0000] [26734] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:44:31 +0000] [26734] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26734)
+[2025-08-29 22:44:31 +0000] [26734] [INFO] Using worker: sync
+[2025-08-29 22:44:31 +0000] [26737] [INFO] Booting worker with pid: 26737
+[2025-08-29 22:44:31 +0000] [26738] [INFO] Booting worker with pid: 26738
+[2025-08-29 22:44:31 +0000] [26739] [INFO] Booting worker with pid: 26739
+[2025-08-29 22:44:31 +0000] [26740] [INFO] Booting worker with pid: 26740
+[2025-08-29 22:44:31 +0000] [26741] [INFO] Booting worker with pid: 26741
+[2025-08-29 22:47:55 +0000] [26734] [INFO] Handling signal: term
+[2025-08-29 22:47:55 +0000] [26739] [INFO] Worker exiting (pid: 26739)
+[2025-08-29 22:47:55 +0000] [26741] [INFO] Worker exiting (pid: 26741)
+[2025-08-29 22:47:55 +0000] [26738] [INFO] Worker exiting (pid: 26738)
+[2025-08-29 22:47:55 +0000] [26737] [INFO] Worker exiting (pid: 26737)
+[2025-08-29 22:47:55 +0000] [26740] [INFO] Worker exiting (pid: 26740)
+[2025-08-29 22:47:57 +0000] [26734] [INFO] Shutting down: Master
+[2025-08-29 22:47:59 +0000] [26786] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:47:59 +0000] [26786] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26786)
+[2025-08-29 22:47:59 +0000] [26786] [INFO] Using worker: sync
+[2025-08-29 22:47:59 +0000] [26789] [INFO] Booting worker with pid: 26789
+[2025-08-29 22:47:59 +0000] [26790] [INFO] Booting worker with pid: 26790
+[2025-08-29 22:47:59 +0000] [26791] [INFO] Booting worker with pid: 26791
+[2025-08-29 22:47:59 +0000] [26792] [INFO] Booting worker with pid: 26792
+[2025-08-29 22:47:59 +0000] [26793] [INFO] Booting worker with pid: 26793
+[2025-08-29 22:49:22 +0000] [26786] [INFO] Handling signal: term
+[2025-08-29 22:49:23 +0000] [26792] [INFO] Worker exiting (pid: 26792)
+[2025-08-29 22:49:23 +0000] [26791] [INFO] Worker exiting (pid: 26791)
+[2025-08-29 22:49:23 +0000] [26793] [INFO] Worker exiting (pid: 26793)
+[2025-08-29 22:49:27 +0000] [26789] [INFO] Worker exiting (pid: 26789)
+[2025-08-29 22:49:27 +0000] [26790] [INFO] Worker exiting (pid: 26790)
+[2025-08-29 22:49:27 +0000] [26786] [INFO] Shutting down: Master
+[2025-08-29 22:49:28 +0000] [26800] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:49:28 +0000] [26800] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26800)
+[2025-08-29 22:49:28 +0000] [26800] [INFO] Using worker: sync
+[2025-08-29 22:49:28 +0000] [26802] [INFO] Booting worker with pid: 26802
+[2025-08-29 22:49:28 +0000] [26803] [INFO] Booting worker with pid: 26803
+[2025-08-29 22:49:29 +0000] [26804] [INFO] Booting worker with pid: 26804
+[2025-08-29 22:49:29 +0000] [26805] [INFO] Booting worker with pid: 26805
+[2025-08-29 22:49:29 +0000] [26806] [INFO] Booting worker with pid: 26806
+[2025-08-29 22:50:47 +0000] [26800] [INFO] Handling signal: term
+[2025-08-29 22:50:48 +0000] [26805] [INFO] Worker exiting (pid: 26805)
+[2025-08-29 22:50:57 +0000] [26802] [INFO] Worker exiting (pid: 26802)
+[2025-08-29 22:50:57 +0000] [26803] [INFO] Worker exiting (pid: 26803)
+[2025-08-29 22:51:03 +0000] [26806] [INFO] Worker exiting (pid: 26806)
+[2025-08-29 22:51:03 +0000] [26804] [INFO] Worker exiting (pid: 26804)
+[2025-08-29 22:51:04 +0000] [26800] [INFO] Shutting down: Master
+[2025-08-29 22:51:05 +0000] [26813] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 22:51:05 +0000] [26813] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (26813)
+[2025-08-29 22:51:05 +0000] [26813] [INFO] Using worker: sync
+[2025-08-29 22:51:05 +0000] [26815] [INFO] Booting worker with pid: 26815
+[2025-08-29 22:51:05 +0000] [26816] [INFO] Booting worker with pid: 26816
+[2025-08-29 22:51:05 +0000] [26817] [INFO] Booting worker with pid: 26817
+[2025-08-29 22:51:05 +0000] [26818] [INFO] Booting worker with pid: 26818
+[2025-08-29 22:51:05 +0000] [26819] [INFO] Booting worker with pid: 26819
+[2025-08-29 23:37:40 +0000] [26817] [INFO] Worker exiting (pid: 26817)
+[2025-08-29 23:37:40 +0000] [26818] [INFO] Worker exiting (pid: 26818)
+[2025-08-29 23:37:40 +0000] [26815] [INFO] Worker exiting (pid: 26815)
+[2025-08-29 23:37:40 +0000] [26816] [INFO] Worker exiting (pid: 26816)
+[2025-08-29 23:37:40 +0000] [26819] [INFO] Worker exiting (pid: 26819)
+[2025-08-29 23:37:40 +0000] [26813] [INFO] Handling signal: term
+[2025-08-29 23:37:41 +0000] [26813] [ERROR] Worker (pid:26816) was sent SIGTERM!
+[2025-08-29 23:37:41 +0000] [26813] [ERROR] Worker (pid:26817) was sent SIGTERM!
+[2025-08-29 23:37:41 +0000] [26813] [ERROR] Worker (pid:26819) was sent SIGTERM!
+[2025-08-29 23:37:41 +0000] [26813] [ERROR] Worker (pid:26815) was sent SIGTERM!
+[2025-08-29 23:37:41 +0000] [26813] [ERROR] Worker (pid:26818) was sent SIGTERM!
+[2025-08-29 23:37:41 +0000] [26813] [INFO] Shutting down: Master
+[2025-08-29 23:37:45 +0000] [27107] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 23:37:45 +0000] [27107] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (27107)
+[2025-08-29 23:37:45 +0000] [27107] [INFO] Using worker: sync
+[2025-08-29 23:37:45 +0000] [27110] [INFO] Booting worker with pid: 27110
+[2025-08-29 23:37:45 +0000] [27111] [INFO] Booting worker with pid: 27111
+[2025-08-29 23:37:45 +0000] [27112] [INFO] Booting worker with pid: 27112
+[2025-08-29 23:37:45 +0000] [27113] [INFO] Booting worker with pid: 27113
+[2025-08-29 23:37:45 +0000] [27114] [INFO] Booting worker with pid: 27114
+[2025-08-29 23:41:33 +0000] [27110] [INFO] Worker exiting (pid: 27110)
+[2025-08-29 23:41:33 +0000] [27107] [INFO] Handling signal: term
+[2025-08-29 23:41:33 +0000] [27112] [INFO] Worker exiting (pid: 27112)
+[2025-08-29 23:41:33 +0000] [27111] [INFO] Worker exiting (pid: 27111)
+[2025-08-29 23:41:33 +0000] [27107] [ERROR] Worker (pid:27110) was sent SIGTERM!
+[2025-08-29 23:41:33 +0000] [27107] [ERROR] Worker (pid:27111) was sent SIGTERM!
+[2025-08-29 23:41:33 +0000] [27114] [INFO] Worker exiting (pid: 27114)
+[2025-08-29 23:41:33 +0000] [27107] [ERROR] Worker (pid:27112) was sent SIGTERM!
+[2025-08-29 23:41:33 +0000] [27113] [INFO] Worker exiting (pid: 27113)
+[2025-08-29 23:41:33 +0000] [27107] [INFO] Shutting down: Master
+[2025-08-29 23:41:35 +0000] [27134] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 23:41:35 +0000] [27134] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (27134)
+[2025-08-29 23:41:35 +0000] [27134] [INFO] Using worker: sync
+[2025-08-29 23:41:35 +0000] [27137] [INFO] Booting worker with pid: 27137
+[2025-08-29 23:41:35 +0000] [27138] [INFO] Booting worker with pid: 27138
+[2025-08-29 23:41:35 +0000] [27139] [INFO] Booting worker with pid: 27139
+[2025-08-29 23:41:35 +0000] [27140] [INFO] Booting worker with pid: 27140
+[2025-08-29 23:41:35 +0000] [27141] [INFO] Booting worker with pid: 27141
+[2025-08-29 23:49:24 +0000] [27138] [INFO] Worker exiting (pid: 27138)
+[2025-08-29 23:49:24 +0000] [27134] [INFO] Handling signal: term
+[2025-08-29 23:49:24 +0000] [27139] [INFO] Worker exiting (pid: 27139)
+[2025-08-29 23:49:24 +0000] [27141] [INFO] Worker exiting (pid: 27141)
+[2025-08-29 23:49:24 +0000] [27140] [INFO] Worker exiting (pid: 27140)
+[2025-08-29 23:49:24 +0000] [27137] [INFO] Worker exiting (pid: 27137)
+[2025-08-29 23:49:24 +0000] [27134] [ERROR] Worker (pid:27141) was sent SIGTERM!
+[2025-08-29 23:49:24 +0000] [27134] [ERROR] Worker (pid:27139) was sent SIGTERM!
+[2025-08-29 23:49:25 +0000] [27134] [INFO] Shutting down: Master
+[2025-08-29 23:49:27 +0000] [27194] [INFO] Starting gunicorn 21.2.0
+[2025-08-29 23:49:27 +0000] [27194] [INFO] Listening at: unix:/home/ubuntu/airsense/airsense.sock (27194)
+[2025-08-29 23:49:27 +0000] [27194] [INFO] Using worker: sync
+[2025-08-29 23:49:27 +0000] [27197] [INFO] Booting worker with pid: 27197
+[2025-08-29 23:49:27 +0000] [27198] [INFO] Booting worker with pid: 27198
+[2025-08-29 23:49:27 +0000] [27199] [INFO] Booting worker with pid: 27199
+[2025-08-29 23:49:27 +0000] [27200] [INFO] Booting worker with pid: 27200
+[2025-08-29 23:49:27 +0000] [27201] [INFO] Booting worker with pid: 27201
