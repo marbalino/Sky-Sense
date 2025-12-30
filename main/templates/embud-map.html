@@ -1,0 +1,607 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Full Screen Map Section -->
+<section class="full-map-section">
+    <div class="full-map-container">
+        <div class="map-frame">
+            <div class="map-header">
+                <div class="map-status">
+                    <div class="status-indicator live"></div>
+                    <span>Live Data</span>
+                </div>
+               
+                <div class="map-legend">
+                    <div class="legend-item">
+                        <div class="legend-dot sensor-dot"></div>
+                        <span>Sensors</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-line creek-line"></div>
+                        <span>Creeks</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-line sewer-line"></div>
+                        <span>Sewer Lines</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="embedded-map">
+                <div class="map-container-wrapper full-width">
+                    <div id="skysense-map" class="interactive-map full-screen"></div>
+                </div>
+                
+                <div class="layer-controls">
+                    <label class="control-item">
+                        <input type="checkbox" id="toggle-sensors" checked>
+                        <span>Sensors</span>
+                    </label>
+                    <label class="control-item">
+                        <input type="checkbox" id="toggle-creeks" checked>
+                        <span>Creeks</span>
+                    </label>
+                    <label class="control-item">
+                        <input type="checkbox" id="toggle-sewers" checked>
+                        <span>Sewer Lines</span>
+                    </label>
+                    <label class="control-item">
+                        <input type="checkbox" id="toggle-storms" checked>
+                        <span>Storm Drains</span>
+                    </label>
+                </div>
+                
+                <div class="map-actions">
+                    <button id="reset-view" class="map-btn" title="Reset to default view">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button id="locate-user" class="map-btn" title="Find my location">
+                        <i class="fas fa-crosshairs"></i>
+                    </button>
+                </div>
+                
+                <!-- Drawing Controls -->
+                <div class="drawing-controls">
+                    <button id="draw-polygon" class="draw-btn" title="Draw Polygon">
+                        <i class="fas fa-draw-polygon"></i>
+                        <span>Draw</span>
+                    </button>
+                    <button id="edit-polygons" class="draw-btn" title="Edit Polygons">
+                        <i class="fas fa-edit"></i>
+                        <span>Edit</span>
+                    </button>
+                    <button id="delete-polygons" class="draw-btn" title="Delete Polygons">
+                        <i class="fas fa-trash"></i>
+                        <span>Delete</span>
+                    </button>
+                    <button id="export-geojson" class="draw-btn export-btn" title="Export as GeoJSON">
+                        <i class="fas fa-download"></i>
+                        <span>Export GeoJSON</span>
+                    </button>
+                    <button id="export-kml" class="draw-btn export-btn" title="Export as KML">
+                        <i class="fas fa-file-export"></i>
+                        <span>Export KML</span>
+                    </button>
+                </div>
+                
+                <!-- Hidden elements that JavaScript expects -->
+                <div id="sensor-dashboard" style="display: none;"></div>
+                <button id="close-dashboard" style="display: none;"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.full-map-section {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: #1a1a1a;
+}
+
+.full-map-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-frame {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #1a1a1a;
+    border-radius: 0;
+}
+
+.map-container-wrapper.full-width {
+    width: 100%;
+    height: 100%;
+}
+
+.interactive-map.full-screen {
+    height: 100vh;
+    width: 100%;
+    border-radius: 0;
+}
+
+.map-header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(26, 26, 26, 0.9);
+    padding: 15px 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.layer-controls {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.map-actions {
+    position: absolute;
+    top: 20px;
+    right: 380px;
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+}
+
+.drawing-controls {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.control-item {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    background: #333 !important;
+    padding: 12px 16px !important;
+    border-radius: 6px;
+    border: 2px solid white !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.control-item:hover {
+    background: #555 !important;
+    border-color: #4ade80 !important;
+}
+
+.control-item input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    accent-color: #4ade80;
+}
+
+
+.map-btn {
+    background: rgba(74, 222, 128, 0.1);
+    border: 1px solid #4ade80;
+    color: #4ade80;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.map-btn:hover {
+    background: rgba(74, 222, 128, 0.2);
+    transform: translateY(-2px);
+}
+
+.draw-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #333 !important;
+    color: white !important;
+    border: 2px solid #4ade80 !important;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.draw-btn:hover {
+    background: #555 !important;
+    border-color: #22c55e !important;
+    transform: translateY(-1px);
+}
+
+.draw-btn.active {
+    background: #4ade80 !important;
+    color: #000 !important;
+}
+
+.export-btn {
+    border-color: #f59e0b !important;
+}
+
+.export-btn:hover {
+    border-color: #d97706 !important;
+}
+
+.map-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e1e5e9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4ade80;
+    animation: pulse 2s infinite;
+}
+
+.status-indicator.live {
+    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(74, 222, 128, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(74, 222, 128, 0);
+    }
+}
+
+.map-legend {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e1e5e9;
+    font-size: 12px;
+}
+
+.legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.sensor-dot {
+    background: #4ade80;
+}
+
+.legend-line {
+    width: 20px;
+    height: 2px;
+}
+
+.creek-line {
+    background: #3b82f6;
+}
+
+.sewer-line {
+    background: #f59e0b;
+}
+
+@media (max-width: 768px) {
+    .map-header {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+    
+    .map-legend {
+        justify-content: center;
+    }
+    
+    .map-controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .layer-controls {
+        justify-content: center;
+    }
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Custom drawing functionality for embud-map (CSP-safe)
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, waiting for map...');
+    
+    // Try multiple times to find the map
+    let attempts = 0;
+    const maxAttempts = 20;
+    
+    function tryInitializeDrawing() {
+        attempts++;
+        console.log(`Attempt ${attempts}: Looking for map instance...`);
+        
+        if (window.skySenseMap && window.skySenseMap.map) {
+            console.log('SkySenseMap found! Initializing drawing...');
+            initializeCustomDrawing(window.skySenseMap.map);
+            return;
+        }
+        
+        // Also try looking for the map in the global scope
+        if (window.map) {
+            console.log('Global map found! Initializing drawing...');
+            initializeCustomDrawing(window.map);
+            return;
+        }
+        
+        if (attempts < maxAttempts) {
+            setTimeout(tryInitializeDrawing, 500);
+        } else {
+            console.error('Could not find map instance after', maxAttempts, 'attempts');
+            // Try to initialize anyway with basic button handlers
+            initializeBasicHandlers();
+        }
+    }
+    
+    // Start trying
+    tryInitializeDrawing();
+    
+    function initializeBasicHandlers() {
+        console.log('Setting up basic button handlers...');
+        const drawBtn = document.getElementById('draw-polygon');
+        if (drawBtn) {
+            drawBtn.addEventListener('click', function() {
+                console.log('Draw button clicked!');
+                alert('Draw functionality is being set up. Please refresh the page and try again.');
+            });
+        }
+    }
+});
+
+function initializeCustomDrawing(map) {
+    // Create a feature group to store drawn polygons
+    const drawnItems = new L.FeatureGroup();
+    map.addLayer(drawnItems);
+    
+    let drawingMode = false;
+    let currentPolygon = [];
+    let tempMarkers = [];
+    
+    // Custom polygon drawing without Leaflet Draw plugin
+    document.getElementById('draw-polygon').addEventListener('click', function() {
+        if (!drawingMode) {
+            startDrawing();
+            this.classList.add('active');
+            this.innerHTML = '<i class="fas fa-times"></i><span>Cancel</span>';
+            drawingMode = true;
+        } else {
+            cancelDrawing();
+            this.classList.remove('active');
+            this.innerHTML = '<i class="fas fa-draw-polygon"></i><span>Draw</span>';
+            drawingMode = false;
+        }
+    });
+    
+    function startDrawing() {
+        map.getContainer().style.cursor = 'crosshair';
+        map.on('click', onMapClick);
+        map.on('dblclick', finishPolygon);
+    }
+    
+    function cancelDrawing() {
+        map.getContainer().style.cursor = '';
+        map.off('click', onMapClick);
+        map.off('dblclick', finishPolygon);
+        clearTempMarkers();
+        currentPolygon = [];
+    }
+    
+    function onMapClick(e) {
+        if (!drawingMode) return;
+        
+        const latlng = e.latlng;
+        currentPolygon.push([latlng.lat, latlng.lng]);
+        
+        // Add temporary marker
+        const marker = L.circleMarker(latlng, {
+            radius: 4,
+            color: '#4ade80',
+            fillColor: '#4ade80',
+            fillOpacity: 1
+        }).addTo(map);
+        tempMarkers.push(marker);
+        
+        // Draw temporary lines
+        if (currentPolygon.length > 1) {
+            const polyline = L.polyline(currentPolygon, {
+                color: '#4ade80',
+                weight: 2,
+                opacity: 0.8
+            }).addTo(map);
+            tempMarkers.push(polyline);
+        }
+    }
+    
+    function finishPolygon(e) {
+        e.originalEvent.preventDefault();
+        
+        if (currentPolygon.length < 3) {
+            alert('A polygon needs at least 3 points. Click more points or cancel.');
+            return;
+        }
+        
+        // Create the final polygon
+        const polygon = L.polygon(currentPolygon, {
+            color: '#4ade80',
+            weight: 3,
+            opacity: 0.8,
+            fillOpacity: 0.2,
+            fillColor: '#4ade80'
+        });
+        
+        drawnItems.addLayer(polygon);
+        
+        // Clean up
+        clearTempMarkers();
+        currentPolygon = [];
+        
+        // Reset draw button
+        const drawBtn = document.getElementById('draw-polygon');
+        drawBtn.classList.remove('active');
+        drawBtn.innerHTML = '<i class="fas fa-draw-polygon"></i><span>Draw</span>';
+        drawingMode = false;
+        map.getContainer().style.cursor = '';
+        map.off('click', onMapClick);
+        map.off('dblclick', finishPolygon);
+    }
+    
+    function clearTempMarkers() {
+        tempMarkers.forEach(marker => map.removeLayer(marker));
+        tempMarkers = [];
+    }
+    
+    // Simple edit mode
+    document.getElementById('edit-polygons').addEventListener('click', function() {
+        const layers = drawnItems.getLayers();
+        if (layers.length === 0) {
+            alert('No polygons to edit. Draw some polygons first.');
+            return;
+        }
+        
+        // Toggle edit mode for all polygons
+        layers.forEach(layer => {
+            if (layer.editing) {
+                layer.editing.disable();
+            } else {
+                layer.editing.enable();
+            }
+        });
+    });
+    
+    // Delete mode
+    document.getElementById('delete-polygons').addEventListener('click', function() {
+        const layers = drawnItems.getLayers();
+        if (layers.length === 0) {
+            alert('No polygons to delete.');
+            return;
+        }
+        
+        if (confirm(`Delete all ${layers.length} polygon(s)?`)) {
+            drawnItems.clearLayers();
+        }
+    });
+    
+    // Export functionality
+    document.getElementById('export-geojson').addEventListener('click', function() {
+        exportAsGeoJSON(drawnItems);
+    });
+    
+    document.getElementById('export-kml').addEventListener('click', function() {
+        exportAsKML(drawnItems);
+    });
+}
+
+function exportAsGeoJSON(drawnItems) {
+    const geojson = drawnItems.toGeoJSON();
+    
+    if (geojson.features.length === 0) {
+        alert('No polygons to export. Please draw some polygons first.');
+        return;
+    }
+    
+    const dataStr = JSON.stringify(geojson, null, 2);
+    const dataBlob = new Blob([dataStr], {type: 'application/json'});
+    
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(dataBlob);
+    link.download = `custom_polygons_${new Date().toISOString().split('T')[0]}.geojson`;
+    link.click();
+}
+
+function exportAsKML(drawnItems) {
+    const geojson = drawnItems.toGeoJSON();
+    
+    if (geojson.features.length === 0) {
+        alert('No polygons to export. Please draw some polygons first.');
+        return;
+    }
+    
+    let kml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+    kml += '<kml xmlns="http://www.opengis.net/kml/2.2">\n';
+    kml += '  <Document>\n';
+    kml += '    <name>Custom Polygons</name>\n';
+    
+    geojson.features.forEach((feature, index) => {
+        if (feature.geometry.type === 'Polygon') {
+            kml += `    <Placemark>\n`;
+            kml += `      <name>Polygon ${index + 1}</name>\n`;
+            kml += `      <Polygon>\n`;
+            kml += `        <outerBoundaryIs>\n`;
+            kml += `          <LinearRing>\n`;
+            kml += `            <coordinates>\n`;
+            
+            feature.geometry.coordinates[0].forEach(coord => {
+                kml += `              ${coord[0]},${coord[1]},0\n`;
+            });
+            
+            kml += `            </coordinates>\n`;
+            kml += `          </LinearRing>\n`;
+            kml += `        </outerBoundaryIs>\n`;
+            kml += `      </Polygon>\n`;
+            kml += `    </Placemark>\n`;
+        }
+    });
+    
+    kml += '  </Document>\n';
+    kml += '</kml>';
+    
+    const dataBlob = new Blob([kml], {type: 'application/vnd.google-earth.kml+xml'});
+    
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(dataBlob);
+    link.download = `custom_polygons_${new Date().toISOString().split('T')[0]}.kml`;
+    link.click();
+}
+</script>
+{% endblock %}

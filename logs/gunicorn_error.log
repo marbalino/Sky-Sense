@@ -1123,3 +1123,1113 @@
 [2025-08-29 23:49:27 +0000] [27199] [INFO] Booting worker with pid: 27199
 [2025-08-29 23:49:27 +0000] [27200] [INFO] Booting worker with pid: 27200
 [2025-08-29 23:49:27 +0000] [27201] [INFO] Booting worker with pid: 27201
+[2025-08-30 00:05:00 +0000] [27198] [INFO] Worker exiting (pid: 27198)
+[2025-08-30 00:05:00 +0000] [27197] [INFO] Worker exiting (pid: 27197)
+[2025-08-30 00:05:00 +0000] [27200] [INFO] Worker exiting (pid: 27200)
+[2025-08-30 00:05:00 +0000] [27199] [INFO] Worker exiting (pid: 27199)
+[2025-08-30 00:05:00 +0000] [27201] [INFO] Worker exiting (pid: 27201)
+[2025-08-30 00:05:00 +0000] [27194] [INFO] Handling signal: term
+[2025-08-30 00:07:03 +0000] [28982] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:07:03 +0000] [28982] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (28982)
+[2025-08-30 00:07:03 +0000] [28982] [INFO] Using worker: sync
+[2025-08-30 00:07:03 +0000] [28984] [INFO] Booting worker with pid: 28984
+[2025-08-30 00:07:03 +0000] [28985] [INFO] Booting worker with pid: 28985
+[2025-08-30 00:07:03 +0000] [28986] [INFO] Booting worker with pid: 28986
+[2025-08-30 00:07:03 +0000] [28987] [INFO] Booting worker with pid: 28987
+[2025-08-30 00:07:03 +0000] [28988] [INFO] Booting worker with pid: 28988
+[2025-08-30 00:30:14 +0000] [28982] [INFO] Handling signal: term
+[2025-08-30 00:30:14 +0000] [28985] [INFO] Worker exiting (pid: 28985)
+[2025-08-30 00:30:15 +0000] [28988] [INFO] Worker exiting (pid: 28988)
+[2025-08-30 00:30:15 +0000] [28984] [INFO] Worker exiting (pid: 28984)
+[2025-08-30 00:30:15 +0000] [28986] [INFO] Worker exiting (pid: 28986)
+[2025-08-30 00:30:15 +0000] [28987] [INFO] Worker exiting (pid: 28987)
+[2025-08-30 00:30:17 +0000] [28982] [INFO] Shutting down: Master
+[2025-08-30 00:30:20 +0000] [29224] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:30:20 +0000] [29224] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29224)
+[2025-08-30 00:30:20 +0000] [29224] [INFO] Using worker: sync
+[2025-08-30 00:30:20 +0000] [29227] [INFO] Booting worker with pid: 29227
+[2025-08-30 00:30:20 +0000] [29228] [INFO] Booting worker with pid: 29228
+[2025-08-30 00:30:20 +0000] [29229] [INFO] Booting worker with pid: 29229
+[2025-08-30 00:30:20 +0000] [29230] [INFO] Booting worker with pid: 29230
+[2025-08-30 00:30:20 +0000] [29231] [INFO] Booting worker with pid: 29231
+[2025-08-30 00:33:49 +0000] [29224] [INFO] Handling signal: term
+[2025-08-30 00:33:49 +0000] [29227] [INFO] Worker exiting (pid: 29227)
+[2025-08-30 00:33:49 +0000] [29228] [INFO] Worker exiting (pid: 29228)
+[2025-08-30 00:33:49 +0000] [29229] [INFO] Worker exiting (pid: 29229)
+[2025-08-30 00:33:49 +0000] [29230] [INFO] Worker exiting (pid: 29230)
+[2025-08-30 00:33:49 +0000] [29231] [INFO] Worker exiting (pid: 29231)
+[2025-08-30 00:33:51 +0000] [29224] [INFO] Shutting down: Master
+[2025-08-30 00:33:52 +0000] [29242] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:33:52 +0000] [29242] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29242)
+[2025-08-30 00:33:52 +0000] [29242] [INFO] Using worker: sync
+[2025-08-30 00:33:52 +0000] [29245] [INFO] Booting worker with pid: 29245
+[2025-08-30 00:33:52 +0000] [29246] [INFO] Booting worker with pid: 29246
+[2025-08-30 00:33:52 +0000] [29247] [INFO] Booting worker with pid: 29247
+[2025-08-30 00:33:52 +0000] [29248] [INFO] Booting worker with pid: 29248
+[2025-08-30 00:33:52 +0000] [29249] [INFO] Booting worker with pid: 29249
+[2025-08-30 00:34:27 +0000] [29242] [INFO] Handling signal: term
+[2025-08-30 00:34:27 +0000] [29248] [INFO] Worker exiting (pid: 29248)
+[2025-08-30 00:34:28 +0000] [29245] [INFO] Worker exiting (pid: 29245)
+[2025-08-30 00:34:28 +0000] [29247] [INFO] Worker exiting (pid: 29247)
+[2025-08-30 00:34:28 +0000] [29249] [INFO] Worker exiting (pid: 29249)
+[2025-08-30 00:34:28 +0000] [29246] [INFO] Worker exiting (pid: 29246)
+[2025-08-30 00:34:29 +0000] [29242] [INFO] Shutting down: Master
+[2025-08-30 00:34:30 +0000] [29254] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:34:30 +0000] [29254] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29254)
+[2025-08-30 00:34:30 +0000] [29254] [INFO] Using worker: sync
+[2025-08-30 00:34:30 +0000] [29256] [INFO] Booting worker with pid: 29256
+[2025-08-30 00:34:30 +0000] [29257] [INFO] Booting worker with pid: 29257
+[2025-08-30 00:34:30 +0000] [29258] [INFO] Booting worker with pid: 29258
+[2025-08-30 00:34:30 +0000] [29259] [INFO] Booting worker with pid: 29259
+[2025-08-30 00:34:30 +0000] [29260] [INFO] Booting worker with pid: 29260
+[2025-08-30 00:40:20 +0000] [29257] [INFO] Worker exiting (pid: 29257)
+[2025-08-30 00:40:20 +0000] [29254] [INFO] Handling signal: term
+[2025-08-30 00:40:20 +0000] [29256] [INFO] Worker exiting (pid: 29256)
+[2025-08-30 00:40:20 +0000] [29259] [INFO] Worker exiting (pid: 29259)
+[2025-08-30 00:40:20 +0000] [29258] [INFO] Worker exiting (pid: 29258)
+[2025-08-30 00:40:20 +0000] [29260] [INFO] Worker exiting (pid: 29260)
+[2025-08-30 00:40:23 +0000] [29254] [INFO] Shutting down: Master
+[2025-08-30 00:40:25 +0000] [29310] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:40:25 +0000] [29310] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29310)
+[2025-08-30 00:40:25 +0000] [29310] [INFO] Using worker: sync
+[2025-08-30 00:40:25 +0000] [29313] [INFO] Booting worker with pid: 29313
+[2025-08-30 00:40:25 +0000] [29314] [INFO] Booting worker with pid: 29314
+[2025-08-30 00:40:25 +0000] [29315] [INFO] Booting worker with pid: 29315
+[2025-08-30 00:40:25 +0000] [29316] [INFO] Booting worker with pid: 29316
+[2025-08-30 00:40:25 +0000] [29317] [INFO] Booting worker with pid: 29317
+[2025-08-30 00:51:27 +0000] [29315] [INFO] Worker exiting (pid: 29315)
+[2025-08-30 00:51:27 +0000] [29317] [INFO] Worker exiting (pid: 29317)
+[2025-08-30 00:51:27 +0000] [29314] [INFO] Worker exiting (pid: 29314)
+[2025-08-30 00:51:27 +0000] [29313] [INFO] Worker exiting (pid: 29313)
+[2025-08-30 00:51:27 +0000] [29316] [INFO] Worker exiting (pid: 29316)
+[2025-08-30 00:51:27 +0000] [29310] [INFO] Handling signal: term
+[2025-08-30 00:51:27 +0000] [29310] [ERROR] Worker (pid:29314) was sent SIGTERM!
+[2025-08-30 00:51:27 +0000] [29310] [ERROR] Worker (pid:29315) was sent SIGTERM!
+[2025-08-30 00:51:27 +0000] [29310] [ERROR] Worker (pid:29316) was sent SIGTERM!
+[2025-08-30 00:51:27 +0000] [29310] [ERROR] Worker (pid:29317) was sent SIGTERM!
+[2025-08-30 00:51:27 +0000] [29310] [ERROR] Worker (pid:29313) was sent SIGTERM!
+[2025-08-30 00:51:27 +0000] [29310] [INFO] Shutting down: Master
+[2025-08-30 00:51:31 +0000] [29560] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:51:31 +0000] [29560] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29560)
+[2025-08-30 00:51:31 +0000] [29560] [INFO] Using worker: sync
+[2025-08-30 00:51:31 +0000] [29562] [INFO] Booting worker with pid: 29562
+[2025-08-30 00:51:31 +0000] [29563] [INFO] Booting worker with pid: 29563
+[2025-08-30 00:51:31 +0000] [29564] [INFO] Booting worker with pid: 29564
+[2025-08-30 00:51:31 +0000] [29566] [INFO] Booting worker with pid: 29566
+[2025-08-30 00:51:31 +0000] [29565] [INFO] Booting worker with pid: 29565
+[2025-08-30 00:53:23 +0000] [29562] [INFO] Worker exiting (pid: 29562)
+[2025-08-30 00:53:23 +0000] [29563] [INFO] Worker exiting (pid: 29563)
+[2025-08-30 00:53:23 +0000] [29564] [INFO] Worker exiting (pid: 29564)
+[2025-08-30 00:53:23 +0000] [29565] [INFO] Worker exiting (pid: 29565)
+[2025-08-30 00:53:23 +0000] [29560] [INFO] Handling signal: term
+[2025-08-30 00:53:23 +0000] [29566] [INFO] Worker exiting (pid: 29566)
+[2025-08-30 00:53:23 +0000] [29560] [ERROR] Worker (pid:29562) was sent SIGTERM!
+[2025-08-30 00:53:23 +0000] [29560] [ERROR] Worker (pid:29565) was sent SIGTERM!
+[2025-08-30 00:53:23 +0000] [29560] [ERROR] Worker (pid:29563) was sent SIGTERM!
+[2025-08-30 00:53:23 +0000] [29560] [ERROR] Worker (pid:29564) was sent SIGTERM!
+[2025-08-30 00:53:23 +0000] [29560] [INFO] Shutting down: Master
+[2025-08-30 00:53:24 +0000] [29665] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:53:24 +0000] [29665] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29665)
+[2025-08-30 00:53:24 +0000] [29665] [INFO] Using worker: sync
+[2025-08-30 00:53:24 +0000] [29667] [INFO] Booting worker with pid: 29667
+[2025-08-30 00:53:24 +0000] [29668] [INFO] Booting worker with pid: 29668
+[2025-08-30 00:53:24 +0000] [29669] [INFO] Booting worker with pid: 29669
+[2025-08-30 00:53:24 +0000] [29670] [INFO] Booting worker with pid: 29670
+[2025-08-30 00:53:24 +0000] [29671] [INFO] Booting worker with pid: 29671
+[2025-08-30 00:54:54 +0000] [29665] [INFO] Handling signal: term
+[2025-08-30 00:54:58 +0000] [29670] [INFO] Worker exiting (pid: 29670)
+[2025-08-30 00:54:58 +0000] [29671] [INFO] Worker exiting (pid: 29671)
+[2025-08-30 00:54:58 +0000] [29669] [INFO] Worker exiting (pid: 29669)
+[2025-08-30 00:54:59 +0000] [29667] [INFO] Worker exiting (pid: 29667)
+[2025-08-30 00:54:59 +0000] [29668] [INFO] Worker exiting (pid: 29668)
+[2025-08-30 00:55:01 +0000] [29665] [INFO] Shutting down: Master
+[2025-08-30 00:55:03 +0000] [29816] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:55:03 +0000] [29816] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29816)
+[2025-08-30 00:55:03 +0000] [29816] [INFO] Using worker: sync
+[2025-08-30 00:55:03 +0000] [29819] [INFO] Booting worker with pid: 29819
+[2025-08-30 00:55:03 +0000] [29820] [INFO] Booting worker with pid: 29820
+[2025-08-30 00:55:03 +0000] [29821] [INFO] Booting worker with pid: 29821
+[2025-08-30 00:55:03 +0000] [29822] [INFO] Booting worker with pid: 29822
+[2025-08-30 00:55:03 +0000] [29823] [INFO] Booting worker with pid: 29823
+[2025-08-30 00:56:45 +0000] [29820] [INFO] Worker exiting (pid: 29820)
+[2025-08-30 00:56:45 +0000] [29819] [INFO] Worker exiting (pid: 29819)
+[2025-08-30 00:56:45 +0000] [29816] [INFO] Handling signal: term
+[2025-08-30 00:56:45 +0000] [29823] [INFO] Worker exiting (pid: 29823)
+[2025-08-30 00:56:45 +0000] [29816] [ERROR] Worker (pid:29820) was sent SIGTERM!
+[2025-08-30 00:56:45 +0000] [29822] [INFO] Worker exiting (pid: 29822)
+[2025-08-30 00:56:45 +0000] [29821] [INFO] Worker exiting (pid: 29821)
+[2025-08-30 00:56:47 +0000] [29816] [INFO] Shutting down: Master
+[2025-08-30 00:56:48 +0000] [29849] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:56:48 +0000] [29849] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29849)
+[2025-08-30 00:56:48 +0000] [29849] [INFO] Using worker: sync
+[2025-08-30 00:56:48 +0000] [29851] [INFO] Booting worker with pid: 29851
+[2025-08-30 00:56:49 +0000] [29852] [INFO] Booting worker with pid: 29852
+[2025-08-30 00:56:49 +0000] [29853] [INFO] Booting worker with pid: 29853
+[2025-08-30 00:56:49 +0000] [29854] [INFO] Booting worker with pid: 29854
+[2025-08-30 00:56:49 +0000] [29855] [INFO] Booting worker with pid: 29855
+[2025-08-30 00:58:00 +0000] [29849] [INFO] Handling signal: term
+[2025-08-30 00:58:02 +0000] [29853] [INFO] Worker exiting (pid: 29853)
+[2025-08-30 00:58:03 +0000] [29852] [INFO] Worker exiting (pid: 29852)
+[2025-08-30 00:58:03 +0000] [29851] [INFO] Worker exiting (pid: 29851)
+[2025-08-30 00:58:03 +0000] [29855] [INFO] Worker exiting (pid: 29855)
+[2025-08-30 00:58:03 +0000] [29854] [INFO] Worker exiting (pid: 29854)
+[2025-08-30 00:58:04 +0000] [29849] [INFO] Shutting down: Master
+[2025-08-30 00:58:05 +0000] [29870] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 00:58:05 +0000] [29870] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29870)
+[2025-08-30 00:58:05 +0000] [29870] [INFO] Using worker: sync
+[2025-08-30 00:58:05 +0000] [29872] [INFO] Booting worker with pid: 29872
+[2025-08-30 00:58:05 +0000] [29873] [INFO] Booting worker with pid: 29873
+[2025-08-30 00:58:05 +0000] [29874] [INFO] Booting worker with pid: 29874
+[2025-08-30 00:58:05 +0000] [29875] [INFO] Booting worker with pid: 29875
+[2025-08-30 00:58:05 +0000] [29876] [INFO] Booting worker with pid: 29876
+[2025-08-30 01:00:44 +0000] [29870] [INFO] Handling signal: term
+[2025-08-30 01:00:45 +0000] [29875] [INFO] Worker exiting (pid: 29875)
+[2025-08-30 01:00:45 +0000] [29874] [INFO] Worker exiting (pid: 29874)
+[2025-08-30 01:00:49 +0000] [29873] [INFO] Worker exiting (pid: 29873)
+[2025-08-30 01:00:49 +0000] [29872] [INFO] Worker exiting (pid: 29872)
+[2025-08-30 01:00:49 +0000] [29876] [INFO] Worker exiting (pid: 29876)
+[2025-08-30 01:00:50 +0000] [29870] [INFO] Shutting down: Master
+[2025-08-30 01:00:51 +0000] [29902] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:00:51 +0000] [29902] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29902)
+[2025-08-30 01:00:51 +0000] [29902] [INFO] Using worker: sync
+[2025-08-30 01:00:51 +0000] [29904] [INFO] Booting worker with pid: 29904
+[2025-08-30 01:00:51 +0000] [29905] [INFO] Booting worker with pid: 29905
+[2025-08-30 01:00:51 +0000] [29906] [INFO] Booting worker with pid: 29906
+[2025-08-30 01:00:52 +0000] [29907] [INFO] Booting worker with pid: 29907
+[2025-08-30 01:00:52 +0000] [29908] [INFO] Booting worker with pid: 29908
+[2025-08-30 01:02:42 +0000] [29908] [INFO] Worker exiting (pid: 29908)
+[2025-08-30 01:02:42 +0000] [29905] [INFO] Worker exiting (pid: 29905)
+[2025-08-30 01:02:42 +0000] [29904] [INFO] Worker exiting (pid: 29904)
+[2025-08-30 01:02:42 +0000] [29906] [INFO] Worker exiting (pid: 29906)
+[2025-08-30 01:02:42 +0000] [29902] [INFO] Handling signal: term
+[2025-08-30 01:02:42 +0000] [29907] [INFO] Worker exiting (pid: 29907)
+[2025-08-30 01:02:42 +0000] [29902] [ERROR] Worker (pid:29908) was sent SIGTERM!
+[2025-08-30 01:02:42 +0000] [29902] [ERROR] Worker (pid:29906) was sent SIGTERM!
+[2025-08-30 01:02:42 +0000] [29902] [ERROR] Worker (pid:29904) was sent SIGTERM!
+[2025-08-30 01:02:42 +0000] [29902] [ERROR] Worker (pid:29905) was sent SIGTERM!
+[2025-08-30 01:02:42 +0000] [29902] [INFO] Shutting down: Master
+[2025-08-30 01:02:43 +0000] [29928] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:02:43 +0000] [29928] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (29928)
+[2025-08-30 01:02:43 +0000] [29928] [INFO] Using worker: sync
+[2025-08-30 01:02:43 +0000] [29930] [INFO] Booting worker with pid: 29930
+[2025-08-30 01:02:43 +0000] [29931] [INFO] Booting worker with pid: 29931
+[2025-08-30 01:02:44 +0000] [29932] [INFO] Booting worker with pid: 29932
+[2025-08-30 01:02:44 +0000] [29933] [INFO] Booting worker with pid: 29933
+[2025-08-30 01:02:44 +0000] [29934] [INFO] Booting worker with pid: 29934
+[2025-08-30 01:16:45 +0000] [29934] [INFO] Worker exiting (pid: 29934)
+[2025-08-30 01:16:45 +0000] [29930] [INFO] Worker exiting (pid: 29930)
+[2025-08-30 01:16:45 +0000] [29932] [INFO] Worker exiting (pid: 29932)
+[2025-08-30 01:16:45 +0000] [29928] [INFO] Handling signal: term
+[2025-08-30 01:16:45 +0000] [29933] [INFO] Worker exiting (pid: 29933)
+[2025-08-30 01:16:45 +0000] [29931] [INFO] Worker exiting (pid: 29931)
+[2025-08-30 01:16:47 +0000] [29928] [INFO] Shutting down: Master
+[2025-08-30 01:16:48 +0000] [30060] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:16:48 +0000] [30060] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30060)
+[2025-08-30 01:16:48 +0000] [30060] [INFO] Using worker: sync
+[2025-08-30 01:16:48 +0000] [30062] [INFO] Booting worker with pid: 30062
+[2025-08-30 01:16:48 +0000] [30063] [INFO] Booting worker with pid: 30063
+[2025-08-30 01:16:48 +0000] [30064] [INFO] Booting worker with pid: 30064
+[2025-08-30 01:16:48 +0000] [30065] [INFO] Booting worker with pid: 30065
+[2025-08-30 01:16:48 +0000] [30066] [INFO] Booting worker with pid: 30066
+[2025-08-30 01:19:20 +0000] [30062] [INFO] Worker exiting (pid: 30062)
+[2025-08-30 01:19:20 +0000] [30065] [INFO] Worker exiting (pid: 30065)
+[2025-08-30 01:19:20 +0000] [30060] [INFO] Handling signal: term
+[2025-08-30 01:19:20 +0000] [30063] [INFO] Worker exiting (pid: 30063)
+[2025-08-30 01:19:20 +0000] [30064] [INFO] Worker exiting (pid: 30064)
+[2025-08-30 01:19:20 +0000] [30060] [ERROR] Worker (pid:30062) was sent SIGTERM!
+[2025-08-30 01:19:21 +0000] [30066] [INFO] Worker exiting (pid: 30066)
+[2025-08-30 01:19:21 +0000] [30060] [ERROR] Worker (pid:30065) was sent SIGTERM!
+[2025-08-30 01:19:21 +0000] [30060] [INFO] Shutting down: Master
+[2025-08-30 01:19:22 +0000] [30093] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:19:22 +0000] [30093] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30093)
+[2025-08-30 01:19:22 +0000] [30093] [INFO] Using worker: sync
+[2025-08-30 01:19:22 +0000] [30095] [INFO] Booting worker with pid: 30095
+[2025-08-30 01:19:22 +0000] [30096] [INFO] Booting worker with pid: 30096
+[2025-08-30 01:19:23 +0000] [30097] [INFO] Booting worker with pid: 30097
+[2025-08-30 01:19:23 +0000] [30098] [INFO] Booting worker with pid: 30098
+[2025-08-30 01:19:23 +0000] [30099] [INFO] Booting worker with pid: 30099
+[2025-08-30 01:24:39 +0000] [30099] [INFO] Worker exiting (pid: 30099)
+[2025-08-30 01:24:39 +0000] [30097] [INFO] Worker exiting (pid: 30097)
+[2025-08-30 01:24:39 +0000] [30098] [INFO] Worker exiting (pid: 30098)
+[2025-08-30 01:24:39 +0000] [30093] [INFO] Handling signal: term
+[2025-08-30 01:24:39 +0000] [30095] [INFO] Worker exiting (pid: 30095)
+[2025-08-30 01:24:39 +0000] [30096] [INFO] Worker exiting (pid: 30096)
+[2025-08-30 01:24:39 +0000] [30093] [ERROR] Worker (pid:30099) was sent SIGTERM!
+[2025-08-30 01:24:39 +0000] [30093] [ERROR] Worker (pid:30097) was sent SIGTERM!
+[2025-08-30 01:24:40 +0000] [30093] [INFO] Shutting down: Master
+[2025-08-30 01:24:41 +0000] [30144] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:24:41 +0000] [30144] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30144)
+[2025-08-30 01:24:41 +0000] [30144] [INFO] Using worker: sync
+[2025-08-30 01:24:41 +0000] [30146] [INFO] Booting worker with pid: 30146
+[2025-08-30 01:24:41 +0000] [30147] [INFO] Booting worker with pid: 30147
+[2025-08-30 01:24:41 +0000] [30148] [INFO] Booting worker with pid: 30148
+[2025-08-30 01:24:41 +0000] [30149] [INFO] Booting worker with pid: 30149
+[2025-08-30 01:24:42 +0000] [30150] [INFO] Booting worker with pid: 30150
+[2025-08-30 01:32:41 +0000] [30147] [INFO] Worker exiting (pid: 30147)
+[2025-08-30 01:32:41 +0000] [30148] [INFO] Worker exiting (pid: 30148)
+[2025-08-30 01:32:41 +0000] [30144] [INFO] Handling signal: term
+[2025-08-30 01:32:41 +0000] [30146] [INFO] Worker exiting (pid: 30146)
+[2025-08-30 01:32:41 +0000] [30150] [INFO] Worker exiting (pid: 30150)
+[2025-08-30 01:32:41 +0000] [30149] [INFO] Worker exiting (pid: 30149)
+[2025-08-30 01:32:41 +0000] [30144] [ERROR] Worker (pid:30147) was sent SIGTERM!
+[2025-08-30 01:32:43 +0000] [30144] [INFO] Shutting down: Master
+[2025-08-30 01:32:43 +0000] [30221] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:32:43 +0000] [30221] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30221)
+[2025-08-30 01:32:43 +0000] [30221] [INFO] Using worker: sync
+[2025-08-30 01:32:43 +0000] [30223] [INFO] Booting worker with pid: 30223
+[2025-08-30 01:32:44 +0000] [30224] [INFO] Booting worker with pid: 30224
+[2025-08-30 01:32:44 +0000] [30225] [INFO] Booting worker with pid: 30225
+[2025-08-30 01:32:44 +0000] [30226] [INFO] Booting worker with pid: 30226
+[2025-08-30 01:32:44 +0000] [30227] [INFO] Booting worker with pid: 30227
+[2025-08-30 01:34:25 +0000] [30225] [INFO] Worker exiting (pid: 30225)
+[2025-08-30 01:34:25 +0000] [30221] [INFO] Handling signal: term
+[2025-08-30 01:34:25 +0000] [30223] [INFO] Worker exiting (pid: 30223)
+[2025-08-30 01:34:25 +0000] [30226] [INFO] Worker exiting (pid: 30226)
+[2025-08-30 01:34:25 +0000] [30224] [INFO] Worker exiting (pid: 30224)
+[2025-08-30 01:34:25 +0000] [30221] [ERROR] Worker (pid:30225) was sent SIGTERM!
+[2025-08-30 01:34:25 +0000] [30227] [INFO] Worker exiting (pid: 30227)
+[2025-08-30 01:34:26 +0000] [30221] [INFO] Shutting down: Master
+[2025-08-30 01:34:27 +0000] [30245] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:34:27 +0000] [30245] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30245)
+[2025-08-30 01:34:27 +0000] [30245] [INFO] Using worker: sync
+[2025-08-30 01:34:27 +0000] [30247] [INFO] Booting worker with pid: 30247
+[2025-08-30 01:34:27 +0000] [30248] [INFO] Booting worker with pid: 30248
+[2025-08-30 01:34:27 +0000] [30249] [INFO] Booting worker with pid: 30249
+[2025-08-30 01:34:27 +0000] [30250] [INFO] Booting worker with pid: 30250
+[2025-08-30 01:34:27 +0000] [30251] [INFO] Booting worker with pid: 30251
+[2025-08-30 01:35:44 +0000] [30250] [INFO] Worker exiting (pid: 30250)
+[2025-08-30 01:35:44 +0000] [30251] [INFO] Worker exiting (pid: 30251)
+[2025-08-30 01:35:44 +0000] [30245] [INFO] Handling signal: term
+[2025-08-30 01:35:44 +0000] [30249] [INFO] Worker exiting (pid: 30249)
+[2025-08-30 01:35:44 +0000] [30245] [ERROR] Worker (pid:30251) was sent SIGTERM!
+[2025-08-30 01:35:44 +0000] [30247] [INFO] Worker exiting (pid: 30247)
+[2025-08-30 01:35:44 +0000] [30248] [INFO] Worker exiting (pid: 30248)
+[2025-08-30 01:35:44 +0000] [30245] [ERROR] Worker (pid:30250) was sent SIGTERM!
+[2025-08-30 01:35:45 +0000] [30245] [INFO] Shutting down: Master
+[2025-08-30 01:35:46 +0000] [30265] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:35:46 +0000] [30265] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30265)
+[2025-08-30 01:35:46 +0000] [30265] [INFO] Using worker: sync
+[2025-08-30 01:35:46 +0000] [30267] [INFO] Booting worker with pid: 30267
+[2025-08-30 01:35:46 +0000] [30268] [INFO] Booting worker with pid: 30268
+[2025-08-30 01:35:46 +0000] [30269] [INFO] Booting worker with pid: 30269
+[2025-08-30 01:35:46 +0000] [30270] [INFO] Booting worker with pid: 30270
+[2025-08-30 01:35:46 +0000] [30271] [INFO] Booting worker with pid: 30271
+[2025-08-30 01:36:50 +0000] [30265] [INFO] Handling signal: term
+[2025-08-30 01:36:50 +0000] [30270] [INFO] Worker exiting (pid: 30270)
+[2025-08-30 01:36:51 +0000] [30267] [INFO] Worker exiting (pid: 30267)
+[2025-08-30 01:36:51 +0000] [30269] [INFO] Worker exiting (pid: 30269)
+[2025-08-30 01:36:55 +0000] [30271] [INFO] Worker exiting (pid: 30271)
+[2025-08-30 01:36:55 +0000] [30268] [INFO] Worker exiting (pid: 30268)
+[2025-08-30 01:36:55 +0000] [30265] [INFO] Shutting down: Master
+[2025-08-30 01:36:56 +0000] [30287] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:36:56 +0000] [30287] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30287)
+[2025-08-30 01:36:56 +0000] [30287] [INFO] Using worker: sync
+[2025-08-30 01:36:56 +0000] [30289] [INFO] Booting worker with pid: 30289
+[2025-08-30 01:36:56 +0000] [30290] [INFO] Booting worker with pid: 30290
+[2025-08-30 01:36:56 +0000] [30291] [INFO] Booting worker with pid: 30291
+[2025-08-30 01:36:56 +0000] [30292] [INFO] Booting worker with pid: 30292
+[2025-08-30 01:36:56 +0000] [30293] [INFO] Booting worker with pid: 30293
+[2025-08-30 01:44:23 +0000] [30291] [INFO] Worker exiting (pid: 30291)
+[2025-08-30 01:44:23 +0000] [30290] [INFO] Worker exiting (pid: 30290)
+[2025-08-30 01:44:23 +0000] [30289] [INFO] Worker exiting (pid: 30289)
+[2025-08-30 01:44:23 +0000] [30293] [INFO] Worker exiting (pid: 30293)
+[2025-08-30 01:44:23 +0000] [30287] [INFO] Handling signal: term
+[2025-08-30 01:44:23 +0000] [30292] [INFO] Worker exiting (pid: 30292)
+[2025-08-30 01:44:23 +0000] [30287] [ERROR] Worker (pid:30289) was sent SIGTERM!
+[2025-08-30 01:44:23 +0000] [30287] [ERROR] Worker (pid:30293) was sent SIGTERM!
+[2025-08-30 01:44:23 +0000] [30287] [ERROR] Worker (pid:30290) was sent SIGTERM!
+[2025-08-30 01:44:23 +0000] [30287] [ERROR] Worker (pid:30291) was sent SIGTERM!
+[2025-08-30 01:44:23 +0000] [30287] [INFO] Shutting down: Master
+[2025-08-30 01:44:24 +0000] [30354] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:44:24 +0000] [30354] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30354)
+[2025-08-30 01:44:24 +0000] [30354] [INFO] Using worker: sync
+[2025-08-30 01:44:24 +0000] [30356] [INFO] Booting worker with pid: 30356
+[2025-08-30 01:44:24 +0000] [30357] [INFO] Booting worker with pid: 30357
+[2025-08-30 01:44:24 +0000] [30358] [INFO] Booting worker with pid: 30358
+[2025-08-30 01:44:24 +0000] [30359] [INFO] Booting worker with pid: 30359
+[2025-08-30 01:44:24 +0000] [30360] [INFO] Booting worker with pid: 30360
+[2025-08-30 01:45:45 +0000] [30360] [INFO] Worker exiting (pid: 30360)
+[2025-08-30 01:45:45 +0000] [30357] [INFO] Worker exiting (pid: 30357)
+[2025-08-30 01:45:45 +0000] [30358] [INFO] Worker exiting (pid: 30358)
+[2025-08-30 01:45:45 +0000] [30354] [INFO] Handling signal: term
+[2025-08-30 01:45:45 +0000] [30359] [INFO] Worker exiting (pid: 30359)
+[2025-08-30 01:45:45 +0000] [30354] [ERROR] Worker (pid:30360) was sent SIGTERM!
+[2025-08-30 01:45:45 +0000] [30354] [ERROR] Worker (pid:30358) was sent SIGTERM!
+[2025-08-30 01:45:45 +0000] [30356] [INFO] Worker exiting (pid: 30356)
+[2025-08-30 01:45:45 +0000] [30354] [ERROR] Worker (pid:30357) was sent SIGTERM!
+[2025-08-30 01:45:46 +0000] [30354] [INFO] Shutting down: Master
+[2025-08-30 01:45:47 +0000] [30375] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:45:47 +0000] [30375] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30375)
+[2025-08-30 01:45:47 +0000] [30375] [INFO] Using worker: sync
+[2025-08-30 01:45:47 +0000] [30377] [INFO] Booting worker with pid: 30377
+[2025-08-30 01:45:47 +0000] [30379] [INFO] Booting worker with pid: 30379
+[2025-08-30 01:45:47 +0000] [30380] [INFO] Booting worker with pid: 30380
+[2025-08-30 01:45:47 +0000] [30381] [INFO] Booting worker with pid: 30381
+[2025-08-30 01:45:47 +0000] [30382] [INFO] Booting worker with pid: 30382
+[2025-08-30 01:53:13 +0000] [30375] [INFO] Handling signal: term
+[2025-08-30 01:53:19 +0000] [30382] [INFO] Worker exiting (pid: 30382)
+[2025-08-30 01:53:19 +0000] [30381] [INFO] Worker exiting (pid: 30381)
+[2025-08-30 01:53:19 +0000] [30377] [INFO] Worker exiting (pid: 30377)
+[2025-08-30 01:53:19 +0000] [30380] [INFO] Worker exiting (pid: 30380)
+[2025-08-30 01:53:22 +0000] [30379] [INFO] Worker exiting (pid: 30379)
+[2025-08-30 01:53:22 +0000] [30375] [INFO] Shutting down: Master
+[2025-08-30 01:53:23 +0000] [30449] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:53:23 +0000] [30449] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30449)
+[2025-08-30 01:53:23 +0000] [30449] [INFO] Using worker: sync
+[2025-08-30 01:53:23 +0000] [30451] [INFO] Booting worker with pid: 30451
+[2025-08-30 01:53:23 +0000] [30452] [INFO] Booting worker with pid: 30452
+[2025-08-30 01:53:23 +0000] [30453] [INFO] Booting worker with pid: 30453
+[2025-08-30 01:53:24 +0000] [30454] [INFO] Booting worker with pid: 30454
+[2025-08-30 01:53:24 +0000] [30455] [INFO] Booting worker with pid: 30455
+[2025-08-30 01:54:37 +0000] [30452] [INFO] Worker exiting (pid: 30452)
+[2025-08-30 01:54:37 +0000] [30449] [INFO] Handling signal: term
+[2025-08-30 01:54:37 +0000] [30454] [INFO] Worker exiting (pid: 30454)
+[2025-08-30 01:54:37 +0000] [30451] [INFO] Worker exiting (pid: 30451)
+[2025-08-30 01:54:37 +0000] [30453] [INFO] Worker exiting (pid: 30453)
+[2025-08-30 01:54:37 +0000] [30455] [INFO] Worker exiting (pid: 30455)
+[2025-08-30 01:54:37 +0000] [30449] [ERROR] Worker (pid:30452) was sent SIGTERM!
+[2025-08-30 01:54:38 +0000] [30449] [INFO] Shutting down: Master
+[2025-08-30 01:54:39 +0000] [30467] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:54:39 +0000] [30467] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30467)
+[2025-08-30 01:54:39 +0000] [30467] [INFO] Using worker: sync
+[2025-08-30 01:54:39 +0000] [30469] [INFO] Booting worker with pid: 30469
+[2025-08-30 01:54:39 +0000] [30470] [INFO] Booting worker with pid: 30470
+[2025-08-30 01:54:39 +0000] [30471] [INFO] Booting worker with pid: 30471
+[2025-08-30 01:54:40 +0000] [30472] [INFO] Booting worker with pid: 30472
+[2025-08-30 01:54:40 +0000] [30473] [INFO] Booting worker with pid: 30473
+[2025-08-30 01:55:45 +0000] [30467] [INFO] Handling signal: term
+[2025-08-30 01:55:45 +0000] [30471] [INFO] Worker exiting (pid: 30471)
+[2025-08-30 01:55:45 +0000] [30469] [INFO] Worker exiting (pid: 30469)
+[2025-08-30 01:55:45 +0000] [30470] [INFO] Worker exiting (pid: 30470)
+[2025-08-30 01:55:45 +0000] [30472] [INFO] Worker exiting (pid: 30472)
+[2025-08-30 01:55:46 +0000] [30473] [INFO] Worker exiting (pid: 30473)
+[2025-08-30 01:55:47 +0000] [30467] [INFO] Shutting down: Master
+[2025-08-30 01:55:48 +0000] [30489] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 01:55:48 +0000] [30489] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (30489)
+[2025-08-30 01:55:48 +0000] [30489] [INFO] Using worker: sync
+[2025-08-30 01:55:48 +0000] [30491] [INFO] Booting worker with pid: 30491
+[2025-08-30 01:55:48 +0000] [30492] [INFO] Booting worker with pid: 30492
+[2025-08-30 01:55:48 +0000] [30493] [INFO] Booting worker with pid: 30493
+[2025-08-30 01:55:48 +0000] [30494] [INFO] Booting worker with pid: 30494
+[2025-08-30 01:55:48 +0000] [30495] [INFO] Booting worker with pid: 30495
+[2025-08-30 03:55:07 +0000] [30493] [INFO] Worker exiting (pid: 30493)
+[2025-08-30 03:55:07 +0000] [30489] [INFO] Handling signal: term
+[2025-08-30 03:55:08 +0000] [30489] [ERROR] Worker (pid:30493) was sent SIGTERM!
+[2025-08-30 03:55:09 +0000] [30492] [INFO] Worker exiting (pid: 30492)
+[2025-08-30 03:55:09 +0000] [30494] [INFO] Worker exiting (pid: 30494)
+[2025-08-30 03:55:09 +0000] [30495] [INFO] Worker exiting (pid: 30495)
+[2025-08-30 03:55:09 +0000] [30491] [INFO] Worker exiting (pid: 30491)
+[2025-08-30 03:55:34 +0000] [30489] [INFO] Shutting down: Master
+[2025-08-30 03:55:50 +0000] [41351] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 03:55:50 +0000] [41351] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (41351)
+[2025-08-30 03:55:50 +0000] [41351] [INFO] Using worker: sync
+[2025-08-30 03:55:50 +0000] [41359] [INFO] Booting worker with pid: 41359
+[2025-08-30 03:55:50 +0000] [41360] [INFO] Booting worker with pid: 41360
+[2025-08-30 03:55:50 +0000] [41361] [INFO] Booting worker with pid: 41361
+[2025-08-30 03:55:50 +0000] [41362] [INFO] Booting worker with pid: 41362
+[2025-08-30 03:55:50 +0000] [41363] [INFO] Booting worker with pid: 41363
+[2025-08-30 03:56:33 +0000] [41351] [INFO] Handling signal: term
+[2025-08-30 03:56:33 +0000] [41363] [INFO] Worker exiting (pid: 41363)
+[2025-08-30 03:56:33 +0000] [41359] [INFO] Worker exiting (pid: 41359)
+[2025-08-30 03:56:33 +0000] [41361] [INFO] Worker exiting (pid: 41361)
+[2025-08-30 03:56:37 +0000] [41362] [INFO] Worker exiting (pid: 41362)
+[2025-08-30 03:56:37 +0000] [41360] [INFO] Worker exiting (pid: 41360)
+[2025-08-30 03:56:39 +0000] [41351] [INFO] Shutting down: Master
+[2025-08-30 03:56:42 +0000] [41428] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 03:56:42 +0000] [41428] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (41428)
+[2025-08-30 03:56:42 +0000] [41428] [INFO] Using worker: sync
+[2025-08-30 03:56:42 +0000] [41434] [INFO] Booting worker with pid: 41434
+[2025-08-30 03:56:42 +0000] [41436] [INFO] Booting worker with pid: 41436
+[2025-08-30 03:56:43 +0000] [41437] [INFO] Booting worker with pid: 41437
+[2025-08-30 03:56:43 +0000] [41438] [INFO] Booting worker with pid: 41438
+[2025-08-30 03:56:43 +0000] [41439] [INFO] Booting worker with pid: 41439
+[2025-08-30 03:58:16 +0000] [41439] [INFO] Worker exiting (pid: 41439)
+[2025-08-30 03:58:16 +0000] [41437] [INFO] Worker exiting (pid: 41437)
+[2025-08-30 03:58:16 +0000] [41434] [INFO] Worker exiting (pid: 41434)
+[2025-08-30 03:58:16 +0000] [41438] [INFO] Worker exiting (pid: 41438)
+[2025-08-30 03:58:16 +0000] [41436] [INFO] Worker exiting (pid: 41436)
+[2025-08-30 03:58:16 +0000] [41428] [INFO] Handling signal: term
+[2025-08-30 03:58:17 +0000] [41428] [ERROR] Worker (pid:41436) was sent SIGTERM!
+[2025-08-30 03:58:17 +0000] [41428] [ERROR] Worker (pid:41437) was sent SIGTERM!
+[2025-08-30 03:58:17 +0000] [41428] [ERROR] Worker (pid:41434) was sent SIGTERM!
+[2025-08-30 03:58:17 +0000] [41428] [ERROR] Worker (pid:41438) was sent SIGTERM!
+[2025-08-30 03:58:18 +0000] [41428] [ERROR] Worker (pid:41439) was sent SIGTERM!
+[2025-08-30 03:58:18 +0000] [41428] [INFO] Shutting down: Master
+[2025-08-30 03:58:35 +0000] [41592] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 03:58:35 +0000] [41592] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (41592)
+[2025-08-30 03:58:35 +0000] [41592] [INFO] Using worker: sync
+[2025-08-30 03:58:35 +0000] [41595] [INFO] Booting worker with pid: 41595
+[2025-08-30 03:58:35 +0000] [41596] [INFO] Booting worker with pid: 41596
+[2025-08-30 03:58:35 +0000] [41597] [INFO] Booting worker with pid: 41597
+[2025-08-30 03:58:35 +0000] [41598] [INFO] Booting worker with pid: 41598
+[2025-08-30 03:58:35 +0000] [41599] [INFO] Booting worker with pid: 41599
+[2025-08-30 04:01:52 +0000] [41597] [INFO] Worker exiting (pid: 41597)
+[2025-08-30 04:01:52 +0000] [41599] [INFO] Worker exiting (pid: 41599)
+[2025-08-30 04:01:52 +0000] [41598] [INFO] Worker exiting (pid: 41598)
+[2025-08-30 04:01:53 +0000] [41596] [INFO] Worker exiting (pid: 41596)
+[2025-08-30 04:01:53 +0000] [41592] [INFO] Handling signal: term
+[2025-08-30 04:01:54 +0000] [41595] [INFO] Worker exiting (pid: 41595)
+[2025-08-30 04:01:54 +0000] [41592] [ERROR] Worker (pid:41597) was sent SIGTERM!
+[2025-08-30 04:01:54 +0000] [41592] [ERROR] Worker (pid:41599) was sent SIGTERM!
+[2025-08-30 04:01:54 +0000] [41592] [ERROR] Worker (pid:41596) was sent SIGTERM!
+[2025-08-30 04:01:54 +0000] [41592] [ERROR] Worker (pid:41598) was sent SIGTERM!
+[2025-08-30 04:02:03 +0000] [41592] [INFO] Shutting down: Master
+[2025-08-30 04:02:15 +0000] [41902] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 04:02:15 +0000] [41902] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (41902)
+[2025-08-30 04:02:15 +0000] [41902] [INFO] Using worker: sync
+[2025-08-30 04:02:15 +0000] [41912] [INFO] Booting worker with pid: 41912
+[2025-08-30 04:02:15 +0000] [41913] [INFO] Booting worker with pid: 41913
+[2025-08-30 04:02:15 +0000] [41914] [INFO] Booting worker with pid: 41914
+[2025-08-30 04:02:15 +0000] [41915] [INFO] Booting worker with pid: 41915
+[2025-08-30 04:02:15 +0000] [41916] [INFO] Booting worker with pid: 41916
+[2025-08-30 04:04:33 +0000] [41915] [INFO] Worker exiting (pid: 41915)
+[2025-08-30 04:04:33 +0000] [41916] [INFO] Worker exiting (pid: 41916)
+[2025-08-30 04:04:33 +0000] [41913] [INFO] Worker exiting (pid: 41913)
+[2025-08-30 04:04:33 +0000] [41902] [INFO] Handling signal: term
+[2025-08-30 04:04:33 +0000] [41902] [ERROR] Worker (pid:41915) was sent SIGTERM!
+[2025-08-30 04:04:33 +0000] [41902] [ERROR] Worker (pid:41913) was sent SIGTERM!
+[2025-08-30 04:04:33 +0000] [41912] [INFO] Worker exiting (pid: 41912)
+[2025-08-30 04:04:33 +0000] [41902] [ERROR] Worker (pid:41916) was sent SIGTERM!
+[2025-08-30 04:04:33 +0000] [41914] [INFO] Worker exiting (pid: 41914)
+[2025-08-30 04:04:34 +0000] [41902] [INFO] Shutting down: Master
+[2025-08-30 04:04:39 +0000] [42129] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 04:04:39 +0000] [42129] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (42129)
+[2025-08-30 04:04:39 +0000] [42129] [INFO] Using worker: sync
+[2025-08-30 04:04:39 +0000] [42133] [INFO] Booting worker with pid: 42133
+[2025-08-30 04:04:39 +0000] [42135] [INFO] Booting worker with pid: 42135
+[2025-08-30 04:04:39 +0000] [42138] [INFO] Booting worker with pid: 42138
+[2025-08-30 04:04:39 +0000] [42140] [INFO] Booting worker with pid: 42140
+[2025-08-30 04:04:40 +0000] [42141] [INFO] Booting worker with pid: 42141
+[2025-08-30 04:06:54 +0000] [42135] [INFO] Worker exiting (pid: 42135)
+[2025-08-30 04:06:54 +0000] [42141] [INFO] Worker exiting (pid: 42141)
+[2025-08-30 04:06:54 +0000] [42138] [INFO] Worker exiting (pid: 42138)
+[2025-08-30 04:06:54 +0000] [42133] [INFO] Worker exiting (pid: 42133)
+[2025-08-30 04:06:54 +0000] [42129] [INFO] Handling signal: term
+[2025-08-30 04:06:54 +0000] [42129] [ERROR] Worker (pid:42133) was sent SIGTERM!
+[2025-08-30 04:06:54 +0000] [42140] [INFO] Worker exiting (pid: 42140)
+[2025-08-30 04:06:55 +0000] [42129] [ERROR] Worker (pid:42138) was sent SIGTERM!
+[2025-08-30 04:06:55 +0000] [42129] [ERROR] Worker (pid:42135) was sent SIGTERM!
+[2025-08-30 04:06:55 +0000] [42129] [ERROR] Worker (pid:42141) was sent SIGTERM!
+[2025-08-30 04:06:55 +0000] [42129] [INFO] Shutting down: Master
+[2025-08-30 04:07:01 +0000] [42365] [INFO] Starting gunicorn 21.2.0
+[2025-08-30 04:07:01 +0000] [42365] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (42365)
+[2025-08-30 04:07:01 +0000] [42365] [INFO] Using worker: sync
+[2025-08-30 04:07:01 +0000] [42370] [INFO] Booting worker with pid: 42370
+[2025-08-30 04:07:01 +0000] [42372] [INFO] Booting worker with pid: 42372
+[2025-08-30 04:07:01 +0000] [42373] [INFO] Booting worker with pid: 42373
+[2025-08-30 04:07:01 +0000] [42375] [INFO] Booting worker with pid: 42375
+[2025-08-30 04:07:01 +0000] [42376] [INFO] Booting worker with pid: 42376
+[2025-08-31 02:23:03 +0000] [42373] [INFO] Autorestarting worker after current request.
+[2025-08-31 02:23:12 +0000] [42373] [INFO] Worker exiting (pid: 42373)
+[2025-08-31 02:23:15 +0000] [177750] [INFO] Booting worker with pid: 177750
+[2025-08-31 02:48:09 +0000] [42375] [INFO] Autorestarting worker after current request.
+[2025-08-31 02:48:09 +0000] [42375] [INFO] Worker exiting (pid: 42375)
+[2025-08-31 02:48:19 +0000] [180294] [INFO] Booting worker with pid: 180294
+[2025-08-31 02:54:18 +0000] [42372] [INFO] Autorestarting worker after current request.
+[2025-08-31 02:54:18 +0000] [42372] [INFO] Worker exiting (pid: 42372)
+[2025-08-31 02:54:25 +0000] [180934] [INFO] Booting worker with pid: 180934
+[2025-08-31 04:44:00 +0000] [42376] [INFO] Autorestarting worker after current request.
+[2025-08-31 04:44:01 +0000] [42376] [INFO] Worker exiting (pid: 42376)
+[2025-08-31 04:44:16 +0000] [191739] [INFO] Booting worker with pid: 191739
+[2025-08-31 05:30:20 +0000] [42370] [INFO] Autorestarting worker after current request.
+[2025-08-31 05:30:21 +0000] [42370] [INFO] Worker exiting (pid: 42370)
+[2025-08-31 05:30:37 +0000] [196319] [INFO] Booting worker with pid: 196319
+[2025-09-01 07:22:56 +0000] [177750] [INFO] Autorestarting worker after current request.
+[2025-09-01 07:22:57 +0000] [177750] [INFO] Worker exiting (pid: 177750)
+[2025-09-01 07:23:10 +0000] [356481] [INFO] Booting worker with pid: 356481
+[2025-09-01 07:28:10 +0000] [180934] [INFO] Autorestarting worker after current request.
+[2025-09-01 07:28:10 +0000] [180934] [INFO] Worker exiting (pid: 180934)
+[2025-09-01 07:28:21 +0000] [356996] [INFO] Booting worker with pid: 356996
+[2025-09-01 07:30:12 +0000] [180294] [INFO] Autorestarting worker after current request.
+[2025-09-01 07:30:13 +0000] [180294] [INFO] Worker exiting (pid: 180294)
+[2025-09-01 07:30:21 +0000] [357189] [INFO] Booting worker with pid: 357189
+[2025-09-01 07:36:58 +0000] [196319] [INFO] Autorestarting worker after current request.
+[2025-09-01 07:36:59 +0000] [196319] [INFO] Worker exiting (pid: 196319)
+[2025-09-01 07:37:16 +0000] [357871] [INFO] Booting worker with pid: 357871
+[2025-09-01 07:42:59 +0000] [191739] [INFO] Autorestarting worker after current request.
+[2025-09-01 07:43:02 +0000] [191739] [INFO] Worker exiting (pid: 191739)
+[2025-09-01 07:43:08 +0000] [358479] [INFO] Booting worker with pid: 358479
+[2025-09-01 10:09:42 +0000] [356481] [INFO] Autorestarting worker after current request.
+[2025-09-01 10:09:42 +0000] [356481] [INFO] Worker exiting (pid: 356481)
+[2025-09-01 10:09:54 +0000] [373206] [INFO] Booting worker with pid: 373206
+[2025-09-01 10:21:50 +0000] [356996] [INFO] Autorestarting worker after current request.
+[2025-09-01 10:21:58 +0000] [356996] [INFO] Worker exiting (pid: 356996)
+[2025-09-01 10:22:09 +0000] [374547] [INFO] Booting worker with pid: 374547
+[2025-09-01 10:24:43 +0000] [357189] [INFO] Autorestarting worker after current request.
+[2025-09-01 10:24:44 +0000] [357189] [INFO] Worker exiting (pid: 357189)
+[2025-09-01 10:24:52 +0000] [374850] [INFO] Booting worker with pid: 374850
+[2025-09-01 10:27:17 +0000] [357871] [INFO] Autorestarting worker after current request.
+[2025-09-01 10:27:18 +0000] [357871] [INFO] Worker exiting (pid: 357871)
+[2025-09-01 10:27:26 +0000] [375126] [INFO] Booting worker with pid: 375126
+[2025-09-01 10:41:45 +0000] [358479] [INFO] Autorestarting worker after current request.
+[2025-09-01 10:41:46 +0000] [358479] [INFO] Worker exiting (pid: 358479)
+[2025-09-01 10:41:59 +0000] [376492] [INFO] Booting worker with pid: 376492
+[2025-09-01 13:52:26 +0000] [373206] [INFO] Autorestarting worker after current request.
+[2025-09-01 13:52:27 +0000] [373206] [INFO] Worker exiting (pid: 373206)
+[2025-09-01 13:52:41 +0000] [396208] [INFO] Booting worker with pid: 396208
+[2025-09-01 14:27:27 +0000] [374547] [INFO] Autorestarting worker after current request.
+[2025-09-01 14:27:28 +0000] [374547] [INFO] Worker exiting (pid: 374547)
+[2025-09-01 14:27:43 +0000] [399514] [INFO] Booting worker with pid: 399514
+[2025-09-01 14:32:28 +0000] [375126] [INFO] Autorestarting worker after current request.
+[2025-09-01 14:32:28 +0000] [375126] [INFO] Worker exiting (pid: 375126)
+[2025-09-01 14:32:38 +0000] [399967] [INFO] Booting worker with pid: 399967
+[2025-09-01 14:36:57 +0000] [374850] [INFO] Autorestarting worker after current request.
+[2025-09-01 14:37:02 +0000] [374850] [INFO] Worker exiting (pid: 374850)
+[2025-09-01 14:37:12 +0000] [400420] [INFO] Booting worker with pid: 400420
+[2025-09-01 14:56:58 +0000] [376492] [INFO] Autorestarting worker after current request.
+[2025-09-01 14:57:00 +0000] [376492] [INFO] Worker exiting (pid: 376492)
+[2025-09-01 14:57:14 +0000] [402443] [INFO] Booting worker with pid: 402443
+[2025-09-01 18:15:51 +0000] [396208] [INFO] Autorestarting worker after current request.
+[2025-09-01 18:15:54 +0000] [396208] [INFO] Worker exiting (pid: 396208)
+[2025-09-01 18:16:06 +0000] [422399] [INFO] Booting worker with pid: 422399
+[2025-09-01 18:54:24 +0000] [399967] [INFO] Autorestarting worker after current request.
+[2025-09-01 18:54:26 +0000] [399967] [INFO] Worker exiting (pid: 399967)
+[2025-09-01 18:54:37 +0000] [426491] [INFO] Booting worker with pid: 426491
+[2025-09-01 18:54:55 +0000] [399514] [INFO] Autorestarting worker after current request.
+[2025-09-01 18:54:55 +0000] [399514] [INFO] Worker exiting (pid: 399514)
+[2025-09-01 18:55:05 +0000] [426535] [INFO] Booting worker with pid: 426535
+[2025-09-01 19:01:54 +0000] [400420] [INFO] Autorestarting worker after current request.
+[2025-09-01 19:01:55 +0000] [400420] [INFO] Worker exiting (pid: 400420)
+[2025-09-01 19:02:05 +0000] [427240] [INFO] Booting worker with pid: 427240
+[2025-09-01 19:14:25 +0000] [402443] [INFO] Autorestarting worker after current request.
+[2025-09-01 19:14:25 +0000] [402443] [INFO] Worker exiting (pid: 402443)
+[2025-09-01 19:14:29 +0000] [428375] [INFO] Booting worker with pid: 428375
+[2025-09-02 18:19:13 +0000] [422399] [INFO] Autorestarting worker after current request.
+[2025-09-02 18:19:21 +0000] [422399] [INFO] Worker exiting (pid: 422399)
+[2025-09-02 18:19:25 +0000] [575311] [INFO] Booting worker with pid: 575311
+[2025-09-02 19:28:03 +0000] [426491] [INFO] Autorestarting worker after current request.
+[2025-09-02 19:28:07 +0000] [426491] [INFO] Worker exiting (pid: 426491)
+[2025-09-02 19:28:21 +0000] [582183] [INFO] Booting worker with pid: 582183
+[2025-09-02 19:36:04 +0000] [426535] [INFO] Autorestarting worker after current request.
+[2025-09-02 19:36:04 +0000] [426535] [INFO] Worker exiting (pid: 426535)
+[2025-09-02 19:36:18 +0000] [583026] [INFO] Booting worker with pid: 583026
+[2025-09-02 19:40:03 +0000] [427240] [INFO] Autorestarting worker after current request.
+[2025-09-02 19:40:05 +0000] [427240] [INFO] Worker exiting (pid: 427240)
+[2025-09-02 19:40:18 +0000] [583421] [INFO] Booting worker with pid: 583421
+[2025-09-02 20:12:03 +0000] [428375] [INFO] Autorestarting worker after current request.
+[2025-09-02 20:12:04 +0000] [428375] [INFO] Worker exiting (pid: 428375)
+[2025-09-02 20:12:07 +0000] [586574] [INFO] Booting worker with pid: 586574
+[2025-09-03 07:26:02 +0000] [575311] [INFO] Autorestarting worker after current request.
+[2025-09-03 07:26:03 +0000] [575311] [INFO] Worker exiting (pid: 575311)
+[2025-09-03 07:26:17 +0000] [655657] [INFO] Booting worker with pid: 655657
+[2025-09-04 22:30:39 +0000] [583026] [INFO] Autorestarting worker after current request.
+[2025-09-04 22:30:40 +0000] [583026] [INFO] Worker exiting (pid: 583026)
+[2025-09-04 22:30:49 +0000] [582183] [INFO] Autorestarting worker after current request.
+[2025-09-04 22:30:50 +0000] [582183] [INFO] Worker exiting (pid: 582183)
+[2025-09-04 22:31:06 +0000] [897582] [INFO] Booting worker with pid: 897582
+[2025-09-04 22:31:07 +0000] [897585] [INFO] Booting worker with pid: 897585
+[2025-09-04 22:31:29 +0000] [583421] [INFO] Autorestarting worker after current request.
+[2025-09-04 22:31:30 +0000] [583421] [INFO] Worker exiting (pid: 583421)
+[2025-09-04 22:31:42 +0000] [897633] [INFO] Booting worker with pid: 897633
+[2025-09-06 04:45:54 +0000] [586574] [INFO] Autorestarting worker after current request.
+[2025-09-06 04:45:55 +0000] [586574] [INFO] Worker exiting (pid: 586574)
+[2025-09-06 04:46:13 +0000] [1082050] [INFO] Booting worker with pid: 1082050
+[2025-09-07 03:23:52 +0000] [655657] [INFO] Autorestarting worker after current request.
+[2025-09-07 03:23:53 +0000] [655657] [INFO] Worker exiting (pid: 655657)
+[2025-09-07 03:24:12 +0000] [1220004] [INFO] Booting worker with pid: 1220004
+[2025-09-07 04:51:53 +0000] [897582] [INFO] Autorestarting worker after current request.
+[2025-09-07 04:51:53 +0000] [897582] [INFO] Worker exiting (pid: 897582)
+[2025-09-07 04:52:07 +0000] [1228612] [INFO] Booting worker with pid: 1228612
+[2025-09-07 05:08:53 +0000] [897633] [INFO] Autorestarting worker after current request.
+[2025-09-07 05:08:53 +0000] [897633] [INFO] Worker exiting (pid: 897633)
+[2025-09-07 05:09:04 +0000] [1230249] [INFO] Booting worker with pid: 1230249
+[2025-09-07 05:19:53 +0000] [897585] [INFO] Autorestarting worker after current request.
+[2025-09-07 05:19:54 +0000] [897585] [INFO] Worker exiting (pid: 897585)
+[2025-09-07 05:20:05 +0000] [1231312] [INFO] Booting worker with pid: 1231312
+[2025-09-07 05:33:54 +0000] [1082050] [INFO] Autorestarting worker after current request.
+[2025-09-07 05:33:54 +0000] [1082050] [INFO] Worker exiting (pid: 1082050)
+[2025-09-07 05:34:05 +0000] [1232626] [INFO] Booting worker with pid: 1232626
+[2025-09-07 22:56:53 +0000] [1220004] [INFO] Autorestarting worker after current request.
+[2025-09-07 22:56:53 +0000] [1220004] [INFO] Worker exiting (pid: 1220004)
+[2025-09-07 22:57:02 +0000] [1338440] [INFO] Booting worker with pid: 1338440
+[2025-09-08 00:12:52 +0000] [1228612] [INFO] Autorestarting worker after current request.
+[2025-09-08 00:12:52 +0000] [1228612] [INFO] Worker exiting (pid: 1228612)
+[2025-09-08 00:13:03 +0000] [1346039] [INFO] Booting worker with pid: 1346039
+[2025-09-08 03:50:37 +0000] [1231312] [INFO] Autorestarting worker after current request.
+[2025-09-08 03:50:38 +0000] [1231312] [INFO] Worker exiting (pid: 1231312)
+[2025-09-08 03:50:51 +0000] [1367691] [INFO] Booting worker with pid: 1367691
+[2025-09-08 03:52:36 +0000] [1232626] [INFO] Autorestarting worker after current request.
+[2025-09-08 03:52:37 +0000] [1232626] [INFO] Worker exiting (pid: 1232626)
+[2025-09-08 03:52:46 +0000] [1367882] [INFO] Booting worker with pid: 1367882
+[2025-09-08 03:59:36 +0000] [1230249] [INFO] Autorestarting worker after current request.
+[2025-09-08 03:59:37 +0000] [1230249] [INFO] Worker exiting (pid: 1230249)
+[2025-09-08 03:59:47 +0000] [1368639] [INFO] Booting worker with pid: 1368639
+[2025-09-16 02:51:09 +0000] [1338440] [INFO] Autorestarting worker after current request.
+[2025-09-16 02:51:09 +0000] [1338440] [INFO] Worker exiting (pid: 1338440)
+[2025-09-16 02:51:19 +0000] [2562589] [INFO] Booting worker with pid: 2562589
+[2025-09-16 04:05:09 +0000] [1367691] [INFO] Autorestarting worker after current request.
+[2025-09-16 04:05:09 +0000] [1367691] [INFO] Worker exiting (pid: 1367691)
+[2025-09-16 04:05:20 +0000] [2570049] [INFO] Booting worker with pid: 2570049
+[2025-09-16 04:07:09 +0000] [1346039] [INFO] Autorestarting worker after current request.
+[2025-09-16 04:07:10 +0000] [1346039] [INFO] Worker exiting (pid: 1346039)
+[2025-09-16 04:07:24 +0000] [2570229] [INFO] Booting worker with pid: 2570229
+[2025-09-16 04:21:09 +0000] [1367882] [INFO] Autorestarting worker after current request.
+[2025-09-16 04:21:09 +0000] [1367882] [INFO] Worker exiting (pid: 1367882)
+[2025-09-16 04:21:21 +0000] [2571456] [INFO] Booting worker with pid: 2571456
+[2025-09-16 04:22:10 +0000] [1368639] [INFO] Autorestarting worker after current request.
+[2025-09-16 04:22:11 +0000] [1368639] [INFO] Worker exiting (pid: 1368639)
+[2025-09-16 04:22:20 +0000] [2571543] [INFO] Booting worker with pid: 2571543
+[2025-09-16 17:58:10 +0000] [2562589] [INFO] Autorestarting worker after current request.
+[2025-09-16 17:58:11 +0000] [2562589] [INFO] Worker exiting (pid: 2562589)
+[2025-09-16 17:58:25 +0000] [2653759] [INFO] Booting worker with pid: 2653759
+[2025-09-17 07:11:40 +0000] [2570049] [INFO] Autorestarting worker after current request.
+[2025-09-17 07:11:41 +0000] [2570049] [INFO] Worker exiting (pid: 2570049)
+[2025-09-17 07:11:56 +0000] [2735196] [INFO] Booting worker with pid: 2735196
+[2025-09-17 07:48:31 +0000] [2570229] [INFO] Autorestarting worker after current request.
+[2025-09-17 07:48:32 +0000] [2570229] [INFO] Worker exiting (pid: 2570229)
+[2025-09-17 07:48:48 +0000] [2739061] [INFO] Booting worker with pid: 2739061
+[2025-09-17 15:17:51 +0000] [2571543] [INFO] Autorestarting worker after current request.
+[2025-09-17 15:17:51 +0000] [2571543] [INFO] Worker exiting (pid: 2571543)
+[2025-09-17 15:18:09 +0000] [2783669] [INFO] Booting worker with pid: 2783669
+[2025-09-17 15:37:51 +0000] [2571456] [INFO] Autorestarting worker after current request.
+[2025-09-17 15:37:52 +0000] [2571456] [INFO] Worker exiting (pid: 2571456)
+[2025-09-17 15:38:03 +0000] [2785558] [INFO] Booting worker with pid: 2785558
+[2025-09-30 16:34:43 +0000] [2653759] [INFO] Autorestarting worker after current request.
+[2025-09-30 16:34:43 +0000] [2653759] [INFO] Worker exiting (pid: 2653759)
+[2025-09-30 16:35:01 +0000] [519920] [INFO] Booting worker with pid: 519920
+[2025-09-30 17:49:43 +0000] [2735196] [INFO] Autorestarting worker after current request.
+[2025-09-30 17:49:44 +0000] [2735196] [INFO] Worker exiting (pid: 2735196)
+[2025-09-30 17:49:56 +0000] [527475] [INFO] Booting worker with pid: 527475
+[2025-10-21 04:43:27 +0000] [519920] [INFO] Worker exiting (pid: 519920)
+[2025-10-21 04:43:27 +0000] [2785558] [INFO] Worker exiting (pid: 2785558)
+[2025-10-21 04:43:27 +0000] [2783669] [INFO] Worker exiting (pid: 2783669)
+[2025-10-21 04:43:27 +0000] [527475] [INFO] Worker exiting (pid: 527475)
+[2025-10-21 04:43:27 +0000] [2739061] [INFO] Worker exiting (pid: 2739061)
+[2025-10-21 04:43:27 +0000] [42365] [INFO] Handling signal: term
+[2025-10-21 04:43:59 +0000] [42365] [INFO] Shutting down: Master
+[2025-10-21 04:43:59 +0000] [42365] [ERROR] Worker (pid:2739061) was sent SIGKILL! Perhaps out of memory?
+[2025-10-21 04:43:59 +0000] [42365] [ERROR] Worker (pid:2783669) was sent SIGKILL! Perhaps out of memory?
+[2025-10-21 04:43:59 +0000] [42365] [ERROR] Worker (pid:2785558) was sent SIGKILL! Perhaps out of memory?
+[2025-10-21 04:43:59 +0000] [42365] [ERROR] Worker (pid:519920) was sent SIGKILL! Perhaps out of memory?
+[2025-10-21 04:43:59 +0000] [42365] [ERROR] Worker (pid:527475) was sent SIGKILL! Perhaps out of memory?
+[2025-10-21 04:44:17 +0000] [3629764] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:44:17 +0000] [3629764] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3629764)
+[2025-10-21 04:44:17 +0000] [3629764] [INFO] Using worker: sync
+[2025-10-21 04:44:17 +0000] [3629772] [INFO] Booting worker with pid: 3629772
+[2025-10-21 04:44:17 +0000] [3629775] [INFO] Booting worker with pid: 3629775
+[2025-10-21 04:44:17 +0000] [3629776] [INFO] Booting worker with pid: 3629776
+[2025-10-21 04:44:17 +0000] [3629774] [INFO] Booting worker with pid: 3629774
+[2025-10-21 04:44:17 +0000] [3629778] [INFO] Booting worker with pid: 3629778
+[2025-10-21 04:47:04 +0000] [3629775] [INFO] Worker exiting (pid: 3629775)
+[2025-10-21 04:47:04 +0000] [3629772] [INFO] Worker exiting (pid: 3629772)
+[2025-10-21 04:47:04 +0000] [3629776] [INFO] Worker exiting (pid: 3629776)
+[2025-10-21 04:47:04 +0000] [3629774] [INFO] Worker exiting (pid: 3629774)
+[2025-10-21 04:47:04 +0000] [3629778] [INFO] Worker exiting (pid: 3629778)
+[2025-10-21 04:47:04 +0000] [3629764] [INFO] Handling signal: term
+[2025-10-21 04:47:05 +0000] [3629764] [ERROR] Worker (pid:3629774) was sent SIGTERM!
+[2025-10-21 04:47:05 +0000] [3629764] [ERROR] Worker (pid:3629776) was sent SIGTERM!
+[2025-10-21 04:47:05 +0000] [3629764] [ERROR] Worker (pid:3629778) was sent SIGTERM!
+[2025-10-21 04:47:05 +0000] [3629764] [ERROR] Worker (pid:3629772) was sent SIGTERM!
+[2025-10-21 04:47:05 +0000] [3629764] [ERROR] Worker (pid:3629775) was sent SIGTERM!
+[2025-10-21 04:47:05 +0000] [3629764] [INFO] Shutting down: Master
+[2025-10-21 04:47:22 +0000] [3630097] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:47:22 +0000] [3630097] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630097)
+[2025-10-21 04:47:22 +0000] [3630097] [INFO] Using worker: sync
+[2025-10-21 04:47:22 +0000] [3630106] [INFO] Booting worker with pid: 3630106
+[2025-10-21 04:47:22 +0000] [3630107] [INFO] Booting worker with pid: 3630107
+[2025-10-21 04:47:22 +0000] [3630108] [INFO] Booting worker with pid: 3630108
+[2025-10-21 04:47:22 +0000] [3630109] [INFO] Booting worker with pid: 3630109
+[2025-10-21 04:47:22 +0000] [3630110] [INFO] Booting worker with pid: 3630110
+[2025-10-21 04:48:51 +0000] [3630110] [INFO] Worker exiting (pid: 3630110)
+[2025-10-21 04:48:51 +0000] [3630107] [INFO] Worker exiting (pid: 3630107)
+[2025-10-21 04:48:51 +0000] [3630109] [INFO] Worker exiting (pid: 3630109)
+[2025-10-21 04:48:51 +0000] [3630106] [INFO] Worker exiting (pid: 3630106)
+[2025-10-21 04:48:51 +0000] [3630108] [INFO] Worker exiting (pid: 3630108)
+[2025-10-21 04:48:51 +0000] [3630097] [INFO] Handling signal: term
+[2025-10-21 04:48:52 +0000] [3630097] [ERROR] Worker (pid:3630106) was sent SIGTERM!
+[2025-10-21 04:48:52 +0000] [3630097] [ERROR] Worker (pid:3630109) was sent SIGTERM!
+[2025-10-21 04:48:52 +0000] [3630097] [ERROR] Worker (pid:3630107) was sent SIGTERM!
+[2025-10-21 04:48:52 +0000] [3630097] [ERROR] Worker (pid:3630110) was sent SIGTERM!
+[2025-10-21 04:48:52 +0000] [3630097] [ERROR] Worker (pid:3630108) was sent SIGTERM!
+[2025-10-21 04:48:52 +0000] [3630097] [INFO] Shutting down: Master
+[2025-10-21 04:49:01 +0000] [3630264] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:49:01 +0000] [3630264] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630264)
+[2025-10-21 04:49:01 +0000] [3630264] [INFO] Using worker: sync
+[2025-10-21 04:49:01 +0000] [3630272] [INFO] Booting worker with pid: 3630272
+[2025-10-21 04:49:01 +0000] [3630273] [INFO] Booting worker with pid: 3630273
+[2025-10-21 04:49:01 +0000] [3630275] [INFO] Booting worker with pid: 3630275
+[2025-10-21 04:49:01 +0000] [3630274] [INFO] Booting worker with pid: 3630274
+[2025-10-21 04:49:01 +0000] [3630276] [INFO] Booting worker with pid: 3630276
+[2025-10-21 04:50:53 +0000] [3630274] [INFO] Worker exiting (pid: 3630274)
+[2025-10-21 04:50:53 +0000] [3630275] [INFO] Worker exiting (pid: 3630275)
+[2025-10-21 04:50:53 +0000] [3630276] [INFO] Worker exiting (pid: 3630276)
+[2025-10-21 04:50:53 +0000] [3630273] [INFO] Worker exiting (pid: 3630273)
+[2025-10-21 04:50:53 +0000] [3630272] [INFO] Worker exiting (pid: 3630272)
+[2025-10-21 04:50:53 +0000] [3630264] [INFO] Handling signal: term
+[2025-10-21 04:50:53 +0000] [3630264] [ERROR] Worker (pid:3630275) was sent SIGTERM!
+[2025-10-21 04:50:53 +0000] [3630264] [ERROR] Worker (pid:3630272) was sent SIGTERM!
+[2025-10-21 04:50:53 +0000] [3630264] [ERROR] Worker (pid:3630274) was sent SIGTERM!
+[2025-10-21 04:50:53 +0000] [3630264] [ERROR] Worker (pid:3630273) was sent SIGTERM!
+[2025-10-21 04:50:53 +0000] [3630264] [ERROR] Worker (pid:3630276) was sent SIGTERM!
+[2025-10-21 04:50:53 +0000] [3630264] [INFO] Shutting down: Master
+[2025-10-21 04:51:02 +0000] [3630473] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:51:02 +0000] [3630473] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630473)
+[2025-10-21 04:51:02 +0000] [3630473] [INFO] Using worker: sync
+[2025-10-21 04:51:02 +0000] [3630484] [INFO] Booting worker with pid: 3630484
+[2025-10-21 04:51:02 +0000] [3630485] [INFO] Booting worker with pid: 3630485
+[2025-10-21 04:51:02 +0000] [3630487] [INFO] Booting worker with pid: 3630487
+[2025-10-21 04:51:02 +0000] [3630488] [INFO] Booting worker with pid: 3630488
+[2025-10-21 04:51:02 +0000] [3630489] [INFO] Booting worker with pid: 3630489
+[2025-10-21 04:51:56 +0000] [3630488] [INFO] Worker exiting (pid: 3630488)
+[2025-10-21 04:51:56 +0000] [3630489] [INFO] Worker exiting (pid: 3630489)
+[2025-10-21 04:51:56 +0000] [3630487] [INFO] Worker exiting (pid: 3630487)
+[2025-10-21 04:51:56 +0000] [3630485] [INFO] Worker exiting (pid: 3630485)
+[2025-10-21 04:51:56 +0000] [3630484] [INFO] Worker exiting (pid: 3630484)
+[2025-10-21 04:51:56 +0000] [3630473] [INFO] Handling signal: term
+[2025-10-21 04:51:56 +0000] [3630473] [ERROR] Worker (pid:3630485) was sent SIGTERM!
+[2025-10-21 04:51:56 +0000] [3630473] [ERROR] Worker (pid:3630484) was sent SIGTERM!
+[2025-10-21 04:51:56 +0000] [3630473] [ERROR] Worker (pid:3630488) was sent SIGTERM!
+[2025-10-21 04:51:56 +0000] [3630473] [ERROR] Worker (pid:3630489) was sent SIGTERM!
+[2025-10-21 04:51:57 +0000] [3630473] [INFO] Shutting down: Master
+[2025-10-21 04:52:02 +0000] [3630588] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:52:02 +0000] [3630588] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630588)
+[2025-10-21 04:52:02 +0000] [3630588] [INFO] Using worker: sync
+[2025-10-21 04:52:02 +0000] [3630595] [INFO] Booting worker with pid: 3630595
+[2025-10-21 04:52:02 +0000] [3630596] [INFO] Booting worker with pid: 3630596
+[2025-10-21 04:52:03 +0000] [3630597] [INFO] Booting worker with pid: 3630597
+[2025-10-21 04:52:03 +0000] [3630598] [INFO] Booting worker with pid: 3630598
+[2025-10-21 04:52:03 +0000] [3630599] [INFO] Booting worker with pid: 3630599
+[2025-10-21 04:53:42 +0000] [3630599] [INFO] Worker exiting (pid: 3630599)
+[2025-10-21 04:53:42 +0000] [3630598] [INFO] Worker exiting (pid: 3630598)
+[2025-10-21 04:53:42 +0000] [3630596] [INFO] Worker exiting (pid: 3630596)
+[2025-10-21 04:53:42 +0000] [3630597] [INFO] Worker exiting (pid: 3630597)
+[2025-10-21 04:53:42 +0000] [3630595] [INFO] Worker exiting (pid: 3630595)
+[2025-10-21 04:53:42 +0000] [3630588] [INFO] Handling signal: term
+[2025-10-21 04:53:43 +0000] [3630588] [ERROR] Worker (pid:3630595) was sent SIGTERM!
+[2025-10-21 04:53:43 +0000] [3630588] [ERROR] Worker (pid:3630596) was sent SIGTERM!
+[2025-10-21 04:53:43 +0000] [3630588] [ERROR] Worker (pid:3630597) was sent SIGTERM!
+[2025-10-21 04:53:43 +0000] [3630588] [ERROR] Worker (pid:3630598) was sent SIGTERM!
+[2025-10-21 04:53:43 +0000] [3630588] [ERROR] Worker (pid:3630599) was sent SIGTERM!
+[2025-10-21 04:53:43 +0000] [3630588] [INFO] Shutting down: Master
+[2025-10-21 04:53:50 +0000] [3630778] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:53:50 +0000] [3630778] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630778)
+[2025-10-21 04:53:50 +0000] [3630778] [INFO] Using worker: sync
+[2025-10-21 04:53:50 +0000] [3630785] [INFO] Booting worker with pid: 3630785
+[2025-10-21 04:53:50 +0000] [3630786] [INFO] Booting worker with pid: 3630786
+[2025-10-21 04:53:50 +0000] [3630787] [INFO] Booting worker with pid: 3630787
+[2025-10-21 04:53:50 +0000] [3630788] [INFO] Booting worker with pid: 3630788
+[2025-10-21 04:53:50 +0000] [3630789] [INFO] Booting worker with pid: 3630789
+[2025-10-21 04:55:44 +0000] [3630787] [INFO] Worker exiting (pid: 3630787)
+[2025-10-21 04:55:44 +0000] [3630788] [INFO] Worker exiting (pid: 3630788)
+[2025-10-21 04:55:44 +0000] [3630789] [INFO] Worker exiting (pid: 3630789)
+[2025-10-21 04:55:44 +0000] [3630785] [INFO] Worker exiting (pid: 3630785)
+[2025-10-21 04:55:44 +0000] [3630786] [INFO] Worker exiting (pid: 3630786)
+[2025-10-21 04:55:44 +0000] [3630778] [INFO] Handling signal: term
+[2025-10-21 04:55:45 +0000] [3630778] [ERROR] Worker (pid:3630786) was sent SIGTERM!
+[2025-10-21 04:55:45 +0000] [3630778] [ERROR] Worker (pid:3630787) was sent SIGTERM!
+[2025-10-21 04:55:45 +0000] [3630778] [ERROR] Worker (pid:3630788) was sent SIGTERM!
+[2025-10-21 04:55:45 +0000] [3630778] [ERROR] Worker (pid:3630789) was sent SIGTERM!
+[2025-10-21 04:55:45 +0000] [3630778] [ERROR] Worker (pid:3630785) was sent SIGTERM!
+[2025-10-21 04:55:45 +0000] [3630778] [INFO] Shutting down: Master
+[2025-10-21 04:55:55 +0000] [3630983] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 04:55:55 +0000] [3630983] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3630983)
+[2025-10-21 04:55:55 +0000] [3630983] [INFO] Using worker: sync
+[2025-10-21 04:55:55 +0000] [3630992] [INFO] Booting worker with pid: 3630992
+[2025-10-21 04:55:56 +0000] [3630993] [INFO] Booting worker with pid: 3630993
+[2025-10-21 04:55:56 +0000] [3630994] [INFO] Booting worker with pid: 3630994
+[2025-10-21 04:55:56 +0000] [3630995] [INFO] Booting worker with pid: 3630995
+[2025-10-21 04:55:56 +0000] [3630996] [INFO] Booting worker with pid: 3630996
+[2025-10-21 05:02:37 +0000] [3630994] [INFO] Worker exiting (pid: 3630994)
+[2025-10-21 05:02:37 +0000] [3630992] [INFO] Worker exiting (pid: 3630992)
+[2025-10-21 05:02:37 +0000] [3630996] [INFO] Worker exiting (pid: 3630996)
+[2025-10-21 05:02:37 +0000] [3630993] [INFO] Worker exiting (pid: 3630993)
+[2025-10-21 05:02:37 +0000] [3630995] [INFO] Worker exiting (pid: 3630995)
+[2025-10-21 05:02:38 +0000] [3630983] [INFO] Handling signal: term
+[2025-10-21 05:02:39 +0000] [3630983] [ERROR] Worker (pid:3630992) was sent SIGTERM!
+[2025-10-21 05:02:39 +0000] [3630983] [ERROR] Worker (pid:3630993) was sent SIGTERM!
+[2025-10-21 05:02:39 +0000] [3630983] [ERROR] Worker (pid:3630996) was sent SIGTERM!
+[2025-10-21 05:02:39 +0000] [3630983] [ERROR] Worker (pid:3630995) was sent SIGTERM!
+[2025-10-21 05:02:39 +0000] [3630983] [ERROR] Worker (pid:3630994) was sent SIGTERM!
+[2025-10-21 05:02:39 +0000] [3630983] [INFO] Shutting down: Master
+[2025-10-21 05:03:02 +0000] [3631645] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 05:03:02 +0000] [3631645] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3631645)
+[2025-10-21 05:03:02 +0000] [3631645] [INFO] Using worker: sync
+[2025-10-21 05:03:02 +0000] [3631659] [INFO] Booting worker with pid: 3631659
+[2025-10-21 05:03:02 +0000] [3631660] [INFO] Booting worker with pid: 3631660
+[2025-10-21 05:03:02 +0000] [3631662] [INFO] Booting worker with pid: 3631662
+[2025-10-21 05:03:02 +0000] [3631661] [INFO] Booting worker with pid: 3631661
+[2025-10-21 05:03:02 +0000] [3631663] [INFO] Booting worker with pid: 3631663
+[2025-10-21 05:06:30 +0000] [3631662] [INFO] Worker exiting (pid: 3631662)
+[2025-10-21 05:06:30 +0000] [3631659] [INFO] Worker exiting (pid: 3631659)
+[2025-10-21 05:06:30 +0000] [3631663] [INFO] Worker exiting (pid: 3631663)
+[2025-10-21 05:06:30 +0000] [3631660] [INFO] Worker exiting (pid: 3631660)
+[2025-10-21 05:06:30 +0000] [3631661] [INFO] Worker exiting (pid: 3631661)
+[2025-10-21 05:06:30 +0000] [3631645] [INFO] Handling signal: term
+[2025-10-21 05:06:32 +0000] [3631645] [ERROR] Worker (pid:3631659) was sent SIGTERM!
+[2025-10-21 05:06:32 +0000] [3631645] [ERROR] Worker (pid:3631660) was sent SIGTERM!
+[2025-10-21 05:06:32 +0000] [3631645] [ERROR] Worker (pid:3631661) was sent SIGTERM!
+[2025-10-21 05:06:32 +0000] [3631645] [ERROR] Worker (pid:3631662) was sent SIGTERM!
+[2025-10-21 05:06:32 +0000] [3631645] [ERROR] Worker (pid:3631663) was sent SIGTERM!
+[2025-10-21 05:06:32 +0000] [3631645] [INFO] Shutting down: Master
+[2025-10-21 05:06:56 +0000] [3631972] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 05:06:56 +0000] [3631972] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3631972)
+[2025-10-21 05:06:56 +0000] [3631972] [INFO] Using worker: sync
+[2025-10-21 05:06:57 +0000] [3631980] [INFO] Booting worker with pid: 3631980
+[2025-10-21 05:06:57 +0000] [3631981] [INFO] Booting worker with pid: 3631981
+[2025-10-21 05:06:57 +0000] [3631982] [INFO] Booting worker with pid: 3631982
+[2025-10-21 05:06:57 +0000] [3631983] [INFO] Booting worker with pid: 3631983
+[2025-10-21 05:06:57 +0000] [3631984] [INFO] Booting worker with pid: 3631984
+[2025-10-21 05:09:05 +0000] [3631982] [INFO] Worker exiting (pid: 3631982)
+[2025-10-21 05:09:05 +0000] [3631984] [INFO] Worker exiting (pid: 3631984)
+[2025-10-21 05:09:05 +0000] [3631983] [INFO] Worker exiting (pid: 3631983)
+[2025-10-21 05:09:05 +0000] [3631981] [INFO] Worker exiting (pid: 3631981)
+[2025-10-21 05:09:05 +0000] [3631980] [INFO] Worker exiting (pid: 3631980)
+[2025-10-21 05:09:05 +0000] [3631972] [INFO] Handling signal: term
+[2025-10-21 05:09:07 +0000] [3631972] [ERROR] Worker (pid:3631980) was sent SIGTERM!
+[2025-10-21 05:09:07 +0000] [3631972] [ERROR] Worker (pid:3631982) was sent SIGTERM!
+[2025-10-21 05:09:07 +0000] [3631972] [ERROR] Worker (pid:3631983) was sent SIGTERM!
+[2025-10-21 05:09:07 +0000] [3631972] [ERROR] Worker (pid:3631984) was sent SIGTERM!
+[2025-10-21 05:09:07 +0000] [3631972] [ERROR] Worker (pid:3631981) was sent SIGTERM!
+[2025-10-21 05:09:07 +0000] [3631972] [INFO] Shutting down: Master
+[2025-10-21 05:09:21 +0000] [3632513] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 05:09:21 +0000] [3632513] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3632513)
+[2025-10-21 05:09:21 +0000] [3632513] [INFO] Using worker: sync
+[2025-10-21 05:09:21 +0000] [3632521] [INFO] Booting worker with pid: 3632521
+[2025-10-21 05:09:21 +0000] [3632522] [INFO] Booting worker with pid: 3632522
+[2025-10-21 05:09:21 +0000] [3632523] [INFO] Booting worker with pid: 3632523
+[2025-10-21 05:09:21 +0000] [3632524] [INFO] Booting worker with pid: 3632524
+[2025-10-21 05:09:21 +0000] [3632525] [INFO] Booting worker with pid: 3632525
+[2025-10-21 05:11:16 +0000] [3632525] [INFO] Worker exiting (pid: 3632525)
+[2025-10-21 05:11:16 +0000] [3632523] [INFO] Worker exiting (pid: 3632523)
+[2025-10-21 05:11:16 +0000] [3632524] [INFO] Worker exiting (pid: 3632524)
+[2025-10-21 05:11:16 +0000] [3632522] [INFO] Worker exiting (pid: 3632522)
+[2025-10-21 05:11:16 +0000] [3632521] [INFO] Worker exiting (pid: 3632521)
+[2025-10-21 05:11:16 +0000] [3632513] [INFO] Handling signal: term
+[2025-10-21 05:11:17 +0000] [3632513] [ERROR] Worker (pid:3632523) was sent SIGTERM!
+[2025-10-21 05:11:17 +0000] [3632513] [ERROR] Worker (pid:3632524) was sent SIGTERM!
+[2025-10-21 05:11:17 +0000] [3632513] [ERROR] Worker (pid:3632525) was sent SIGTERM!
+[2025-10-21 05:11:17 +0000] [3632513] [ERROR] Worker (pid:3632521) was sent SIGTERM!
+[2025-10-21 05:11:17 +0000] [3632513] [ERROR] Worker (pid:3632522) was sent SIGTERM!
+[2025-10-21 05:11:17 +0000] [3632513] [INFO] Shutting down: Master
+[2025-10-21 05:11:36 +0000] [3632727] [INFO] Starting gunicorn 21.2.0
+[2025-10-21 05:11:36 +0000] [3632727] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3632727)
+[2025-10-21 05:11:36 +0000] [3632727] [INFO] Using worker: sync
+[2025-10-21 05:11:36 +0000] [3632736] [INFO] Booting worker with pid: 3632736
+[2025-10-21 05:11:36 +0000] [3632737] [INFO] Booting worker with pid: 3632737
+[2025-10-21 05:11:36 +0000] [3632738] [INFO] Booting worker with pid: 3632738
+[2025-10-21 05:11:36 +0000] [3632739] [INFO] Booting worker with pid: 3632739
+[2025-10-21 05:11:37 +0000] [3632740] [INFO] Booting worker with pid: 3632740
+[2025-11-23 01:48:17 +0000] [3632727] [INFO] Handling signal: term
+[2025-11-23 01:48:17 +0000] [3632739] [INFO] Worker exiting (pid: 3632739)
+[2025-11-23 01:48:17 +0000] [3632740] [INFO] Worker exiting (pid: 3632740)
+[2025-11-23 01:48:17 +0000] [3632736] [INFO] Worker exiting (pid: 3632736)
+[2025-11-23 01:48:17 +0000] [3632737] [INFO] Worker exiting (pid: 3632737)
+[2025-11-23 01:48:17 +0000] [3632738] [INFO] Worker exiting (pid: 3632738)
+[2025-11-23 01:48:51 +0000] [3632727] [INFO] Shutting down: Master
+[2025-11-23 01:48:51 +0000] [3632727] [ERROR] Worker (pid:3632736) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 01:48:51 +0000] [3632727] [ERROR] Worker (pid:3632737) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 01:48:51 +0000] [3632727] [ERROR] Worker (pid:3632738) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 01:48:51 +0000] [3632727] [ERROR] Worker (pid:3632739) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 01:48:51 +0000] [3632727] [ERROR] Worker (pid:3632740) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 01:50:56 +0000] [735] [INFO] Starting gunicorn 21.2.0
+[2025-11-23 01:50:56 +0000] [735] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (735)
+[2025-11-23 01:50:56 +0000] [735] [INFO] Using worker: sync
+[2025-11-23 01:50:56 +0000] [1029] [INFO] Booting worker with pid: 1029
+[2025-11-23 01:50:56 +0000] [1031] [INFO] Booting worker with pid: 1031
+[2025-11-23 01:50:57 +0000] [1039] [INFO] Booting worker with pid: 1039
+[2025-11-23 01:50:57 +0000] [1041] [INFO] Booting worker with pid: 1041
+[2025-11-23 01:50:57 +0000] [1036] [INFO] Booting worker with pid: 1036
+[2025-11-23 02:47:03 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:1039)
+[2025-11-23 02:47:08 +0000] [1039] [INFO] Worker exiting (pid: 1039)
+[2025-11-23 02:47:15 +0000] [735] [ERROR] Worker (pid:1039) exited with code 1
+[2025-11-23 02:47:15 +0000] [735] [ERROR] Worker (pid:1039) exited with code 1.
+[2025-11-23 02:47:15 +0000] [14720] [INFO] Booting worker with pid: 14720
+[2025-11-23 03:06:43 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:1041)
+[2025-11-23 03:19:05 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:14720)
+[2025-11-23 03:22:16 +0000] [735] [ERROR] Worker (pid:1041) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 03:22:24 +0000] [735] [ERROR] Worker (pid:14720) was sent SIGKILL! Perhaps out of memory?
+[2025-11-23 03:22:35 +0000] [16203] [INFO] Booting worker with pid: 16203
+[2025-11-23 03:22:35 +0000] [16202] [INFO] Booting worker with pid: 16202
+[2025-11-23 03:42:14 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:1029)
+[2025-11-23 03:42:18 +0000] [1029] [INFO] Worker exiting (pid: 1029)
+[2025-11-23 03:42:37 +0000] [735] [ERROR] Worker (pid:1029) exited with code 1
+[2025-11-23 03:42:37 +0000] [735] [ERROR] Worker (pid:1029) exited with code 1.
+[2025-11-23 03:42:38 +0000] [18566] [INFO] Booting worker with pid: 18566
+[2025-12-25 22:31:42 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:1036)
+[2025-12-25 22:31:45 +0000] [735] [ERROR] Worker (pid:1036) was sent SIGKILL! Perhaps out of memory?
+[2025-12-25 22:31:48 +0000] [2194292] [INFO] Booting worker with pid: 2194292
+[2025-12-25 22:49:13 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:16202)
+[2025-12-25 22:49:17 +0000] [735] [ERROR] Worker (pid:16202) was sent SIGKILL! Perhaps out of memory?
+[2025-12-25 22:49:19 +0000] [2196920] [INFO] Booting worker with pid: 2196920
+[2025-12-25 22:49:23 +0000] [735] [CRITICAL] WORKER TIMEOUT (pid:1031)
+[2025-12-25 22:49:25 +0000] [735] [ERROR] Worker (pid:1031) was sent SIGKILL! Perhaps out of memory?
+[2025-12-25 22:49:25 +0000] [2196928] [INFO] Booting worker with pid: 2196928
+[2025-12-26 01:11:41 +0000] [16203] [INFO] Worker exiting (pid: 16203)
+[2025-12-26 01:11:41 +0000] [2194292] [INFO] Worker exiting (pid: 2194292)
+[2025-12-26 01:11:41 +0000] [2196928] [INFO] Worker exiting (pid: 2196928)
+[2025-12-26 01:11:41 +0000] [2196920] [INFO] Worker exiting (pid: 2196920)
+[2025-12-26 01:11:41 +0000] [18566] [INFO] Worker exiting (pid: 18566)
+[2025-12-26 01:11:43 +0000] [735] [INFO] Handling signal: term
+[2025-12-26 01:11:45 +0000] [735] [ERROR] Worker (pid:16203) was sent SIGTERM!
+[2025-12-26 01:11:45 +0000] [735] [ERROR] Worker (pid:2194292) was sent SIGTERM!
+[2025-12-26 01:11:45 +0000] [735] [ERROR] Worker (pid:18566) was sent SIGTERM!
+[2025-12-26 01:11:45 +0000] [735] [ERROR] Worker (pid:2196928) was sent SIGTERM!
+[2025-12-26 01:11:45 +0000] [735] [ERROR] Worker (pid:2196920) was sent SIGTERM!
+[2025-12-26 01:11:45 +0000] [735] [INFO] Shutting down: Master
+[2025-12-26 01:12:44 +0000] [2213161] [INFO] Starting gunicorn 21.2.0
+[2025-12-26 01:12:44 +0000] [2213161] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2213161)
+[2025-12-26 01:12:44 +0000] [2213161] [INFO] Using worker: sync
+[2025-12-26 01:12:44 +0000] [2213167] [INFO] Booting worker with pid: 2213167
+[2025-12-26 01:12:44 +0000] [2213168] [INFO] Booting worker with pid: 2213168
+[2025-12-26 01:12:44 +0000] [2213172] [INFO] Booting worker with pid: 2213172
+[2025-12-26 01:12:45 +0000] [2213174] [INFO] Booting worker with pid: 2213174
+[2025-12-26 01:12:45 +0000] [2213176] [INFO] Booting worker with pid: 2213176
+[2025-12-26 02:31:36 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2213176)
+[2025-12-26 02:31:38 +0000] [2213161] [ERROR] Worker (pid:2213176) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 02:31:39 +0000] [2221953] [INFO] Booting worker with pid: 2221953
+[2025-12-26 03:46:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2213167)
+[2025-12-26 03:46:35 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2213172)
+[2025-12-26 03:46:36 +0000] [2213167] [INFO] Worker exiting (pid: 2213167)
+[2025-12-26 03:46:36 +0000] [2213172] [INFO] Worker exiting (pid: 2213172)
+[2025-12-26 03:46:37 +0000] [2213161] [ERROR] Worker (pid:2213172) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 03:46:38 +0000] [2231633] [INFO] Booting worker with pid: 2231633
+[2025-12-26 03:46:58 +0000] [2213161] [ERROR] Worker (pid:2213167) exited with code 1
+[2025-12-26 03:46:58 +0000] [2213161] [ERROR] Worker (pid:2213167) exited with code 1.
+[2025-12-26 03:46:58 +0000] [2231662] [INFO] Booting worker with pid: 2231662
+[2025-12-26 03:50:33 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2221953)
+[2025-12-26 03:50:36 +0000] [2213161] [ERROR] Worker (pid:2221953) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 03:50:36 +0000] [2232004] [INFO] Booting worker with pid: 2232004
+[2025-12-26 04:00:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2213168)
+[2025-12-26 04:00:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2213174)
+[2025-12-26 04:00:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2231633)
+[2025-12-26 04:00:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2231662)
+[2025-12-26 04:00:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2232004)
+[2025-12-26 04:00:34 +0000] [2213174] [INFO] Worker exiting (pid: 2213174)
+[2025-12-26 04:00:34 +0000] [2231662] [INFO] Worker exiting (pid: 2231662)
+[2025-12-26 04:00:34 +0000] [2231633] [INFO] Worker exiting (pid: 2231633)
+[2025-12-26 04:00:34 +0000] [2213168] [INFO] Worker exiting (pid: 2213168)
+[2025-12-26 04:00:34 +0000] [2232004] [INFO] Worker exiting (pid: 2232004)
+[2025-12-26 04:00:35 +0000] [2213161] [ERROR] Worker (pid:2213168) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:00:35 +0000] [2213161] [ERROR] Worker (pid:2213174) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:00:35 +0000] [2213161] [ERROR] Worker (pid:2232004) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:00:35 +0000] [2213161] [ERROR] Worker (pid:2231633) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:00:35 +0000] [2213161] [ERROR] Worker (pid:2231662) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:00:36 +0000] [2233046] [INFO] Booting worker with pid: 2233046
+[2025-12-26 04:00:36 +0000] [2233047] [INFO] Booting worker with pid: 2233047
+[2025-12-26 04:00:36 +0000] [2233045] [INFO] Booting worker with pid: 2233045
+[2025-12-26 04:00:36 +0000] [2233044] [INFO] Booting worker with pid: 2233044
+[2025-12-26 04:00:36 +0000] [2233048] [INFO] Booting worker with pid: 2233048
+[2025-12-26 04:01:10 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233046)
+[2025-12-26 04:01:16 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233047)
+[2025-12-26 04:01:16 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233048)
+[2025-12-26 04:01:16 +0000] [2233046] [INFO] Worker exiting (pid: 2233046)
+[2025-12-26 04:01:16 +0000] [2233048] [INFO] Worker exiting (pid: 2233048)
+[2025-12-26 04:01:16 +0000] [2233047] [INFO] Worker exiting (pid: 2233047)
+[2025-12-26 04:01:17 +0000] [2213161] [ERROR] Worker (pid:2233046) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:01:18 +0000] [2213161] [ERROR] Worker (pid:2233047) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:01:18 +0000] [2213161] [ERROR] Worker (pid:2233048) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 04:01:20 +0000] [2233083] [INFO] Booting worker with pid: 2233083
+[2025-12-26 04:01:20 +0000] [2233085] [INFO] Booting worker with pid: 2233085
+[2025-12-26 04:01:20 +0000] [2233084] [INFO] Booting worker with pid: 2233084
+[2025-12-26 09:55:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233044)
+[2025-12-26 09:55:47 +0000] [2213161] [ERROR] Worker (pid:2233044) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:55:50 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233083)
+[2025-12-26 09:55:57 +0000] [2213161] [ERROR] Worker (pid:2233083) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:56:01 +0000] [2272487] [INFO] Booting worker with pid: 2272487
+[2025-12-26 09:56:02 +0000] [2272486] [INFO] Booting worker with pid: 2272486
+[2025-12-26 09:56:17 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233084)
+[2025-12-26 09:56:18 +0000] [2213161] [ERROR] Worker (pid:2233084) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:56:19 +0000] [2272509] [INFO] Booting worker with pid: 2272509
+[2025-12-26 09:56:58 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233085)
+[2025-12-26 09:56:59 +0000] [2213161] [ERROR] Worker (pid:2233085) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:57:05 +0000] [2272528] [INFO] Booting worker with pid: 2272528
+[2025-12-26 09:57:16 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2272486)
+[2025-12-26 09:57:17 +0000] [2272486] [INFO] Worker exiting (pid: 2272486)
+[2025-12-26 09:57:18 +0000] [2213161] [ERROR] Worker (pid:2272486) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:57:18 +0000] [2272534] [INFO] Booting worker with pid: 2272534
+[2025-12-26 09:58:34 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2272534)
+[2025-12-26 09:58:34 +0000] [2272534] [INFO] Worker exiting (pid: 2272534)
+[2025-12-26 09:58:35 +0000] [2213161] [ERROR] Worker (pid:2272534) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 09:58:37 +0000] [2272550] [INFO] Booting worker with pid: 2272550
+[2025-12-26 10:10:09 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2233045)
+[2025-12-26 10:10:11 +0000] [2213161] [ERROR] Worker (pid:2233045) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 10:10:21 +0000] [2272706] [INFO] Booting worker with pid: 2272706
+[2025-12-26 21:13:34 +0000] [2272706] [INFO] Autorestarting worker after current request.
+[2025-12-26 21:13:34 +0000] [2272706] [INFO] Worker exiting (pid: 2272706)
+[2025-12-26 21:13:53 +0000] [2360941] [INFO] Booting worker with pid: 2360941
+[2025-12-26 21:17:42 +0000] [2272509] [INFO] Autorestarting worker after current request.
+[2025-12-26 21:17:47 +0000] [2272509] [INFO] Worker exiting (pid: 2272509)
+[2025-12-26 21:18:04 +0000] [2361504] [INFO] Booting worker with pid: 2361504
+[2025-12-26 21:25:04 +0000] [2272528] [INFO] Autorestarting worker after current request.
+[2025-12-26 21:25:05 +0000] [2272528] [INFO] Worker exiting (pid: 2272528)
+[2025-12-26 21:25:18 +0000] [2362511] [INFO] Booting worker with pid: 2362511
+[2025-12-26 21:25:31 +0000] [2272487] [INFO] Autorestarting worker after current request.
+[2025-12-26 21:25:31 +0000] [2272487] [INFO] Worker exiting (pid: 2272487)
+[2025-12-26 21:25:42 +0000] [2362564] [INFO] Booting worker with pid: 2362564
+[2025-12-26 21:30:01 +0000] [2272550] [INFO] Autorestarting worker after current request.
+[2025-12-26 21:30:05 +0000] [2272550] [INFO] Worker exiting (pid: 2272550)
+[2025-12-26 21:30:18 +0000] [2363263] [INFO] Booting worker with pid: 2363263
+[2025-12-26 23:13:41 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2363263)
+[2025-12-26 23:13:42 +0000] [2363263] [INFO] Worker exiting (pid: 2363263)
+[2025-12-26 23:13:43 +0000] [2213161] [ERROR] Worker (pid:2363263) was sent SIGKILL! Perhaps out of memory?
+[2025-12-26 23:13:44 +0000] [2374925] [INFO] Booting worker with pid: 2374925
+[2025-12-26 23:25:11 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2362564)
+[2025-12-26 23:25:12 +0000] [2362564] [INFO] Worker exiting (pid: 2362564)
+[2025-12-26 23:25:16 +0000] [2213161] [ERROR] Worker (pid:2362564) exited with code 1
+[2025-12-26 23:25:16 +0000] [2213161] [ERROR] Worker (pid:2362564) exited with code 1.
+[2025-12-26 23:25:17 +0000] [2376553] [INFO] Booting worker with pid: 2376553
+[2025-12-27 03:41:05 +0000] [2360941] [INFO] Autorestarting worker after current request.
+[2025-12-27 03:41:09 +0000] [2360941] [INFO] Worker exiting (pid: 2360941)
+[2025-12-27 03:41:36 +0000] [2410457] [INFO] Booting worker with pid: 2410457
+[2025-12-27 03:45:37 +0000] [2361504] [INFO] Autorestarting worker after current request.
+[2025-12-27 03:45:38 +0000] [2361504] [INFO] Worker exiting (pid: 2361504)
+[2025-12-27 03:46:04 +0000] [2410972] [INFO] Booting worker with pid: 2410972
+[2025-12-27 04:04:40 +0000] [2362511] [INFO] Autorestarting worker after current request.
+[2025-12-27 04:04:43 +0000] [2362511] [INFO] Worker exiting (pid: 2362511)
+[2025-12-27 04:05:04 +0000] [2413129] [INFO] Booting worker with pid: 2413129
+[2025-12-27 05:40:49 +0000] [2374925] [INFO] Autorestarting worker after current request.
+[2025-12-27 05:40:55 +0000] [2374925] [INFO] Worker exiting (pid: 2374925)
+[2025-12-27 05:41:14 +0000] [2425559] [INFO] Booting worker with pid: 2425559
+[2025-12-27 05:43:21 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2410972)
+[2025-12-27 05:43:22 +0000] [2410972] [INFO] Worker exiting (pid: 2410972)
+[2025-12-27 05:43:23 +0000] [2213161] [ERROR] Worker (pid:2410972) was sent SIGKILL! Perhaps out of memory?
+[2025-12-27 05:43:24 +0000] [2425836] [INFO] Booting worker with pid: 2425836
+[2025-12-27 06:05:50 +0000] [2376553] [INFO] Autorestarting worker after current request.
+[2025-12-27 06:05:51 +0000] [2376553] [INFO] Worker exiting (pid: 2376553)
+[2025-12-27 06:06:04 +0000] [2428574] [INFO] Booting worker with pid: 2428574
+[2025-12-27 08:04:14 +0000] [2410457] [INFO] Autorestarting worker after current request.
+[2025-12-27 08:04:15 +0000] [2410457] [INFO] Worker exiting (pid: 2410457)
+[2025-12-27 08:04:21 +0000] [2444543] [INFO] Booting worker with pid: 2444543
+[2025-12-27 08:33:39 +0000] [2413129] [INFO] Autorestarting worker after current request.
+[2025-12-27 08:33:40 +0000] [2413129] [INFO] Worker exiting (pid: 2413129)
+[2025-12-27 08:33:44 +0000] [2448776] [INFO] Booting worker with pid: 2448776
+[2025-12-27 09:49:45 +0000] [2425559] [INFO] Autorestarting worker after current request.
+[2025-12-27 09:49:52 +0000] [2425559] [INFO] Worker exiting (pid: 2425559)
+[2025-12-27 09:50:02 +0000] [2458968] [INFO] Booting worker with pid: 2458968
+[2025-12-27 10:10:45 +0000] [2425836] [INFO] Autorestarting worker after current request.
+[2025-12-27 10:10:51 +0000] [2425836] [INFO] Worker exiting (pid: 2425836)
+[2025-12-27 10:11:01 +0000] [2461767] [INFO] Booting worker with pid: 2461767
+[2025-12-27 10:40:46 +0000] [2428574] [INFO] Autorestarting worker after current request.
+[2025-12-27 10:40:51 +0000] [2428574] [INFO] Worker exiting (pid: 2428574)
+[2025-12-27 10:41:03 +0000] [2465865] [INFO] Booting worker with pid: 2465865
+[2025-12-27 20:10:30 +0000] [2444543] [INFO] Autorestarting worker after current request.
+[2025-12-27 20:10:33 +0000] [2444543] [INFO] Worker exiting (pid: 2444543)
+[2025-12-27 20:10:36 +0000] [2543166] [INFO] Booting worker with pid: 2543166
+[2025-12-27 20:39:06 +0000] [2448776] [INFO] Autorestarting worker after current request.
+[2025-12-27 20:39:11 +0000] [2448776] [INFO] Worker exiting (pid: 2448776)
+[2025-12-27 20:39:24 +0000] [2543955] [INFO] Booting worker with pid: 2543955
+[2025-12-27 21:50:01 +0000] [2458968] [INFO] Autorestarting worker after current request.
+[2025-12-27 21:50:05 +0000] [2458968] [INFO] Worker exiting (pid: 2458968)
+[2025-12-27 21:50:09 +0000] [2546465] [INFO] Booting worker with pid: 2546465
+[2025-12-27 22:34:03 +0000] [2461767] [INFO] Autorestarting worker after current request.
+[2025-12-27 22:34:04 +0000] [2461767] [INFO] Worker exiting (pid: 2461767)
+[2025-12-27 22:34:06 +0000] [2547460] [INFO] Booting worker with pid: 2547460
+[2025-12-27 22:49:34 +0000] [2465865] [INFO] Autorestarting worker after current request.
+[2025-12-27 22:49:34 +0000] [2465865] [INFO] Worker exiting (pid: 2465865)
+[2025-12-27 22:49:37 +0000] [2547732] [INFO] Booting worker with pid: 2547732
+[2025-12-29 01:47:45 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2547460)
+[2025-12-29 01:48:15 +0000] [2547460] [INFO] Worker exiting (pid: 2547460)
+[2025-12-29 01:48:27 +0000] [2213161] [ERROR] Worker (pid:2547460) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 01:48:29 +0000] [2589428] [INFO] Booting worker with pid: 2589428
+[2025-12-29 08:50:56 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2543166)
+[2025-12-29 08:55:49 +0000] [2543166] [INFO] Worker exiting (pid: 2543166)
+[2025-12-29 08:56:13 +0000] [2213161] [ERROR] Worker (pid:2543166) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 08:56:14 +0000] [2599594] [INFO] Booting worker with pid: 2599594
+[2025-12-29 23:52:09 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2547732)
+[2025-12-29 23:58:13 +0000] [2213161] [CRITICAL] WORKER TIMEOUT (pid:2546465)
+[2025-12-29 23:58:16 +0000] [2213161] [ERROR] Worker (pid:2546465) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 23:58:18 +0000] [2547732] [INFO] Worker exiting (pid: 2547732)
+[2025-12-29 23:58:19 +0000] [2621563] [INFO] Booting worker with pid: 2621563
+[2025-12-29 23:58:39 +0000] [2213161] [ERROR] Worker (pid:2547732) exited with code 1
+[2025-12-29 23:58:39 +0000] [2213161] [ERROR] Worker (pid:2547732) exited with code 1.
+[2025-12-29 23:58:39 +0000] [2621647] [INFO] Booting worker with pid: 2621647

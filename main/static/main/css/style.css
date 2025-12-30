@@ -1036,6 +1036,8 @@ body {
     box-shadow: var(--shadow-md);
     transition: var(--transition);
     border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .hardware-card:hover {
@@ -1111,6 +1113,7 @@ body {
     padding: 1rem;
     background: var(--light-gray);
     border-radius: 8px;
+    margin-top: auto;
 }
 
 .price {
