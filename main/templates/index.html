@@ -44,30 +44,52 @@
                 </div>
             </div>
         </div>
-        
+
+
         <div class="hero-visual">
-            <div class="network-visualization">
-                <div class="node gateway" data-tooltip="Gateway">
-                    <i class="fas fa-wifi"></i>
-                </div>
-                <div class="node mesh-node" data-tooltip="Mesh Node">
-                    <i class="fas fa-broadcast-tower"></i>
-                </div>
-                <div class="node sensor" data-tooltip="Environmental Sensor">
-                    <i class="fas fa-thermometer-half"></i>
-                </div>
-                <div class="node sensor" data-tooltip="Water Quality Sensor">
-                    <i class="fas fa-tint"></i>
-                </div>
-                
+            <svg class="network-diagram" viewBox="0 0 600 300" aria-label="Telemetry network diagram">
+        
                 <!-- Connection lines -->
-                <svg class="connections" viewBox="0 0 400 300">
-                    <path class="connection-line" d="M100,150 L200,100"></path>
-                    <path class="connection-line" d="M200,100 L300,80"></path>
-                    <path class="connection-line" d="M200,100 L280,180"></path>
-                    <path class="connection-line" d="M100,150 L180,220"></path>
-                </svg>
-            </div>
+                <line x1="120" y1="200" x2="260" y2="150" class="link"/>
+                <line x1="120" y1="100" x2="260" y2="150" class="link"/>
+                <line x1="260" y1="150" x2="420" y2="150" class="link"/>
+                <line x1="420" y1="150" x2="520" y2="150" class="link"/>
+        
+                <!-- Sensors -->
+                <g class="node sensor" transform="translate(120,100)">
+                    <circle r="22"/>
+                    <i class="fas fa-thermometer-half"></i>
+                    <text y="45">Sensor</text>
+                </g>
+        
+                <g class="node sensor" transform="translate(120,200)">
+                    <circle r="22"/>
+                    <i class="fas fa-tint"></i>
+                    <text y="45">Sensor</text>
+                </g>
+        
+                <!-- Mesh Node -->
+                <g class="node mesh" transform="translate(260,150)">
+                    <circle r="26"/>
+                    <i class="fas fa-project-diagram"></i>
+                    <text y="50">Mesh Network</text>
+                </g>
+        
+                <!-- Gateway -->
+                <g class="node gateway" transform="translate(420,150)">
+                    <circle r="26"/>
+                    <i class="fas fa-wifi"></i>
+                    <text y="50">Gateway</text>
+                </g>
+        
+                <!-- Cloud -->
+                <g class="node cloud" transform="translate(520,150)">
+                    <circle r="26"/>
+                    <i class="fas fa-cloud"></i>
+                    <text y="50">Cloud</text>
+                </g>
+        
+            </svg>
         </div>
     </div>
     
