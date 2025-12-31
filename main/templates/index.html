@@ -205,95 +205,94 @@
     </div>
 </section>
 
-<!-- Hardware Section -->
-<section id="hardware" class="hardware-section">
+<!-- Communications & Telemetry Section -->
+<section id="communications" class="hardware-section">
     <div class="section-container">
         <div class="section-header">
-            <span class="section-badge">Hardware</span>
-            <h2>LoRa Meshtastic Network</h2>
-            <p>Unlimited off-grid range and no communication fees with our mesh networking solution. Many areas are already covered by the Meshtastic community.  
-            <a href="https://meshmap.net/" target="_blank">View the current node map here</a>.</p>
+            <span class="section-badge">Connectivity</span>
+            <h2>Communications & Telemetry</h2>
+            <p>
+                Reliable data delivery from anywhere — even where power, internet, or cellular service is limited or unavailable.
+                Our systems transmit sensor data using the best available network, including Meshtastic mesh,
+                Helium LoRaWAN, Wi-Fi, and cellular connections.
+            </p>
         </div>
-        
+
         <div class="hardware-grid">
+
+            <!-- Internet Gateway -->
             <div class="hardware-card gateway-card">
                 <div class="card-icon">
                     <i class="fas fa-wifi"></i>
                 </div>
-                <h3>Gateway</h3>
+                <h3>Internet Gateway</h3>
                 <p>
-  Connects to Wi-Fi, receives LoRa messages, and transmits data to the internet over ranges of 5–100&nbsp;km, depending on the environment.</p>
+                    Serves as the connection point between field-deployed sensors and the cloud.
+                    Gateways collect long-range wireless data and forward it securely using
+                    Wi-Fi or cellular networks when available.
+                </p>
 
                 <div class="hardware-specs">
-                    <h4>Specs</h4>
+                    <h4>Key Capabilities</h4>
                     <ul>
-                        <li><i class="fas fa-microchip"></i> Raspberry Pi (3.3v standards)</li>
-                        <li><i class="fas fa-satellite"></i> Grove-Wio-E5 LoRa Module</li>
-                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
+                        <li><i class="fas fa-broadcast-tower"></i> Long-range LoRa data reception</li>
+                        <li><i class="fas fa-network-wired"></i> Wi-Fi or cellular internet backhaul</li>
+                        <li><i class="fas fa-cloud"></i> Secure, automatic cloud delivery</li>
                     </ul>
                 </div>
-                
-                <div class="price-tag">
-                    <span class="price">$130</span>
-                </div>
             </div>
-            
+
+            <!-- Mesh & Relay Nodes -->
             <div class="hardware-card node-card">
                 <div class="card-icon">
-                    <i class="fas fa-broadcast-tower"></i>
+                    <i class="fas fa-project-diagram"></i>
                 </div>
-                <h3>Mesh Nodes</h3>
-                <p>Create mesh networks to extend WiFi connection beyond gateway reach. Extentions vary over ranges of 5–100&nbsp;km, depending on the environment. </p>
-                
+                <h3>Mesh & Relay Nodes</h3>
+                <p>
+                    Expand coverage into remote, obstructed, or off-grid environments.
+                    These nodes relay data between devices, forming a resilient, self-healing mesh
+                    that adapts as conditions change.
+                </p>
+
                 <div class="hardware-specs">
-                    <h4>Specs</h4>
+                    <h4>Ideal Use Cases</h4>
                     <ul>
-                        <li><i class="fas fa-satellite"></i> Grove-Wio-E5 LoRa Module</li>
-                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
-                        <li><i class="fas fa-shield-alt"></i> Weather Proof Case</li>
-                        <li><i class="fas fa-solar-panel"></i> Solar Kit</li> 
-
-                   </ul>
-                </div>
-
-                <div class="price-tag">
-                    <span class="price">$380</span>
+                        <li><i class="fas fa-mountain"></i> Remote terrain and canyons</li>
+                        <li><i class="fas fa-tree"></i> Forests, watersheds, and rural areas</li>
+                        <li><i class="fas fa-solar-panel"></i> Fully off-grid deployments</li>
+                        <li><i class="fas fa-random"></i> Multi-hop, long-distance routing</li>
+                    </ul>
                 </div>
             </div>
-            
+
+            <!-- Sensor Telemetry Units -->
             <div class="hardware-card transmitter-card">
                 <div class="card-icon">
                     <i class="fas fa-satellite-dish"></i>
                 </div>
-                <h3>Transmitters</h3>
-                <p>Send sensor data through the Meshtastic network to the SkySense API. Compatible with sensors using I²C, SPI, UART, 1-Wire, and analog interfaces.</p>
+                <h3>Sensor Telemetry Units</h3>
+                <p>
+                    Collect and transmit environmental data using ultra-low-power wireless communication.
+                    Designed for long-term deployment with minimal maintenance in challenging environments.
+                </p>
 
-                
                 <div class="hardware-specs">
-                    <h4>Specs</h4>
+                    <h4>Supported Communication Paths</h4>
                     <ul>
-                        <li><i class="fas fa-microchip"></i> Microcontroller</li>
-                        <li><i class="fas fa-radio"></i> RFM95W LoRa Transceiver</li>
-                        <li><i class="fas fa-battery-full"></i> Power Supply</li>
-                        <li><i class="fas fa-shield-alt"></i> Weather Proof Case</li>
-                        <li><i class="fas fa-solar-panel"></i> Solar Kit</li>
+                        <li><i class="fas fa-share-alt"></i> Meshtastic mesh networks</li>
+                        <li><i class="fas fa-signal"></i> Helium LoRaWAN coverage</li>
+                        <li><i class="fas fa-wifi"></i> Local Wi-Fi connections</li>
+                        <li><i class="fas fa-sim-card"></i> Cellular networks</li>
                     </ul>
                 </div>
-                
-                <div class="price-tag">
-                    <span class="price">$600</span>
-                </div>
             </div>
+
         </div>
-        
+
         <div class="hardware-links">
-            <a href="https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html" target="_blank" class="hardware-link">
-                <i class="fas fa-external-link-alt"></i>
-                Grove-Wio-E5 Modules
-            </a>
-            <a href="https://www.adafruit.com/product/3072" target="_blank" class="hardware-link">
-                <i class="fas fa-external-link-alt"></i>
-                RFM95W Transceivers
+            <a href="https://meshmap.net/" target="_blank" class="hardware-link">
+                <i class="fas fa-map-marked-alt"></i>
+                View Meshtastic Community Coverage Map
             </a>
         </div>
     </div>
