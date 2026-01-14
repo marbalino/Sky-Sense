@@ -122,45 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Counter animation for stats and metrics
-    function animateCounter(element, target, duration = 2000) {
-        const start = 0;
-        const increment = target / (duration / 16);
-        let current = start;
-
-        const timer = setInterval(() => {
-            current += increment;
-            if (current >= target) {
-                element.textContent = target;
-                clearInterval(timer);
-            } else {
-                element.textContent = Math.floor(current);
-            }
-        }, 16);
-    }
-
-    // Animate counters when they come into view
-    const counterObserver = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const element = entry.target;
-                const text = element.textContent;
-                const number = parseInt(text.replace(/\D/g, ''));
-                
-                if (number && !element.classList.contains('animated')) {
-                    element.classList.add('animated');
-                    animateCounter(element, number);
-                }
-            }
-        });
-    }, { threshold: 0.5 });
-
-    // Observe stat numbers for animation
-    document.querySelectorAll('.stat-number, .metric-value').forEach(el => {
-        if (el.textContent.includes('%') || /^\d+$/.test(el.textContent.trim())) {
-            counterObserver.observe(el);
-        }
-    });
 
     // Parallax effect for hero section
     window.addEventListener('scroll', function() {
@@ -275,72 +236,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Typing effect for hero title (optional enhancement)
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        // Ensure page starts at the top
-        window.scrollTo(0, 0);
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
-        
-        const text = heroTitle.innerHTML;
-        heroTitle.innerHTML = '';
-        let i = 0;
-        let userHasScrolled = false;
-        let scrollThreshold = 10; // Allow small scroll movements on mobile
-        
-        // Track if user has scrolled during animation
-        function handleScroll() {
-            const currentScroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-            if (currentScroll > scrollThreshold) {
-                userHasScrolled = true;
-                cleanup();
-            }
-        }
-        
-        // Also track touch events on mobile
-        function handleTouch(e) {
-            if (e.touches.length > 0) {
-                userHasScrolled = true;
-                cleanup();
-            }
-        }
-        
-        function cleanup() {
-            window.removeEventListener('scroll', handleScroll);
-            window.removeEventListener('touchstart', handleTouch);
-            document.removeEventListener('touchstart', handleTouch);
-        }
-        
-        // Add event listeners for both scroll and touch
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        window.addEventListener('touchstart', handleTouch, { passive: true });
-        document.addEventListener('touchstart', handleTouch, { passive: true });
-        
-        function typeWriter() {
-            if (i < text.length) {
-                heroTitle.innerHTML += text.charAt(i);
-                i++;
-                
-                // Keep viewport at top unless user has scrolled
-                if (!userHasScrolled) {
-                    window.scrollTo(0, 0);
-                    document.documentElement.scrollTop = 0;
-                    document.body.scrollTop = 0;
-                }
-                
-                setTimeout(typeWriter, 50);
-            } else {
-                // Animation complete, allow normal scrolling
-                cleanup();
-            }
-        }
-        
-        // Start typing effect after a delay, with extra delay on mobile
-        const isMobile = window.innerWidth <= 768;
-        const delay = isMobile ? 1000 : 500;
-        setTimeout(typeWriter, delay);
-    }
 });
 
 // Add CSS animations via JavaScript

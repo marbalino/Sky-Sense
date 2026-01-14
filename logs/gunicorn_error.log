@@ -2233,3 +2233,1028 @@
 [2025-12-29 23:58:39 +0000] [2213161] [ERROR] Worker (pid:2547732) exited with code 1
 [2025-12-29 23:58:39 +0000] [2213161] [ERROR] Worker (pid:2547732) exited with code 1.
 [2025-12-29 23:58:39 +0000] [2621647] [INFO] Booting worker with pid: 2621647
+[2025-12-30 03:51:55 +0000] [2213161] [INFO] Handling signal: term
+[2025-12-30 03:51:56 +0000] [2599594] [INFO] Worker exiting (pid: 2599594)
+[2025-12-30 03:51:56 +0000] [2589428] [INFO] Worker exiting (pid: 2589428)
+[2025-12-30 03:51:56 +0000] [2621563] [INFO] Worker exiting (pid: 2621563)
+[2025-12-30 03:51:56 +0000] [2543955] [INFO] Worker exiting (pid: 2543955)
+[2025-12-30 03:51:57 +0000] [2621647] [INFO] Worker exiting (pid: 2621647)
+[2025-12-30 03:52:03 +0000] [2213161] [INFO] Shutting down: Master
+[2025-12-30 03:52:07 +0000] [2626857] [INFO] Starting gunicorn 21.2.0
+[2025-12-30 03:52:07 +0000] [2626857] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2626857)
+[2025-12-30 03:52:07 +0000] [2626857] [INFO] Using worker: sync
+[2025-12-30 03:52:07 +0000] [2626859] [INFO] Booting worker with pid: 2626859
+[2025-12-30 03:52:07 +0000] [2626860] [INFO] Booting worker with pid: 2626860
+[2025-12-30 03:52:07 +0000] [2626861] [INFO] Booting worker with pid: 2626861
+[2025-12-30 03:52:07 +0000] [2626862] [INFO] Booting worker with pid: 2626862
+[2025-12-30 03:52:07 +0000] [2626863] [INFO] Booting worker with pid: 2626863
+[2025-12-30 03:59:52 +0000] [2626857] [INFO] Handling signal: term
+[2025-12-30 03:59:52 +0000] [2626862] [INFO] Worker exiting (pid: 2626862)
+[2025-12-30 03:59:52 +0000] [2626863] [INFO] Worker exiting (pid: 2626863)
+[2025-12-30 03:59:52 +0000] [2626861] [INFO] Worker exiting (pid: 2626861)
+[2025-12-30 03:59:52 +0000] [2626860] [INFO] Worker exiting (pid: 2626860)
+[2025-12-30 03:59:52 +0000] [2626859] [INFO] Worker exiting (pid: 2626859)
+[2025-12-30 03:59:54 +0000] [2626857] [INFO] Shutting down: Master
+[2025-12-30 03:59:56 +0000] [2627014] [INFO] Starting gunicorn 21.2.0
+[2025-12-30 03:59:56 +0000] [2627014] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2627014)
+[2025-12-30 03:59:56 +0000] [2627014] [INFO] Using worker: sync
+[2025-12-30 03:59:56 +0000] [2627018] [INFO] Booting worker with pid: 2627018
+[2025-12-30 03:59:56 +0000] [2627019] [INFO] Booting worker with pid: 2627019
+[2025-12-30 03:59:56 +0000] [2627020] [INFO] Booting worker with pid: 2627020
+[2025-12-30 03:59:56 +0000] [2627021] [INFO] Booting worker with pid: 2627021
+[2025-12-30 03:59:56 +0000] [2627022] [INFO] Booting worker with pid: 2627022
+[2025-12-30 04:45:19 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2627019)
+[2025-12-30 04:47:15 +0000] [2627019] [INFO] Worker exiting (pid: 2627019)
+[2025-12-30 04:47:35 +0000] [2627014] [ERROR] Worker (pid:2627019) exited with code 1
+[2025-12-30 04:47:35 +0000] [2627014] [ERROR] Worker (pid:2627019) exited with code 1.
+[2025-12-30 04:47:36 +0000] [2628055] [INFO] Booting worker with pid: 2628055
+[2025-12-30 05:05:02 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2627021)
+[2025-12-30 05:13:01 +0000] [2627021] [INFO] Worker exiting (pid: 2627021)
+[2025-12-30 05:13:25 +0000] [2627014] [ERROR] Worker (pid:2627021) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 05:13:25 +0000] [2628452] [INFO] Booting worker with pid: 2628452
+[2025-12-30 05:24:58 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2628452)
+[2025-12-30 05:25:05 +0000] [2628452] [INFO] Worker exiting (pid: 2628452)
+[2025-12-30 05:25:23 +0000] [2627014] [ERROR] Worker (pid:2628452) exited with code 1
+[2025-12-30 05:25:23 +0000] [2627014] [ERROR] Worker (pid:2628452) exited with code 1.
+[2025-12-30 05:25:23 +0000] [2629132] [INFO] Booting worker with pid: 2629132
+[2025-12-30 06:33:34 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2627020)
+[2025-12-30 06:42:31 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2627022)
+[2025-12-30 06:42:33 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2627018)
+[2025-12-30 06:42:37 +0000] [2627014] [ERROR] Worker (pid:2627020) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:42:38 +0000] [2627014] [ERROR] Worker (pid:2627022) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:42:38 +0000] [2627014] [ERROR] Worker (pid:2627018) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:42:47 +0000] [2630327] [INFO] Booting worker with pid: 2630327
+[2025-12-30 06:42:48 +0000] [2630326] [INFO] Booting worker with pid: 2630326
+[2025-12-30 06:42:48 +0000] [2630325] [INFO] Booting worker with pid: 2630325
+[2025-12-30 19:06:05 +0000] [2627014] [CRITICAL] WORKER TIMEOUT (pid:2628055)
+[2025-12-30 19:06:23 +0000] [2628055] [INFO] Worker exiting (pid: 2628055)
+[2025-12-30 19:06:45 +0000] [2627014] [ERROR] Worker (pid:2628055) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:06:45 +0000] [2648088] [INFO] Booting worker with pid: 2648088
+[2025-12-31 19:15:24 +0000] [2629132] [INFO] Worker exiting (pid: 2629132)
+[2025-12-31 19:15:24 +0000] [2648088] [INFO] Worker exiting (pid: 2648088)
+[2025-12-31 19:15:24 +0000] [2630326] [INFO] Worker exiting (pid: 2630326)
+[2025-12-31 19:15:24 +0000] [2630325] [INFO] Worker exiting (pid: 2630325)
+[2025-12-31 19:15:24 +0000] [2630327] [INFO] Worker exiting (pid: 2630327)
+[2025-12-31 19:15:25 +0000] [2627014] [INFO] Handling signal: term
+[2025-12-31 19:15:25 +0000] [2627014] [ERROR] Worker (pid:2629132) was sent SIGTERM!
+[2025-12-31 19:15:25 +0000] [2627014] [ERROR] Worker (pid:2630326) was sent SIGTERM!
+[2025-12-31 19:15:25 +0000] [2627014] [ERROR] Worker (pid:2648088) was sent SIGTERM!
+[2025-12-31 19:15:25 +0000] [2627014] [ERROR] Worker (pid:2630325) was sent SIGTERM!
+[2025-12-31 19:15:25 +0000] [2627014] [ERROR] Worker (pid:2630327) was sent SIGTERM!
+[2025-12-31 19:15:25 +0000] [2627014] [INFO] Shutting down: Master
+[2025-12-31 19:15:29 +0000] [2682791] [INFO] Starting gunicorn 21.2.0
+[2025-12-31 19:15:29 +0000] [2682791] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2682791)
+[2025-12-31 19:15:29 +0000] [2682791] [INFO] Using worker: sync
+[2025-12-31 19:15:29 +0000] [2682793] [INFO] Booting worker with pid: 2682793
+[2025-12-31 19:15:29 +0000] [2682794] [INFO] Booting worker with pid: 2682794
+[2025-12-31 19:15:29 +0000] [2682795] [INFO] Booting worker with pid: 2682795
+[2025-12-31 19:15:29 +0000] [2682796] [INFO] Booting worker with pid: 2682796
+[2025-12-31 19:15:29 +0000] [2682797] [INFO] Booting worker with pid: 2682797
+[2025-12-31 19:18:59 +0000] [2682793] [INFO] Worker exiting (pid: 2682793)
+[2025-12-31 19:18:59 +0000] [2682797] [INFO] Worker exiting (pid: 2682797)
+[2025-12-31 19:18:59 +0000] [2682794] [INFO] Worker exiting (pid: 2682794)
+[2025-12-31 19:18:59 +0000] [2682796] [INFO] Worker exiting (pid: 2682796)
+[2025-12-31 19:18:59 +0000] [2682791] [INFO] Handling signal: term
+[2025-12-31 19:18:59 +0000] [2682791] [ERROR] Worker (pid:2682793) was sent SIGTERM!
+[2025-12-31 19:18:59 +0000] [2682795] [INFO] Worker exiting (pid: 2682795)
+[2025-12-31 19:18:59 +0000] [2682791] [ERROR] Worker (pid:2682794) was sent SIGTERM!
+[2025-12-31 19:18:59 +0000] [2682791] [ERROR] Worker (pid:2682797) was sent SIGTERM!
+[2025-12-31 19:19:00 +0000] [2682791] [INFO] Shutting down: Master
+[2025-12-31 19:19:01 +0000] [2682867] [INFO] Starting gunicorn 21.2.0
+[2025-12-31 19:19:01 +0000] [2682867] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2682867)
+[2025-12-31 19:19:01 +0000] [2682867] [INFO] Using worker: sync
+[2025-12-31 19:19:01 +0000] [2682869] [INFO] Booting worker with pid: 2682869
+[2025-12-31 19:19:01 +0000] [2682870] [INFO] Booting worker with pid: 2682870
+[2025-12-31 19:19:01 +0000] [2682871] [INFO] Booting worker with pid: 2682871
+[2025-12-31 19:19:01 +0000] [2682872] [INFO] Booting worker with pid: 2682872
+[2025-12-31 19:19:01 +0000] [2682874] [INFO] Booting worker with pid: 2682874
+[2025-12-31 19:20:49 +0000] [2682870] [INFO] Worker exiting (pid: 2682870)
+[2025-12-31 19:20:49 +0000] [2682871] [INFO] Worker exiting (pid: 2682871)
+[2025-12-31 19:20:49 +0000] [2682872] [INFO] Worker exiting (pid: 2682872)
+[2025-12-31 19:20:49 +0000] [2682874] [INFO] Worker exiting (pid: 2682874)
+[2025-12-31 19:20:49 +0000] [2682867] [INFO] Handling signal: term
+[2025-12-31 19:20:49 +0000] [2682867] [ERROR] Worker (pid:2682870) was sent SIGTERM!
+[2025-12-31 19:20:49 +0000] [2682869] [INFO] Worker exiting (pid: 2682869)
+[2025-12-31 19:20:49 +0000] [2682867] [ERROR] Worker (pid:2682874) was sent SIGTERM!
+[2025-12-31 19:20:49 +0000] [2682867] [ERROR] Worker (pid:2682871) was sent SIGTERM!
+[2025-12-31 19:20:49 +0000] [2682867] [ERROR] Worker (pid:2682872) was sent SIGTERM!
+[2025-12-31 19:20:49 +0000] [2682867] [INFO] Shutting down: Master
+[2025-12-31 19:20:51 +0000] [2682913] [INFO] Starting gunicorn 21.2.0
+[2025-12-31 19:20:51 +0000] [2682913] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2682913)
+[2025-12-31 19:20:51 +0000] [2682913] [INFO] Using worker: sync
+[2025-12-31 19:20:51 +0000] [2682917] [INFO] Booting worker with pid: 2682917
+[2025-12-31 19:20:51 +0000] [2682918] [INFO] Booting worker with pid: 2682918
+[2025-12-31 19:20:51 +0000] [2682920] [INFO] Booting worker with pid: 2682920
+[2025-12-31 19:20:51 +0000] [2682921] [INFO] Booting worker with pid: 2682921
+[2025-12-31 19:20:51 +0000] [2682922] [INFO] Booting worker with pid: 2682922
+[2025-12-31 19:48:49 +0000] [2682922] [INFO] Worker exiting (pid: 2682922)
+[2025-12-31 19:48:49 +0000] [2682917] [INFO] Worker exiting (pid: 2682917)
+[2025-12-31 19:48:49 +0000] [2682913] [INFO] Handling signal: term
+[2025-12-31 19:48:49 +0000] [2682920] [INFO] Worker exiting (pid: 2682920)
+[2025-12-31 19:48:49 +0000] [2682913] [ERROR] Worker (pid:2682917) was sent SIGTERM!
+[2025-12-31 19:48:49 +0000] [2682918] [INFO] Worker exiting (pid: 2682918)
+[2025-12-31 19:48:49 +0000] [2682913] [ERROR] Worker (pid:2682922) was sent SIGTERM!
+[2025-12-31 19:48:49 +0000] [2682921] [INFO] Worker exiting (pid: 2682921)
+[2025-12-31 19:48:50 +0000] [2682913] [INFO] Shutting down: Master
+[2025-12-31 19:48:52 +0000] [2683462] [INFO] Starting gunicorn 21.2.0
+[2025-12-31 19:48:52 +0000] [2683462] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2683462)
+[2025-12-31 19:48:52 +0000] [2683462] [INFO] Using worker: sync
+[2025-12-31 19:48:52 +0000] [2683464] [INFO] Booting worker with pid: 2683464
+[2025-12-31 19:48:52 +0000] [2683465] [INFO] Booting worker with pid: 2683465
+[2025-12-31 19:48:52 +0000] [2683466] [INFO] Booting worker with pid: 2683466
+[2025-12-31 19:48:52 +0000] [2683467] [INFO] Booting worker with pid: 2683467
+[2025-12-31 19:48:52 +0000] [2683470] [INFO] Booting worker with pid: 2683470
+[2025-12-31 20:00:32 +0000] [2683466] [INFO] Worker exiting (pid: 2683466)
+[2025-12-31 20:00:32 +0000] [2683467] [INFO] Worker exiting (pid: 2683467)
+[2025-12-31 20:00:32 +0000] [2683470] [INFO] Worker exiting (pid: 2683470)
+[2025-12-31 20:00:32 +0000] [2683465] [INFO] Worker exiting (pid: 2683465)
+[2025-12-31 20:00:32 +0000] [2683464] [INFO] Worker exiting (pid: 2683464)
+[2025-12-31 20:00:33 +0000] [2683462] [INFO] Handling signal: term
+[2025-12-31 20:00:33 +0000] [2683462] [ERROR] Worker (pid:2683465) was sent SIGTERM!
+[2025-12-31 20:00:33 +0000] [2683462] [ERROR] Worker (pid:2683466) was sent SIGTERM!
+[2025-12-31 20:00:33 +0000] [2683462] [ERROR] Worker (pid:2683464) was sent SIGTERM!
+[2025-12-31 20:00:33 +0000] [2683462] [ERROR] Worker (pid:2683467) was sent SIGTERM!
+[2025-12-31 20:00:33 +0000] [2683462] [ERROR] Worker (pid:2683470) was sent SIGTERM!
+[2025-12-31 20:00:33 +0000] [2683462] [INFO] Shutting down: Master
+[2025-12-31 20:00:38 +0000] [2684198] [INFO] Starting gunicorn 21.2.0
+[2025-12-31 20:00:38 +0000] [2684198] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (2684198)
+[2025-12-31 20:00:38 +0000] [2684198] [INFO] Using worker: sync
+[2025-12-31 20:00:38 +0000] [2684200] [INFO] Booting worker with pid: 2684200
+[2025-12-31 20:00:38 +0000] [2684201] [INFO] Booting worker with pid: 2684201
+[2025-12-31 20:00:38 +0000] [2684202] [INFO] Booting worker with pid: 2684202
+[2025-12-31 20:00:38 +0000] [2684203] [INFO] Booting worker with pid: 2684203
+[2025-12-31 20:00:38 +0000] [2684204] [INFO] Booting worker with pid: 2684204
+[2025-12-31 20:14:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684201)
+[2025-12-31 20:16:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684202)
+[2025-12-31 20:16:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684203)
+[2025-12-31 20:16:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684204)
+[2025-12-31 20:16:34 +0000] [2684204] [INFO] Worker exiting (pid: 2684204)
+[2025-12-31 20:16:35 +0000] [2684203] [INFO] Worker exiting (pid: 2684203)
+[2025-12-31 20:16:34 +0000] [2684202] [INFO] Worker exiting (pid: 2684202)
+[2025-12-31 20:16:35 +0000] [2684201] [INFO] Worker exiting (pid: 2684201)
+[2025-12-31 20:16:36 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684200)
+[2025-12-31 20:16:36 +0000] [2684200] [INFO] Worker exiting (pid: 2684200)
+[2025-12-31 20:16:38 +0000] [2684198] [ERROR] Worker (pid:2684202) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:16:39 +0000] [2684198] [ERROR] Worker (pid:2684203) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:16:39 +0000] [2684198] [ERROR] Worker (pid:2684204) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:16:39 +0000] [2684198] [ERROR] Worker (pid:2684201) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:16:39 +0000] [2684198] [ERROR] Worker (pid:2684200) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:16:40 +0000] [2684404] [INFO] Booting worker with pid: 2684404
+[2025-12-31 20:16:40 +0000] [2684406] [INFO] Booting worker with pid: 2684406
+[2025-12-31 20:16:40 +0000] [2684407] [INFO] Booting worker with pid: 2684407
+[2025-12-31 20:16:40 +0000] [2684408] [INFO] Booting worker with pid: 2684408
+[2025-12-31 20:16:41 +0000] [2684410] [INFO] Booting worker with pid: 2684410
+[2025-12-31 20:26:35 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684408)
+[2025-12-31 20:35:18 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684410)
+[2025-12-31 20:35:18 +0000] [2684408] [INFO] Worker exiting (pid: 2684408)
+[2025-12-31 20:35:18 +0000] [2684410] [INFO] Worker exiting (pid: 2684410)
+[2025-12-31 20:35:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684404)
+[2025-12-31 20:35:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684406)
+[2025-12-31 20:35:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684407)
+[2025-12-31 20:35:20 +0000] [2684407] [INFO] Worker exiting (pid: 2684407)
+[2025-12-31 20:35:20 +0000] [2684406] [INFO] Worker exiting (pid: 2684406)
+[2025-12-31 20:35:20 +0000] [2684404] [INFO] Worker exiting (pid: 2684404)
+[2025-12-31 20:35:20 +0000] [2684198] [ERROR] Worker (pid:2684408) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:35:20 +0000] [2684198] [ERROR] Worker (pid:2684410) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:35:21 +0000] [2684198] [ERROR] Worker (pid:2684406) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:35:21 +0000] [2684198] [ERROR] Worker (pid:2684407) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:35:21 +0000] [2684198] [ERROR] Worker (pid:2684404) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:35:22 +0000] [2684648] [INFO] Booting worker with pid: 2684648
+[2025-12-31 20:35:22 +0000] [2684649] [INFO] Booting worker with pid: 2684649
+[2025-12-31 20:35:22 +0000] [2684650] [INFO] Booting worker with pid: 2684650
+[2025-12-31 20:35:22 +0000] [2684651] [INFO] Booting worker with pid: 2684651
+[2025-12-31 20:35:22 +0000] [2684652] [INFO] Booting worker with pid: 2684652
+[2025-12-31 20:35:54 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684648)
+[2025-12-31 20:35:56 +0000] [2684648] [INFO] Worker exiting (pid: 2684648)
+[2025-12-31 20:36:08 +0000] [2684198] [ERROR] Worker (pid:2684648) exited with code 1
+[2025-12-31 20:36:08 +0000] [2684198] [ERROR] Worker (pid:2684648) exited with code 1.
+[2025-12-31 20:36:09 +0000] [2684811] [INFO] Booting worker with pid: 2684811
+[2025-12-31 20:46:21 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684649)
+[2025-12-31 20:46:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684650)
+[2025-12-31 20:46:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684651)
+[2025-12-31 20:46:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684652)
+[2025-12-31 20:46:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684811)
+[2025-12-31 20:46:22 +0000] [2684811] [INFO] Worker exiting (pid: 2684811)
+[2025-12-31 20:46:22 +0000] [2684650] [INFO] Worker exiting (pid: 2684650)
+[2025-12-31 20:46:22 +0000] [2684652] [INFO] Worker exiting (pid: 2684652)
+[2025-12-31 20:46:22 +0000] [2684649] [INFO] Worker exiting (pid: 2684649)
+[2025-12-31 20:46:22 +0000] [2684651] [INFO] Worker exiting (pid: 2684651)
+[2025-12-31 20:46:23 +0000] [2684198] [ERROR] Worker (pid:2684651) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:46:23 +0000] [2684198] [ERROR] Worker (pid:2684652) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:46:23 +0000] [2684198] [ERROR] Worker (pid:2684811) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:46:23 +0000] [2684198] [ERROR] Worker (pid:2684649) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:46:23 +0000] [2684198] [ERROR] Worker (pid:2684650) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 20:46:24 +0000] [2684984] [INFO] Booting worker with pid: 2684984
+[2025-12-31 20:46:24 +0000] [2684987] [INFO] Booting worker with pid: 2684987
+[2025-12-31 20:46:24 +0000] [2684985] [INFO] Booting worker with pid: 2684985
+[2025-12-31 20:46:24 +0000] [2684986] [INFO] Booting worker with pid: 2684986
+[2025-12-31 20:46:24 +0000] [2684983] [INFO] Booting worker with pid: 2684983
+[2025-12-31 21:04:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684984)
+[2025-12-31 21:04:39 +0000] [2684984] [INFO] Worker exiting (pid: 2684984)
+[2025-12-31 21:04:53 +0000] [2684198] [ERROR] Worker (pid:2684984) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:04:54 +0000] [2685262] [INFO] Booting worker with pid: 2685262
+[2025-12-31 21:13:50 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684983)
+[2025-12-31 21:15:06 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684985)
+[2025-12-31 21:15:06 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684986)
+[2025-12-31 21:15:06 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2684987)
+[2025-12-31 21:15:06 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685262)
+[2025-12-31 21:15:07 +0000] [2685262] [INFO] Worker exiting (pid: 2685262)
+[2025-12-31 21:15:07 +0000] [2684986] [INFO] Worker exiting (pid: 2684986)
+[2025-12-31 21:15:07 +0000] [2684985] [INFO] Worker exiting (pid: 2684985)
+[2025-12-31 21:15:07 +0000] [2684983] [INFO] Worker exiting (pid: 2684983)
+[2025-12-31 21:15:07 +0000] [2684987] [INFO] Worker exiting (pid: 2684987)
+[2025-12-31 21:15:09 +0000] [2684198] [ERROR] Worker (pid:2684986) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:15:09 +0000] [2684198] [ERROR] Worker (pid:2684987) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:15:10 +0000] [2684198] [ERROR] Worker (pid:2685262) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:15:10 +0000] [2684198] [ERROR] Worker (pid:2684983) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:15:10 +0000] [2684198] [ERROR] Worker (pid:2684985) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:15:11 +0000] [2685376] [INFO] Booting worker with pid: 2685376
+[2025-12-31 21:15:11 +0000] [2685373] [INFO] Booting worker with pid: 2685373
+[2025-12-31 21:15:11 +0000] [2685375] [INFO] Booting worker with pid: 2685375
+[2025-12-31 21:15:11 +0000] [2685381] [INFO] Booting worker with pid: 2685381
+[2025-12-31 21:15:11 +0000] [2685383] [INFO] Booting worker with pid: 2685383
+[2025-12-31 21:24:14 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685376)
+[2025-12-31 21:25:09 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685381)
+[2025-12-31 21:25:09 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685383)
+[2025-12-31 21:25:10 +0000] [2685383] [INFO] Worker exiting (pid: 2685383)
+[2025-12-31 21:25:10 +0000] [2685381] [INFO] Worker exiting (pid: 2685381)
+[2025-12-31 21:25:10 +0000] [2685376] [INFO] Worker exiting (pid: 2685376)
+[2025-12-31 21:25:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685373)
+[2025-12-31 21:25:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685375)
+[2025-12-31 21:25:11 +0000] [2685375] [INFO] Worker exiting (pid: 2685375)
+[2025-12-31 21:25:11 +0000] [2685373] [INFO] Worker exiting (pid: 2685373)
+[2025-12-31 21:25:12 +0000] [2684198] [ERROR] Worker (pid:2685376) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:25:12 +0000] [2684198] [ERROR] Worker (pid:2685381) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:25:12 +0000] [2684198] [ERROR] Worker (pid:2685383) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:25:13 +0000] [2684198] [ERROR] Worker (pid:2685375) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:25:13 +0000] [2684198] [ERROR] Worker (pid:2685373) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:25:14 +0000] [2685612] [INFO] Booting worker with pid: 2685612
+[2025-12-31 21:25:14 +0000] [2685615] [INFO] Booting worker with pid: 2685615
+[2025-12-31 21:25:14 +0000] [2685613] [INFO] Booting worker with pid: 2685613
+[2025-12-31 21:25:14 +0000] [2685614] [INFO] Booting worker with pid: 2685614
+[2025-12-31 21:25:14 +0000] [2685616] [INFO] Booting worker with pid: 2685616
+[2025-12-31 21:38:36 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685612)
+[2025-12-31 21:41:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685613)
+[2025-12-31 21:41:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685614)
+[2025-12-31 21:41:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685615)
+[2025-12-31 21:41:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685616)
+[2025-12-31 21:41:14 +0000] [2684198] [ERROR] Worker (pid:2685612) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:41:15 +0000] [2684198] [ERROR] Worker (pid:2685614) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:41:15 +0000] [2684198] [ERROR] Worker (pid:2685615) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:41:15 +0000] [2684198] [ERROR] Worker (pid:2685616) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:41:16 +0000] [2684198] [ERROR] Worker (pid:2685613) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:41:18 +0000] [2685791] [INFO] Booting worker with pid: 2685791
+[2025-12-31 21:41:18 +0000] [2685790] [INFO] Booting worker with pid: 2685790
+[2025-12-31 21:41:18 +0000] [2685794] [INFO] Booting worker with pid: 2685794
+[2025-12-31 21:41:18 +0000] [2685793] [INFO] Booting worker with pid: 2685793
+[2025-12-31 21:41:18 +0000] [2685795] [INFO] Booting worker with pid: 2685795
+[2025-12-31 21:44:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685790)
+[2025-12-31 21:45:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685791)
+[2025-12-31 21:45:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685793)
+[2025-12-31 21:45:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685794)
+[2025-12-31 21:45:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685795)
+[2025-12-31 21:45:01 +0000] [2685793] [INFO] Worker exiting (pid: 2685793)
+[2025-12-31 21:45:02 +0000] [2685790] [INFO] Worker exiting (pid: 2685790)
+[2025-12-31 21:45:02 +0000] [2685791] [INFO] Worker exiting (pid: 2685791)
+[2025-12-31 21:45:02 +0000] [2685795] [INFO] Worker exiting (pid: 2685795)
+[2025-12-31 21:45:02 +0000] [2685794] [INFO] Worker exiting (pid: 2685794)
+[2025-12-31 21:45:03 +0000] [2684198] [ERROR] Worker (pid:2685790) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:45:03 +0000] [2684198] [ERROR] Worker (pid:2685791) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:45:03 +0000] [2684198] [ERROR] Worker (pid:2685793) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:45:03 +0000] [2684198] [ERROR] Worker (pid:2685794) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:45:03 +0000] [2684198] [ERROR] Worker (pid:2685795) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 21:45:05 +0000] [2685984] [INFO] Booting worker with pid: 2685984
+[2025-12-31 21:45:05 +0000] [2685986] [INFO] Booting worker with pid: 2685986
+[2025-12-31 21:45:05 +0000] [2685983] [INFO] Booting worker with pid: 2685983
+[2025-12-31 21:45:05 +0000] [2685985] [INFO] Booting worker with pid: 2685985
+[2025-12-31 21:45:05 +0000] [2685987] [INFO] Booting worker with pid: 2685987
+[2025-12-31 22:04:30 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685984)
+[2025-12-31 22:10:57 +0000] [2685984] [INFO] Worker exiting (pid: 2685984)
+[2025-12-31 22:11:24 +0000] [2684198] [ERROR] Worker (pid:2685984) exited with code 1
+[2025-12-31 22:11:24 +0000] [2684198] [ERROR] Worker (pid:2685984) exited with code 1.
+[2025-12-31 22:11:24 +0000] [2686464] [INFO] Booting worker with pid: 2686464
+[2025-12-31 22:14:41 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685983)
+[2025-12-31 22:15:31 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685987)
+[2025-12-31 22:15:31 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2686464)
+[2025-12-31 22:15:36 +0000] [2684198] [ERROR] Worker (pid:2685983) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 22:15:36 +0000] [2684198] [ERROR] Worker (pid:2685987) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 22:15:37 +0000] [2684198] [ERROR] Worker (pid:2686464) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 22:15:39 +0000] [2686578] [INFO] Booting worker with pid: 2686578
+[2025-12-31 22:15:39 +0000] [2686580] [INFO] Booting worker with pid: 2686580
+[2025-12-31 22:15:39 +0000] [2686581] [INFO] Booting worker with pid: 2686581
+[2025-12-31 22:25:25 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685985)
+[2025-12-31 22:25:30 +0000] [2685985] [INFO] Worker exiting (pid: 2685985)
+[2025-12-31 22:25:44 +0000] [2684198] [ERROR] Worker (pid:2685985) exited with code 1
+[2025-12-31 22:25:44 +0000] [2684198] [ERROR] Worker (pid:2685985) exited with code 1.
+[2025-12-31 22:25:45 +0000] [2686778] [INFO] Booting worker with pid: 2686778
+[2025-12-31 22:44:39 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2686581)
+[2025-12-31 22:45:17 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2686778)
+[2025-12-31 22:45:17 +0000] [2686778] [INFO] Worker exiting (pid: 2686778)
+[2025-12-31 22:45:17 +0000] [2686581] [INFO] Worker exiting (pid: 2686581)
+[2025-12-31 22:45:19 +0000] [2684198] [ERROR] Worker (pid:2686581) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 22:45:19 +0000] [2684198] [ERROR] Worker (pid:2686778) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 22:45:21 +0000] [2687155] [INFO] Booting worker with pid: 2687155
+[2025-12-31 22:45:21 +0000] [2687156] [INFO] Booting worker with pid: 2687156
+[2025-12-31 23:19:40 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2686580)
+[2025-12-31 23:20:06 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2687155)
+[2025-12-31 23:20:09 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2687156)
+[2025-12-31 23:20:09 +0000] [2686580] [INFO] Worker exiting (pid: 2686580)
+[2025-12-31 23:20:09 +0000] [2687156] [INFO] Worker exiting (pid: 2687156)
+[2025-12-31 23:20:10 +0000] [2687155] [INFO] Worker exiting (pid: 2687155)
+[2025-12-31 23:20:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2685986)
+[2025-12-31 23:20:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2686578)
+[2025-12-31 23:20:10 +0000] [2686578] [INFO] Worker exiting (pid: 2686578)
+[2025-12-31 23:20:11 +0000] [2685986] [INFO] Worker exiting (pid: 2685986)
+[2025-12-31 23:20:11 +0000] [2684198] [ERROR] Worker (pid:2686580) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:20:11 +0000] [2684198] [ERROR] Worker (pid:2687155) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:20:12 +0000] [2684198] [ERROR] Worker (pid:2687156) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:20:12 +0000] [2684198] [ERROR] Worker (pid:2685986) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:20:12 +0000] [2684198] [ERROR] Worker (pid:2686578) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:20:13 +0000] [2688141] [INFO] Booting worker with pid: 2688141
+[2025-12-31 23:20:13 +0000] [2688140] [INFO] Booting worker with pid: 2688140
+[2025-12-31 23:20:13 +0000] [2688138] [INFO] Booting worker with pid: 2688138
+[2025-12-31 23:20:13 +0000] [2688143] [INFO] Booting worker with pid: 2688143
+[2025-12-31 23:20:13 +0000] [2688144] [INFO] Booting worker with pid: 2688144
+[2025-12-31 23:40:36 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688140)
+[2025-12-31 23:40:47 +0000] [2688140] [INFO] Worker exiting (pid: 2688140)
+[2025-12-31 23:41:15 +0000] [2684198] [ERROR] Worker (pid:2688140) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:41:20 +0000] [2688573] [INFO] Booting worker with pid: 2688573
+[2025-12-31 23:42:13 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688573)
+[2025-12-31 23:42:14 +0000] [2688573] [INFO] Worker exiting (pid: 2688573)
+[2025-12-31 23:42:14 +0000] [2684198] [ERROR] Worker (pid:2688573) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:42:14 +0000] [2688586] [INFO] Booting worker with pid: 2688586
+[2025-12-31 23:43:16 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688144)
+[2025-12-31 23:43:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688586)
+[2025-12-31 23:43:23 +0000] [2688586] [INFO] Worker exiting (pid: 2688586)
+[2025-12-31 23:45:03 +0000] [2684198] [ERROR] Worker (pid:2688144) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:45:03 +0000] [2684198] [ERROR] Worker (pid:2688586) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:45:03 +0000] [2688611] [INFO] Booting worker with pid: 2688611
+[2025-12-31 23:45:03 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688138)
+[2025-12-31 23:45:03 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688141)
+[2025-12-31 23:45:03 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688143)
+[2025-12-31 23:45:03 +0000] [2688612] [INFO] Booting worker with pid: 2688612
+[2025-12-31 23:45:04 +0000] [2684198] [ERROR] Worker (pid:2688141) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:45:05 +0000] [2688613] [INFO] Booting worker with pid: 2688613
+[2025-12-31 23:45:05 +0000] [2684198] [ERROR] Worker (pid:2688143) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:45:05 +0000] [2688614] [INFO] Booting worker with pid: 2688614
+[2025-12-31 23:45:05 +0000] [2684198] [ERROR] Worker (pid:2688138) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:45:06 +0000] [2688615] [INFO] Booting worker with pid: 2688615
+[2025-12-31 23:47:26 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688612)
+[2025-12-31 23:48:04 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688613)
+[2025-12-31 23:48:06 +0000] [2688612] [INFO] Worker exiting (pid: 2688612)
+[2025-12-31 23:48:15 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688614)
+[2025-12-31 23:48:14 +0000] [2688613] [INFO] Worker exiting (pid: 2688613)
+[2025-12-31 23:48:35 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688615)
+[2025-12-31 23:48:41 +0000] [2688614] [INFO] Worker exiting (pid: 2688614)
+[2025-12-31 23:49:17 +0000] [2688615] [INFO] Worker exiting (pid: 2688615)
+[2025-12-31 23:49:05 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688611)
+[2025-12-31 23:49:42 +0000] [2688611] [INFO] Worker exiting (pid: 2688611)
+[2025-12-31 23:49:42 +0000] [2684198] [ERROR] Worker (pid:2688612) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:49:43 +0000] [2684198] [ERROR] Worker (pid:2688613) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:49:43 +0000] [2684198] [ERROR] Worker (pid:2688614) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:49:43 +0000] [2684198] [ERROR] Worker (pid:2688615) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:49:44 +0000] [2684198] [ERROR] Worker (pid:2688611) was sent SIGKILL! Perhaps out of memory?
+[2025-12-31 23:49:49 +0000] [2688635] [INFO] Booting worker with pid: 2688635
+[2025-12-31 23:49:49 +0000] [2688640] [INFO] Booting worker with pid: 2688640
+[2025-12-31 23:49:49 +0000] [2688639] [INFO] Booting worker with pid: 2688639
+[2025-12-31 23:49:49 +0000] [2688641] [INFO] Booting worker with pid: 2688641
+[2025-12-31 23:49:49 +0000] [2688636] [INFO] Booting worker with pid: 2688636
+[2026-01-01 00:12:45 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688636)
+[2026-01-01 00:19:33 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688639)
+[2026-01-01 00:19:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688640)
+[2026-01-01 00:19:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688641)
+[2026-01-01 00:19:34 +0000] [2688636] [INFO] Worker exiting (pid: 2688636)
+[2026-01-01 00:19:34 +0000] [2688641] [INFO] Worker exiting (pid: 2688641)
+[2026-01-01 00:19:34 +0000] [2688639] [INFO] Worker exiting (pid: 2688639)
+[2026-01-01 00:19:34 +0000] [2688640] [INFO] Worker exiting (pid: 2688640)
+[2026-01-01 00:19:35 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2688635)
+[2026-01-01 00:19:35 +0000] [2688635] [INFO] Worker exiting (pid: 2688635)
+[2026-01-01 00:19:36 +0000] [2684198] [ERROR] Worker (pid:2688639) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:19:36 +0000] [2684198] [ERROR] Worker (pid:2688640) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:19:36 +0000] [2684198] [ERROR] Worker (pid:2688641) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:19:36 +0000] [2684198] [ERROR] Worker (pid:2688636) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:19:36 +0000] [2684198] [ERROR] Worker (pid:2688635) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:19:38 +0000] [2689090] [INFO] Booting worker with pid: 2689090
+[2026-01-01 00:19:38 +0000] [2689092] [INFO] Booting worker with pid: 2689092
+[2026-01-01 00:19:38 +0000] [2689091] [INFO] Booting worker with pid: 2689091
+[2026-01-01 00:19:38 +0000] [2689094] [INFO] Booting worker with pid: 2689094
+[2026-01-01 00:19:38 +0000] [2689096] [INFO] Booting worker with pid: 2689096
+[2026-01-01 00:24:52 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689091)
+[2026-01-01 00:31:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689092)
+[2026-01-01 00:31:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689094)
+[2026-01-01 00:31:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689096)
+[2026-01-01 00:31:25 +0000] [2689091] [INFO] Worker exiting (pid: 2689091)
+[2026-01-01 00:31:25 +0000] [2689094] [INFO] Worker exiting (pid: 2689094)
+[2026-01-01 00:31:25 +0000] [2689092] [INFO] Worker exiting (pid: 2689092)
+[2026-01-01 00:31:25 +0000] [2689096] [INFO] Worker exiting (pid: 2689096)
+[2026-01-01 00:31:25 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689090)
+[2026-01-01 00:31:26 +0000] [2689090] [INFO] Worker exiting (pid: 2689090)
+[2026-01-01 00:31:26 +0000] [2684198] [ERROR] Worker (pid:2689091) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:31:27 +0000] [2684198] [ERROR] Worker (pid:2689092) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:31:27 +0000] [2684198] [ERROR] Worker (pid:2689094) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:31:27 +0000] [2684198] [ERROR] Worker (pid:2689096) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:31:27 +0000] [2684198] [ERROR] Worker (pid:2689090) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:31:29 +0000] [2689277] [INFO] Booting worker with pid: 2689277
+[2026-01-01 00:31:29 +0000] [2689279] [INFO] Booting worker with pid: 2689279
+[2026-01-01 00:31:29 +0000] [2689280] [INFO] Booting worker with pid: 2689280
+[2026-01-01 00:31:29 +0000] [2689276] [INFO] Booting worker with pid: 2689276
+[2026-01-01 00:31:29 +0000] [2689281] [INFO] Booting worker with pid: 2689281
+[2026-01-01 00:48:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689277)
+[2026-01-01 00:54:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689279)
+[2026-01-01 00:54:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689280)
+[2026-01-01 00:54:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689281)
+[2026-01-01 00:54:59 +0000] [2689280] [INFO] Worker exiting (pid: 2689280)
+[2026-01-01 00:54:59 +0000] [2689277] [INFO] Worker exiting (pid: 2689277)
+[2026-01-01 00:54:59 +0000] [2689281] [INFO] Worker exiting (pid: 2689281)
+[2026-01-01 00:54:59 +0000] [2689279] [INFO] Worker exiting (pid: 2689279)
+[2026-01-01 00:55:00 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689276)
+[2026-01-01 00:55:01 +0000] [2689276] [INFO] Worker exiting (pid: 2689276)
+[2026-01-01 00:55:02 +0000] [2684198] [ERROR] Worker (pid:2689277) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:55:02 +0000] [2684198] [ERROR] Worker (pid:2689279) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:55:02 +0000] [2684198] [ERROR] Worker (pid:2689280) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:55:02 +0000] [2684198] [ERROR] Worker (pid:2689281) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:55:02 +0000] [2684198] [ERROR] Worker (pid:2689276) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 00:55:03 +0000] [2689576] [INFO] Booting worker with pid: 2689576
+[2026-01-01 00:55:03 +0000] [2689580] [INFO] Booting worker with pid: 2689580
+[2026-01-01 00:55:03 +0000] [2689583] [INFO] Booting worker with pid: 2689583
+[2026-01-01 00:55:03 +0000] [2689582] [INFO] Booting worker with pid: 2689582
+[2026-01-01 00:55:04 +0000] [2689588] [INFO] Booting worker with pid: 2689588
+[2026-01-01 01:09:05 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2689582)
+[2026-01-01 01:14:08 +0000] [2689582] [INFO] Worker exiting (pid: 2689582)
+[2026-01-01 01:14:31 +0000] [2684198] [ERROR] Worker (pid:2689582) exited with code 1
+[2026-01-01 01:14:31 +0000] [2684198] [ERROR] Worker (pid:2689582) exited with code 1.
+[2026-01-01 01:14:32 +0000] [2689951] [INFO] Booting worker with pid: 2689951
+[2026-01-01 14:26:42 +0000] [2689576] [INFO] Autorestarting worker after current request.
+[2026-01-01 14:26:42 +0000] [2689576] [INFO] Worker exiting (pid: 2689576)
+[2026-01-01 14:26:44 +0000] [2709571] [INFO] Booting worker with pid: 2709571
+[2026-01-01 14:33:42 +0000] [2689588] [INFO] Autorestarting worker after current request.
+[2026-01-01 14:33:42 +0000] [2689588] [INFO] Worker exiting (pid: 2689588)
+[2026-01-01 14:33:44 +0000] [2709735] [INFO] Booting worker with pid: 2709735
+[2026-01-01 14:37:42 +0000] [2689580] [INFO] Autorestarting worker after current request.
+[2026-01-01 14:37:42 +0000] [2689580] [INFO] Worker exiting (pid: 2689580)
+[2026-01-01 14:37:44 +0000] [2709814] [INFO] Booting worker with pid: 2709814
+[2026-01-01 14:41:42 +0000] [2689583] [INFO] Autorestarting worker after current request.
+[2026-01-01 14:41:42 +0000] [2689583] [INFO] Worker exiting (pid: 2689583)
+[2026-01-01 14:41:44 +0000] [2709887] [INFO] Booting worker with pid: 2709887
+[2026-01-01 15:07:42 +0000] [2689951] [INFO] Autorestarting worker after current request.
+[2026-01-01 15:07:42 +0000] [2689951] [INFO] Worker exiting (pid: 2689951)
+[2026-01-01 15:07:44 +0000] [2710260] [INFO] Booting worker with pid: 2710260
+[2026-01-01 23:01:52 +0000] [2709887] [INFO] Autorestarting worker after current request.
+[2026-01-01 23:01:52 +0000] [2709887] [INFO] Worker exiting (pid: 2709887)
+[2026-01-01 23:01:53 +0000] [2723715] [INFO] Booting worker with pid: 2723715
+[2026-01-01 23:28:38 +0000] [2709735] [INFO] Autorestarting worker after current request.
+[2026-01-01 23:28:38 +0000] [2709735] [INFO] Worker exiting (pid: 2709735)
+[2026-01-01 23:28:38 +0000] [2724176] [INFO] Booting worker with pid: 2724176
+[2026-01-02 03:21:14 +0000] [2709571] [INFO] Autorestarting worker after current request.
+[2026-01-02 03:21:14 +0000] [2709571] [INFO] Worker exiting (pid: 2709571)
+[2026-01-02 03:21:16 +0000] [2729747] [INFO] Booting worker with pid: 2729747
+[2026-01-02 03:24:15 +0000] [2709814] [INFO] Autorestarting worker after current request.
+[2026-01-02 03:24:16 +0000] [2709814] [INFO] Worker exiting (pid: 2709814)
+[2026-01-02 03:24:17 +0000] [2729854] [INFO] Booting worker with pid: 2729854
+[2026-01-02 03:33:24 +0000] [2710260] [INFO] Autorestarting worker after current request.
+[2026-01-02 03:33:24 +0000] [2710260] [INFO] Worker exiting (pid: 2710260)
+[2026-01-02 03:33:25 +0000] [2730227] [INFO] Booting worker with pid: 2730227
+[2026-01-02 21:09:22 +0000] [2724176] [INFO] Autorestarting worker after current request.
+[2026-01-02 21:09:22 +0000] [2724176] [INFO] Worker exiting (pid: 2724176)
+[2026-01-02 21:09:26 +0000] [2758495] [INFO] Booting worker with pid: 2758495
+[2026-01-02 22:58:23 +0000] [2730227] [INFO] Autorestarting worker after current request.
+[2026-01-02 22:58:23 +0000] [2730227] [INFO] Worker exiting (pid: 2730227)
+[2026-01-02 22:58:26 +0000] [2760894] [INFO] Booting worker with pid: 2760894
+[2026-01-02 23:02:23 +0000] [2723715] [INFO] Autorestarting worker after current request.
+[2026-01-02 23:02:23 +0000] [2723715] [INFO] Worker exiting (pid: 2723715)
+[2026-01-02 23:02:25 +0000] [2761002] [INFO] Booting worker with pid: 2761002
+[2026-01-02 23:09:23 +0000] [2729854] [INFO] Autorestarting worker after current request.
+[2026-01-02 23:09:23 +0000] [2729854] [INFO] Worker exiting (pid: 2729854)
+[2026-01-02 23:09:24 +0000] [2761176] [INFO] Booting worker with pid: 2761176
+[2026-01-03 01:15:22 +0000] [2729747] [INFO] Autorestarting worker after current request.
+[2026-01-03 01:15:22 +0000] [2729747] [INFO] Worker exiting (pid: 2729747)
+[2026-01-03 01:15:24 +0000] [2764014] [INFO] Booting worker with pid: 2764014
+[2026-01-03 08:03:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2761002)
+[2026-01-03 08:10:08 +0000] [2761002] [INFO] Worker exiting (pid: 2761002)
+[2026-01-03 08:10:35 +0000] [2684198] [ERROR] Worker (pid:2761002) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 08:10:35 +0000] [2774268] [INFO] Booting worker with pid: 2774268
+[2026-01-03 12:18:09 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2758495)
+[2026-01-03 12:26:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2760894)
+[2026-01-03 12:27:21 +0000] [2758495] [INFO] Worker exiting (pid: 2758495)
+[2026-01-03 12:31:21 +0000] [2760894] [INFO] Worker exiting (pid: 2760894)
+[2026-01-03 12:31:25 +0000] [2684198] [ERROR] Worker (pid:2758495) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 12:31:29 +0000] [2779187] [INFO] Booting worker with pid: 2779187
+[2026-01-03 12:31:46 +0000] [2684198] [ERROR] Worker (pid:2760894) exited with code 1
+[2026-01-03 12:31:46 +0000] [2684198] [ERROR] Worker (pid:2760894) exited with code 1.
+[2026-01-03 12:31:46 +0000] [2779401] [INFO] Booting worker with pid: 2779401
+[2026-01-03 19:00:45 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2764014)
+[2026-01-03 19:04:33 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2774268)
+[2026-01-03 19:04:33 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2779187)
+[2026-01-03 19:04:33 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2779401)
+[2026-01-03 19:04:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2761176)
+[2026-01-03 19:04:35 +0000] [2761176] [INFO] Worker exiting (pid: 2761176)
+[2026-01-03 19:04:39 +0000] [2684198] [ERROR] Worker (pid:2764014) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 19:04:39 +0000] [2684198] [ERROR] Worker (pid:2774268) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 19:04:39 +0000] [2684198] [ERROR] Worker (pid:2779187) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 19:04:39 +0000] [2684198] [ERROR] Worker (pid:2779401) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 19:04:40 +0000] [2684198] [ERROR] Worker (pid:2761176) was sent SIGKILL! Perhaps out of memory?
+[2026-01-03 19:04:41 +0000] [2788669] [INFO] Booting worker with pid: 2788669
+[2026-01-03 19:04:41 +0000] [2788672] [INFO] Booting worker with pid: 2788672
+[2026-01-03 19:04:41 +0000] [2788673] [INFO] Booting worker with pid: 2788673
+[2026-01-03 19:04:41 +0000] [2788675] [INFO] Booting worker with pid: 2788675
+[2026-01-03 19:04:41 +0000] [2788674] [INFO] Booting worker with pid: 2788674
+[2026-01-04 00:36:49 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2788673)
+[2026-01-04 00:46:59 +0000] [2788673] [INFO] Worker exiting (pid: 2788673)
+[2026-01-04 00:46:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2788674)
+[2026-01-04 00:46:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2788675)
+[2026-01-04 00:47:00 +0000] [2788675] [INFO] Worker exiting (pid: 2788675)
+[2026-01-04 00:47:00 +0000] [2788674] [INFO] Worker exiting (pid: 2788674)
+[2026-01-04 00:47:00 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2788669)
+[2026-01-04 00:47:00 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2788672)
+[2026-01-04 00:47:04 +0000] [2684198] [ERROR] Worker (pid:2788669) was sent SIGKILL! Perhaps out of memory?
+[2026-01-04 00:47:04 +0000] [2684198] [ERROR] Worker (pid:2788672) was sent SIGKILL! Perhaps out of memory?
+[2026-01-04 00:47:04 +0000] [2684198] [ERROR] Worker (pid:2788673) was sent SIGKILL! Perhaps out of memory?
+[2026-01-04 00:47:04 +0000] [2684198] [ERROR] Worker (pid:2788674) was sent SIGKILL! Perhaps out of memory?
+[2026-01-04 00:47:04 +0000] [2684198] [ERROR] Worker (pid:2788675) was sent SIGKILL! Perhaps out of memory?
+[2026-01-04 00:47:07 +0000] [2795023] [INFO] Booting worker with pid: 2795023
+[2026-01-04 00:47:07 +0000] [2795024] [INFO] Booting worker with pid: 2795024
+[2026-01-04 00:47:07 +0000] [2795026] [INFO] Booting worker with pid: 2795026
+[2026-01-04 00:47:07 +0000] [2795025] [INFO] Booting worker with pid: 2795025
+[2026-01-04 00:47:07 +0000] [2795027] [INFO] Booting worker with pid: 2795027
+[2026-01-04 09:34:18 +0000] [2795024] [INFO] Autorestarting worker after current request.
+[2026-01-04 09:34:19 +0000] [2795024] [INFO] Worker exiting (pid: 2795024)
+[2026-01-04 09:34:22 +0000] [2807512] [INFO] Booting worker with pid: 2807512
+[2026-01-04 09:39:19 +0000] [2795025] [INFO] Autorestarting worker after current request.
+[2026-01-04 09:39:19 +0000] [2795025] [INFO] Worker exiting (pid: 2795025)
+[2026-01-04 09:39:20 +0000] [2807599] [INFO] Booting worker with pid: 2807599
+[2026-01-04 09:45:18 +0000] [2795027] [INFO] Autorestarting worker after current request.
+[2026-01-04 09:45:19 +0000] [2795027] [INFO] Worker exiting (pid: 2795027)
+[2026-01-04 09:45:20 +0000] [2807709] [INFO] Booting worker with pid: 2807709
+[2026-01-04 09:58:19 +0000] [2795026] [INFO] Autorestarting worker after current request.
+[2026-01-04 09:58:19 +0000] [2795026] [INFO] Worker exiting (pid: 2795026)
+[2026-01-04 09:58:21 +0000] [2807981] [INFO] Booting worker with pid: 2807981
+[2026-01-04 10:10:19 +0000] [2795023] [INFO] Autorestarting worker after current request.
+[2026-01-04 10:10:19 +0000] [2795023] [INFO] Worker exiting (pid: 2795023)
+[2026-01-04 10:10:21 +0000] [2808224] [INFO] Booting worker with pid: 2808224
+[2026-01-04 20:22:20 +0000] [2807512] [INFO] Autorestarting worker after current request.
+[2026-01-04 20:22:20 +0000] [2807512] [INFO] Worker exiting (pid: 2807512)
+[2026-01-04 20:22:22 +0000] [2820608] [INFO] Booting worker with pid: 2820608
+[2026-01-04 20:28:19 +0000] [2807981] [INFO] Autorestarting worker after current request.
+[2026-01-04 20:28:20 +0000] [2807981] [INFO] Worker exiting (pid: 2807981)
+[2026-01-04 20:28:21 +0000] [2820753] [INFO] Booting worker with pid: 2820753
+[2026-01-04 20:31:20 +0000] [2807599] [INFO] Autorestarting worker after current request.
+[2026-01-04 20:31:20 +0000] [2807599] [INFO] Worker exiting (pid: 2807599)
+[2026-01-04 20:31:21 +0000] [2820825] [INFO] Booting worker with pid: 2820825
+[2026-01-04 20:37:13 +0000] [2807709] [INFO] Autorestarting worker after current request.
+[2026-01-04 20:37:13 +0000] [2807709] [INFO] Worker exiting (pid: 2807709)
+[2026-01-04 20:37:13 +0000] [2820966] [INFO] Booting worker with pid: 2820966
+[2026-01-04 20:41:16 +0000] [2808224] [INFO] Autorestarting worker after current request.
+[2026-01-04 20:41:17 +0000] [2808224] [INFO] Worker exiting (pid: 2808224)
+[2026-01-04 20:41:17 +0000] [2821066] [INFO] Booting worker with pid: 2821066
+[2026-01-04 23:21:00 +0000] [2820825] [INFO] Autorestarting worker after current request.
+[2026-01-04 23:21:00 +0000] [2820825] [INFO] Worker exiting (pid: 2820825)
+[2026-01-04 23:21:01 +0000] [2826234] [INFO] Booting worker with pid: 2826234
+[2026-01-04 23:22:20 +0000] [2820608] [INFO] Autorestarting worker after current request.
+[2026-01-04 23:22:20 +0000] [2820608] [INFO] Worker exiting (pid: 2820608)
+[2026-01-04 23:22:21 +0000] [2826307] [INFO] Booting worker with pid: 2826307
+[2026-01-04 23:28:20 +0000] [2821066] [INFO] Autorestarting worker after current request.
+[2026-01-04 23:28:21 +0000] [2821066] [INFO] Worker exiting (pid: 2821066)
+[2026-01-04 23:28:21 +0000] [2826599] [INFO] Booting worker with pid: 2826599
+[2026-01-04 23:29:00 +0000] [2820966] [INFO] Autorestarting worker after current request.
+[2026-01-04 23:29:00 +0000] [2820966] [INFO] Worker exiting (pid: 2820966)
+[2026-01-04 23:29:01 +0000] [2826631] [INFO] Booting worker with pid: 2826631
+[2026-01-04 23:29:20 +0000] [2820753] [INFO] Autorestarting worker after current request.
+[2026-01-04 23:29:20 +0000] [2820753] [INFO] Worker exiting (pid: 2820753)
+[2026-01-04 23:29:21 +0000] [2826647] [INFO] Booting worker with pid: 2826647
+[2026-01-05 00:23:46 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2826647)
+[2026-01-05 00:24:31 +0000] [2826647] [INFO] Worker exiting (pid: 2826647)
+[2026-01-05 00:24:47 +0000] [2684198] [ERROR] Worker (pid:2826647) exited with code 1
+[2026-01-05 00:24:47 +0000] [2684198] [ERROR] Worker (pid:2826647) exited with code 1.
+[2026-01-05 00:24:47 +0000] [2828747] [INFO] Booting worker with pid: 2828747
+[2026-01-05 00:34:46 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2826631)
+[2026-01-05 00:41:53 +0000] [2826631] [INFO] Worker exiting (pid: 2826631)
+[2026-01-05 00:42:23 +0000] [2684198] [ERROR] Worker (pid:2826631) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:42:24 +0000] [2829167] [INFO] Booting worker with pid: 2829167
+[2026-01-05 00:48:19 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2826234)
+[2026-01-05 00:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2826307)
+[2026-01-05 00:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2826599)
+[2026-01-05 00:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2828747)
+[2026-01-05 00:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829167)
+[2026-01-05 00:56:23 +0000] [2828747] [INFO] Worker exiting (pid: 2828747)
+[2026-01-05 00:56:23 +0000] [2826599] [INFO] Worker exiting (pid: 2826599)
+[2026-01-05 00:56:23 +0000] [2826307] [INFO] Worker exiting (pid: 2826307)
+[2026-01-05 00:56:23 +0000] [2826234] [INFO] Worker exiting (pid: 2826234)
+[2026-01-05 00:56:23 +0000] [2829167] [INFO] Worker exiting (pid: 2829167)
+[2026-01-05 00:56:24 +0000] [2684198] [ERROR] Worker (pid:2826234) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:56:25 +0000] [2684198] [ERROR] Worker (pid:2826307) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:56:25 +0000] [2684198] [ERROR] Worker (pid:2826599) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:56:25 +0000] [2684198] [ERROR] Worker (pid:2828747) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:56:25 +0000] [2684198] [ERROR] Worker (pid:2829167) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 00:56:31 +0000] [2829344] [INFO] Booting worker with pid: 2829344
+[2026-01-05 00:56:31 +0000] [2829343] [INFO] Booting worker with pid: 2829343
+[2026-01-05 00:56:31 +0000] [2829341] [INFO] Booting worker with pid: 2829341
+[2026-01-05 00:56:31 +0000] [2829342] [INFO] Booting worker with pid: 2829342
+[2026-01-05 00:56:31 +0000] [2829345] [INFO] Booting worker with pid: 2829345
+[2026-01-05 01:02:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829343)
+[2026-01-05 01:09:52 +0000] [2829343] [INFO] Worker exiting (pid: 2829343)
+[2026-01-05 01:10:08 +0000] [2684198] [ERROR] Worker (pid:2829343) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:10:09 +0000] [2829674] [INFO] Booting worker with pid: 2829674
+[2026-01-05 01:16:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829674)
+[2026-01-05 01:24:20 +0000] [2829674] [INFO] Worker exiting (pid: 2829674)
+[2026-01-05 01:24:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829341)
+[2026-01-05 01:24:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829342)
+[2026-01-05 01:24:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829344)
+[2026-01-05 01:24:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829345)
+[2026-01-05 01:24:21 +0000] [2829344] [INFO] Worker exiting (pid: 2829344)
+[2026-01-05 01:24:21 +0000] [2829345] [INFO] Worker exiting (pid: 2829345)
+[2026-01-05 01:24:22 +0000] [2829341] [INFO] Worker exiting (pid: 2829341)
+[2026-01-05 01:24:23 +0000] [2829342] [INFO] Worker exiting (pid: 2829342)
+[2026-01-05 01:24:23 +0000] [2684198] [ERROR] Worker (pid:2829674) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:24:26 +0000] [2684198] [ERROR] Worker (pid:2829341) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:24:26 +0000] [2684198] [ERROR] Worker (pid:2829342) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:24:26 +0000] [2684198] [ERROR] Worker (pid:2829344) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:24:26 +0000] [2684198] [ERROR] Worker (pid:2829345) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:24:28 +0000] [2829875] [INFO] Booting worker with pid: 2829875
+[2026-01-05 01:24:28 +0000] [2829870] [INFO] Booting worker with pid: 2829870
+[2026-01-05 01:24:28 +0000] [2829871] [INFO] Booting worker with pid: 2829871
+[2026-01-05 01:24:28 +0000] [2829874] [INFO] Booting worker with pid: 2829874
+[2026-01-05 01:24:28 +0000] [2829872] [INFO] Booting worker with pid: 2829872
+[2026-01-05 01:28:56 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829871)
+[2026-01-05 01:29:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829872)
+[2026-01-05 01:29:10 +0000] [2829871] [INFO] Worker exiting (pid: 2829871)
+[2026-01-05 01:29:10 +0000] [2829872] [INFO] Worker exiting (pid: 2829872)
+[2026-01-05 01:29:12 +0000] [2684198] [ERROR] Worker (pid:2829871) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:29:12 +0000] [2684198] [ERROR] Worker (pid:2829872) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:29:15 +0000] [2830146] [INFO] Booting worker with pid: 2830146
+[2026-01-05 01:29:15 +0000] [2830145] [INFO] Booting worker with pid: 2830145
+[2026-01-05 01:36:34 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829874)
+[2026-01-05 01:43:07 +0000] [2829874] [INFO] Worker exiting (pid: 2829874)
+[2026-01-05 01:43:37 +0000] [2684198] [ERROR] Worker (pid:2829874) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:43:39 +0000] [2830350] [INFO] Booting worker with pid: 2830350
+[2026-01-05 01:49:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830145)
+[2026-01-05 01:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830146)
+[2026-01-05 01:56:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830350)
+[2026-01-05 01:56:22 +0000] [2830350] [INFO] Worker exiting (pid: 2830350)
+[2026-01-05 01:56:22 +0000] [2830146] [INFO] Worker exiting (pid: 2830146)
+[2026-01-05 01:56:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829870)
+[2026-01-05 01:56:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2829875)
+[2026-01-05 01:56:24 +0000] [2829875] [INFO] Worker exiting (pid: 2829875)
+[2026-01-05 01:56:24 +0000] [2829870] [INFO] Worker exiting (pid: 2829870)
+[2026-01-05 01:56:24 +0000] [2684198] [ERROR] Worker (pid:2830145) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:56:24 +0000] [2684198] [ERROR] Worker (pid:2830146) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:56:24 +0000] [2684198] [ERROR] Worker (pid:2830350) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:56:26 +0000] [2684198] [ERROR] Worker (pid:2829875) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:56:27 +0000] [2684198] [ERROR] Worker (pid:2829870) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 01:56:29 +0000] [2830406] [INFO] Booting worker with pid: 2830406
+[2026-01-05 01:56:29 +0000] [2830409] [INFO] Booting worker with pid: 2830409
+[2026-01-05 01:56:29 +0000] [2830411] [INFO] Booting worker with pid: 2830411
+[2026-01-05 01:56:29 +0000] [2830413] [INFO] Booting worker with pid: 2830413
+[2026-01-05 01:56:29 +0000] [2830410] [INFO] Booting worker with pid: 2830410
+[2026-01-05 02:04:35 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830409)
+[2026-01-05 02:04:39 +0000] [2830409] [INFO] Worker exiting (pid: 2830409)
+[2026-01-05 02:05:00 +0000] [2684198] [ERROR] Worker (pid:2830409) exited with code 1
+[2026-01-05 02:05:00 +0000] [2684198] [ERROR] Worker (pid:2830409) exited with code 1.
+[2026-01-05 02:05:00 +0000] [2830673] [INFO] Booting worker with pid: 2830673
+[2026-01-05 02:30:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830410)
+[2026-01-05 02:36:13 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830411)
+[2026-01-05 02:36:13 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830413)
+[2026-01-05 02:36:13 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830673)
+[2026-01-05 02:36:13 +0000] [2830673] [INFO] Worker exiting (pid: 2830673)
+[2026-01-05 02:36:13 +0000] [2830410] [INFO] Worker exiting (pid: 2830410)
+[2026-01-05 02:36:13 +0000] [2830411] [INFO] Worker exiting (pid: 2830411)
+[2026-01-05 02:36:13 +0000] [2830413] [INFO] Worker exiting (pid: 2830413)
+[2026-01-05 02:36:14 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830406)
+[2026-01-05 02:36:17 +0000] [2684198] [ERROR] Worker (pid:2830410) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 02:36:17 +0000] [2684198] [ERROR] Worker (pid:2830413) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 02:36:17 +0000] [2684198] [ERROR] Worker (pid:2830673) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 02:36:17 +0000] [2684198] [ERROR] Worker (pid:2830406) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 02:36:17 +0000] [2684198] [ERROR] Worker (pid:2830411) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 02:36:20 +0000] [2830947] [INFO] Booting worker with pid: 2830947
+[2026-01-05 02:36:20 +0000] [2830953] [INFO] Booting worker with pid: 2830953
+[2026-01-05 02:36:20 +0000] [2830954] [INFO] Booting worker with pid: 2830954
+[2026-01-05 02:36:20 +0000] [2830951] [INFO] Booting worker with pid: 2830951
+[2026-01-05 02:36:20 +0000] [2830955] [INFO] Booting worker with pid: 2830955
+[2026-01-05 03:03:12 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830947)
+[2026-01-05 03:03:28 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830951)
+[2026-01-05 03:03:28 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830953)
+[2026-01-05 03:03:28 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830954)
+[2026-01-05 03:03:28 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2830955)
+[2026-01-05 03:03:28 +0000] [2830951] [INFO] Worker exiting (pid: 2830951)
+[2026-01-05 03:03:28 +0000] [2830953] [INFO] Worker exiting (pid: 2830953)
+[2026-01-05 03:03:28 +0000] [2830955] [INFO] Worker exiting (pid: 2830955)
+[2026-01-05 03:03:28 +0000] [2830947] [INFO] Worker exiting (pid: 2830947)
+[2026-01-05 03:03:28 +0000] [2830954] [INFO] Worker exiting (pid: 2830954)
+[2026-01-05 03:03:30 +0000] [2684198] [ERROR] Worker (pid:2830947) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:03:30 +0000] [2684198] [ERROR] Worker (pid:2830951) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:03:30 +0000] [2684198] [ERROR] Worker (pid:2830953) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:03:30 +0000] [2684198] [ERROR] Worker (pid:2830954) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:03:30 +0000] [2684198] [ERROR] Worker (pid:2830955) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:03:31 +0000] [2831577] [INFO] Booting worker with pid: 2831577
+[2026-01-05 03:03:31 +0000] [2831580] [INFO] Booting worker with pid: 2831580
+[2026-01-05 03:03:31 +0000] [2831579] [INFO] Booting worker with pid: 2831579
+[2026-01-05 03:03:31 +0000] [2831581] [INFO] Booting worker with pid: 2831581
+[2026-01-05 03:03:31 +0000] [2831578] [INFO] Booting worker with pid: 2831578
+[2026-01-05 03:14:08 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831579)
+[2026-01-05 03:19:21 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831580)
+[2026-01-05 03:19:21 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831581)
+[2026-01-05 03:19:21 +0000] [2831581] [INFO] Worker exiting (pid: 2831581)
+[2026-01-05 03:19:21 +0000] [2831579] [INFO] Worker exiting (pid: 2831579)
+[2026-01-05 03:19:21 +0000] [2831580] [INFO] Worker exiting (pid: 2831580)
+[2026-01-05 03:19:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831577)
+[2026-01-05 03:19:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831578)
+[2026-01-05 03:19:23 +0000] [2684198] [ERROR] Worker (pid:2831580) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:19:23 +0000] [2684198] [ERROR] Worker (pid:2831581) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:19:23 +0000] [2684198] [ERROR] Worker (pid:2831579) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:19:23 +0000] [2684198] [ERROR] Worker (pid:2831578) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:19:23 +0000] [2684198] [ERROR] Worker (pid:2831577) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:19:25 +0000] [2831797] [INFO] Booting worker with pid: 2831797
+[2026-01-05 03:19:25 +0000] [2831796] [INFO] Booting worker with pid: 2831796
+[2026-01-05 03:19:25 +0000] [2831795] [INFO] Booting worker with pid: 2831795
+[2026-01-05 03:19:25 +0000] [2831798] [INFO] Booting worker with pid: 2831798
+[2026-01-05 03:19:25 +0000] [2831801] [INFO] Booting worker with pid: 2831801
+[2026-01-05 03:28:27 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831796)
+[2026-01-05 03:34:52 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831797)
+[2026-01-05 03:34:52 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831798)
+[2026-01-05 03:34:52 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831801)
+[2026-01-05 03:34:53 +0000] [2831801] [INFO] Worker exiting (pid: 2831801)
+[2026-01-05 03:34:53 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2831795)
+[2026-01-05 03:34:54 +0000] [2831795] [INFO] Worker exiting (pid: 2831795)
+[2026-01-05 03:34:54 +0000] [2684198] [ERROR] Worker (pid:2831796) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:34:55 +0000] [2684198] [ERROR] Worker (pid:2831797) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:34:55 +0000] [2684198] [ERROR] Worker (pid:2831798) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:34:55 +0000] [2684198] [ERROR] Worker (pid:2831801) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:34:55 +0000] [2684198] [ERROR] Worker (pid:2831795) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:34:57 +0000] [2832207] [INFO] Booting worker with pid: 2832207
+[2026-01-05 03:34:57 +0000] [2832204] [INFO] Booting worker with pid: 2832204
+[2026-01-05 03:34:57 +0000] [2832201] [INFO] Booting worker with pid: 2832201
+[2026-01-05 03:34:57 +0000] [2832214] [INFO] Booting worker with pid: 2832214
+[2026-01-05 03:34:57 +0000] [2832208] [INFO] Booting worker with pid: 2832208
+[2026-01-05 03:42:15 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832204)
+[2026-01-05 03:47:35 +0000] [2832204] [INFO] Worker exiting (pid: 2832204)
+[2026-01-05 03:48:04 +0000] [2684198] [ERROR] Worker (pid:2832204) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:48:07 +0000] [2832764] [INFO] Booting worker with pid: 2832764
+[2026-01-05 03:51:02 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832207)
+[2026-01-05 03:51:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832208)
+[2026-01-05 03:51:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832214)
+[2026-01-05 03:51:24 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832764)
+[2026-01-05 03:51:24 +0000] [2832764] [INFO] Worker exiting (pid: 2832764)
+[2026-01-05 03:51:24 +0000] [2832208] [INFO] Worker exiting (pid: 2832208)
+[2026-01-05 03:51:24 +0000] [2832214] [INFO] Worker exiting (pid: 2832214)
+[2026-01-05 03:51:24 +0000] [2832207] [INFO] Worker exiting (pid: 2832207)
+[2026-01-05 03:51:25 +0000] [2684198] [ERROR] Worker (pid:2832207) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:51:26 +0000] [2684198] [ERROR] Worker (pid:2832214) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:51:26 +0000] [2684198] [ERROR] Worker (pid:2832764) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:51:26 +0000] [2684198] [ERROR] Worker (pid:2832208) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 03:51:27 +0000] [2832857] [INFO] Booting worker with pid: 2832857
+[2026-01-05 03:51:27 +0000] [2832859] [INFO] Booting worker with pid: 2832859
+[2026-01-05 03:51:27 +0000] [2832858] [INFO] Booting worker with pid: 2832858
+[2026-01-05 03:51:27 +0000] [2832860] [INFO] Booting worker with pid: 2832860
+[2026-01-05 04:05:51 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832859)
+[2026-01-05 04:13:25 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832860)
+[2026-01-05 04:13:26 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832201)
+[2026-01-05 04:13:26 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832857)
+[2026-01-05 04:13:26 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2832858)
+[2026-01-05 04:13:26 +0000] [2832858] [INFO] Worker exiting (pid: 2832858)
+[2026-01-05 04:13:28 +0000] [2832857] [INFO] Worker exiting (pid: 2832857)
+[2026-01-05 04:13:28 +0000] [2832201] [INFO] Worker exiting (pid: 2832201)
+[2026-01-05 04:13:29 +0000] [2684198] [ERROR] Worker (pid:2832859) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 04:13:30 +0000] [2684198] [ERROR] Worker (pid:2832860) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 04:13:31 +0000] [2684198] [ERROR] Worker (pid:2832201) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 04:13:31 +0000] [2684198] [ERROR] Worker (pid:2832857) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 04:13:31 +0000] [2684198] [ERROR] Worker (pid:2832858) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 04:13:34 +0000] [2833028] [INFO] Booting worker with pid: 2833028
+[2026-01-05 04:13:34 +0000] [2833027] [INFO] Booting worker with pid: 2833027
+[2026-01-05 04:13:34 +0000] [2833030] [INFO] Booting worker with pid: 2833030
+[2026-01-05 04:13:34 +0000] [2833025] [INFO] Booting worker with pid: 2833025
+[2026-01-05 04:13:34 +0000] [2833026] [INFO] Booting worker with pid: 2833026
+[2026-01-05 06:45:47 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2833027)
+[2026-01-05 06:51:57 +0000] [2833027] [INFO] Worker exiting (pid: 2833027)
+[2026-01-05 06:52:24 +0000] [2684198] [ERROR] Worker (pid:2833027) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 06:52:28 +0000] [2837135] [INFO] Booting worker with pid: 2837135
+[2026-01-05 06:53:01 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837135)
+[2026-01-05 06:53:01 +0000] [2837135] [INFO] Worker exiting (pid: 2837135)
+[2026-01-05 06:53:02 +0000] [2684198] [ERROR] Worker (pid:2837135) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 06:53:03 +0000] [2837218] [INFO] Booting worker with pid: 2837218
+[2026-01-05 06:58:23 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2833025)
+[2026-01-05 06:58:33 +0000] [2833025] [INFO] Worker exiting (pid: 2833025)
+[2026-01-05 06:58:45 +0000] [2684198] [ERROR] Worker (pid:2833025) exited with code 1
+[2026-01-05 06:58:45 +0000] [2684198] [ERROR] Worker (pid:2833025) exited with code 1.
+[2026-01-05 06:58:45 +0000] [2837367] [INFO] Booting worker with pid: 2837367
+[2026-01-05 07:16:38 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2833028)
+[2026-01-05 07:19:43 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2833030)
+[2026-01-05 07:19:43 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837367)
+[2026-01-05 07:19:43 +0000] [2833028] [INFO] Worker exiting (pid: 2833028)
+[2026-01-05 07:19:44 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2833026)
+[2026-01-05 07:19:44 +0000] [2833026] [INFO] Worker exiting (pid: 2833026)
+[2026-01-05 07:19:47 +0000] [2684198] [ERROR] Worker (pid:2833028) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:19:49 +0000] [2684198] [ERROR] Worker (pid:2833030) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:19:49 +0000] [2684198] [ERROR] Worker (pid:2837367) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:19:49 +0000] [2684198] [ERROR] Worker (pid:2833026) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:19:51 +0000] [2837611] [INFO] Booting worker with pid: 2837611
+[2026-01-05 07:19:51 +0000] [2837613] [INFO] Booting worker with pid: 2837613
+[2026-01-05 07:19:51 +0000] [2837612] [INFO] Booting worker with pid: 2837612
+[2026-01-05 07:19:51 +0000] [2837610] [INFO] Booting worker with pid: 2837610
+[2026-01-05 07:30:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837610)
+[2026-01-05 07:34:04 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837611)
+[2026-01-05 07:34:04 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837612)
+[2026-01-05 07:34:04 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837613)
+[2026-01-05 07:34:05 +0000] [2837611] [INFO] Worker exiting (pid: 2837611)
+[2026-01-05 07:34:05 +0000] [2837612] [INFO] Worker exiting (pid: 2837612)
+[2026-01-05 07:34:05 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2837218)
+[2026-01-05 07:34:07 +0000] [2837218] [INFO] Worker exiting (pid: 2837218)
+[2026-01-05 07:34:08 +0000] [2684198] [ERROR] Worker (pid:2837610) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:34:09 +0000] [2684198] [ERROR] Worker (pid:2837611) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:34:09 +0000] [2684198] [ERROR] Worker (pid:2837612) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:34:09 +0000] [2684198] [ERROR] Worker (pid:2837613) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:34:10 +0000] [2684198] [ERROR] Worker (pid:2837218) was sent SIGKILL! Perhaps out of memory?
+[2026-01-05 07:34:14 +0000] [2837915] [INFO] Booting worker with pid: 2837915
+[2026-01-05 07:34:14 +0000] [2837911] [INFO] Booting worker with pid: 2837911
+[2026-01-05 07:34:14 +0000] [2837912] [INFO] Booting worker with pid: 2837912
+[2026-01-05 07:34:14 +0000] [2837913] [INFO] Booting worker with pid: 2837913
+[2026-01-05 07:34:14 +0000] [2837914] [INFO] Booting worker with pid: 2837914
+[2026-01-05 23:25:51 +0000] [2837914] [INFO] Autorestarting worker after current request.
+[2026-01-05 23:25:51 +0000] [2837914] [INFO] Worker exiting (pid: 2837914)
+[2026-01-05 23:25:52 +0000] [2860071] [INFO] Booting worker with pid: 2860071
+[2026-01-05 23:29:41 +0000] [2837913] [INFO] Autorestarting worker after current request.
+[2026-01-05 23:29:42 +0000] [2837913] [INFO] Worker exiting (pid: 2837913)
+[2026-01-05 23:29:43 +0000] [2860125] [INFO] Booting worker with pid: 2860125
+[2026-01-05 23:33:12 +0000] [2837915] [INFO] Autorestarting worker after current request.
+[2026-01-05 23:33:12 +0000] [2837915] [INFO] Worker exiting (pid: 2837915)
+[2026-01-05 23:33:13 +0000] [2860173] [INFO] Booting worker with pid: 2860173
+[2026-01-05 23:35:51 +0000] [2837912] [INFO] Autorestarting worker after current request.
+[2026-01-05 23:35:51 +0000] [2837912] [INFO] Worker exiting (pid: 2837912)
+[2026-01-05 23:35:52 +0000] [2860215] [INFO] Booting worker with pid: 2860215
+[2026-01-05 23:36:51 +0000] [2837911] [INFO] Autorestarting worker after current request.
+[2026-01-05 23:36:51 +0000] [2837911] [INFO] Worker exiting (pid: 2837911)
+[2026-01-05 23:36:51 +0000] [2860231] [INFO] Booting worker with pid: 2860231
+[2026-01-06 02:25:36 +0000] [2860231] [INFO] Autorestarting worker after current request.
+[2026-01-06 02:25:36 +0000] [2860231] [INFO] Worker exiting (pid: 2860231)
+[2026-01-06 02:25:37 +0000] [2863441] [INFO] Booting worker with pid: 2863441
+[2026-01-06 02:29:06 +0000] [2860173] [INFO] Autorestarting worker after current request.
+[2026-01-06 02:29:06 +0000] [2860173] [INFO] Worker exiting (pid: 2860173)
+[2026-01-06 02:29:07 +0000] [2863484] [INFO] Booting worker with pid: 2863484
+[2026-01-06 02:30:36 +0000] [2860071] [INFO] Autorestarting worker after current request.
+[2026-01-06 02:30:36 +0000] [2860071] [INFO] Worker exiting (pid: 2860071)
+[2026-01-06 02:30:37 +0000] [2863503] [INFO] Booting worker with pid: 2863503
+[2026-01-06 02:42:38 +0000] [2860215] [INFO] Autorestarting worker after current request.
+[2026-01-06 02:42:38 +0000] [2860215] [INFO] Worker exiting (pid: 2860215)
+[2026-01-06 02:42:38 +0000] [2863637] [INFO] Booting worker with pid: 2863637
+[2026-01-06 02:44:37 +0000] [2860125] [INFO] Autorestarting worker after current request.
+[2026-01-06 02:44:38 +0000] [2860125] [INFO] Worker exiting (pid: 2860125)
+[2026-01-06 02:44:38 +0000] [2863660] [INFO] Booting worker with pid: 2863660
+[2026-01-07 03:45:13 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2863484)
+[2026-01-07 03:52:29 +0000] [2863484] [INFO] Worker exiting (pid: 2863484)
+[2026-01-07 03:52:55 +0000] [2684198] [ERROR] Worker (pid:2863484) exited with code 1
+[2026-01-07 03:52:55 +0000] [2684198] [ERROR] Worker (pid:2863484) exited with code 1.
+[2026-01-07 03:52:56 +0000] [2893333] [INFO] Booting worker with pid: 2893333
+[2026-01-08 06:56:27 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2863503)
+[2026-01-08 06:58:01 +0000] [2863503] [INFO] Worker exiting (pid: 2863503)
+[2026-01-08 06:58:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2863441)
+[2026-01-08 06:58:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2863637)
+[2026-01-08 06:58:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2863660)
+[2026-01-08 06:58:10 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2893333)
+[2026-01-08 06:58:10 +0000] [2684198] [ERROR] Worker (pid:2863503) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 06:58:11 +0000] [2684198] [ERROR] Worker (pid:2893333) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 06:58:11 +0000] [2684198] [ERROR] Worker (pid:2863660) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 06:58:11 +0000] [2684198] [ERROR] Worker (pid:2863441) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 06:58:11 +0000] [2684198] [ERROR] Worker (pid:2863637) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 06:58:12 +0000] [2932360] [INFO] Booting worker with pid: 2932360
+[2026-01-08 06:58:12 +0000] [2932358] [INFO] Booting worker with pid: 2932358
+[2026-01-08 06:58:12 +0000] [2932357] [INFO] Booting worker with pid: 2932357
+[2026-01-08 06:58:12 +0000] [2932361] [INFO] Booting worker with pid: 2932361
+[2026-01-08 06:58:12 +0000] [2932363] [INFO] Booting worker with pid: 2932363
+[2026-01-08 19:00:16 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2932358)
+[2026-01-08 19:00:21 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2932361)
+[2026-01-08 19:00:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2932357)
+[2026-01-08 19:00:24 +0000] [2684198] [ERROR] Worker (pid:2932358) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 19:00:24 +0000] [2684198] [ERROR] Worker (pid:2932361) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 19:00:24 +0000] [2684198] [ERROR] Worker (pid:2932357) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 19:00:25 +0000] [2948417] [INFO] Booting worker with pid: 2948417
+[2026-01-08 19:00:25 +0000] [2948412] [INFO] Booting worker with pid: 2948412
+[2026-01-08 19:00:25 +0000] [2948418] [INFO] Booting worker with pid: 2948418
+[2026-01-08 20:00:20 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2948412)
+[2026-01-08 20:06:54 +0000] [2948412] [INFO] Worker exiting (pid: 2948412)
+[2026-01-08 20:07:15 +0000] [2684198] [ERROR] Worker (pid:2948412) exited with code 1
+[2026-01-08 20:07:15 +0000] [2684198] [ERROR] Worker (pid:2948412) exited with code 1.
+[2026-01-08 20:07:15 +0000] [2950179] [INFO] Booting worker with pid: 2950179
+[2026-01-08 20:15:30 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2948417)
+[2026-01-08 20:17:14 +0000] [2948417] [INFO] Worker exiting (pid: 2948417)
+[2026-01-08 20:17:28 +0000] [2684198] [ERROR] Worker (pid:2948417) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 20:17:29 +0000] [2950366] [INFO] Booting worker with pid: 2950366
+[2026-01-08 20:30:11 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2950366)
+[2026-01-08 20:36:46 +0000] [2950366] [INFO] Worker exiting (pid: 2950366)
+[2026-01-08 20:37:11 +0000] [2684198] [ERROR] Worker (pid:2950366) exited with code 1
+[2026-01-08 20:37:11 +0000] [2684198] [ERROR] Worker (pid:2950366) exited with code 1.
+[2026-01-08 20:37:11 +0000] [2950643] [INFO] Booting worker with pid: 2950643
+[2026-01-08 20:48:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2932363)
+[2026-01-08 20:55:36 +0000] [2932363] [INFO] Worker exiting (pid: 2932363)
+[2026-01-08 20:56:03 +0000] [2684198] [ERROR] Worker (pid:2932363) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 20:56:04 +0000] [2951402] [INFO] Booting worker with pid: 2951402
+[2026-01-08 21:49:07 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2932360)
+[2026-01-08 21:50:05 +0000] [2932360] [INFO] Worker exiting (pid: 2932360)
+[2026-01-08 21:50:20 +0000] [2684198] [ERROR] Worker (pid:2932360) exited with code 1
+[2026-01-08 21:50:20 +0000] [2684198] [ERROR] Worker (pid:2932360) exited with code 1.
+[2026-01-08 21:50:20 +0000] [2952662] [INFO] Booting worker with pid: 2952662
+[2026-01-08 22:03:09 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2950179)
+[2026-01-08 22:04:05 +0000] [2950179] [INFO] Worker exiting (pid: 2950179)
+[2026-01-08 22:04:20 +0000] [2684198] [ERROR] Worker (pid:2950179) exited with code 1
+[2026-01-08 22:04:20 +0000] [2684198] [ERROR] Worker (pid:2950179) exited with code 1.
+[2026-01-08 22:04:21 +0000] [2952924] [INFO] Booting worker with pid: 2952924
+[2026-01-08 22:54:59 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:2950643)
+[2026-01-08 23:01:55 +0000] [2684198] [ERROR] Worker (pid:2950643) was sent SIGKILL! Perhaps out of memory?
+[2026-01-08 23:01:59 +0000] [2954171] [INFO] Booting worker with pid: 2954171
+[2026-01-12 23:08:06 +0000] [2954171] [INFO] Autorestarting worker after current request.
+[2026-01-12 23:08:06 +0000] [2954171] [INFO] Worker exiting (pid: 2954171)
+[2026-01-12 23:08:09 +0000] [3083599] [INFO] Booting worker with pid: 3083599
+[2026-01-13 04:12:39 +0000] [2948418] [INFO] Autorestarting worker after current request.
+[2026-01-13 04:12:39 +0000] [2948418] [INFO] Worker exiting (pid: 2948418)
+[2026-01-13 04:12:42 +0000] [3089979] [INFO] Booting worker with pid: 3089979
+[2026-01-13 06:18:41 +0000] [2952924] [INFO] Autorestarting worker after current request.
+[2026-01-13 06:18:41 +0000] [2952924] [INFO] Worker exiting (pid: 2952924)
+[2026-01-13 06:18:43 +0000] [3092143] [INFO] Booting worker with pid: 3092143
+[2026-01-13 09:26:15 +0000] [2951402] [INFO] Autorestarting worker after current request.
+[2026-01-13 09:26:15 +0000] [2951402] [INFO] Worker exiting (pid: 2951402)
+[2026-01-13 09:26:18 +0000] [3094911] [INFO] Booting worker with pid: 3094911
+[2026-01-13 09:26:27 +0000] [2952662] [INFO] Autorestarting worker after current request.
+[2026-01-13 09:26:27 +0000] [2952662] [INFO] Worker exiting (pid: 2952662)
+[2026-01-13 09:26:29 +0000] [3094913] [INFO] Booting worker with pid: 3094913
+[2026-01-14 05:51:22 +0000] [2684198] [CRITICAL] WORKER TIMEOUT (pid:3094911)
+[2026-01-14 05:58:14 +0000] [3094911] [INFO] Worker exiting (pid: 3094911)
+[2026-01-14 05:58:26 +0000] [2684198] [ERROR] Worker (pid:3094911) exited with code 1
+[2026-01-14 05:58:26 +0000] [2684198] [ERROR] Worker (pid:3094911) exited with code 1.
+[2026-01-14 05:58:27 +0000] [3123143] [INFO] Booting worker with pid: 3123143
+[2026-01-14 06:40:55 +0000] [3123143] [INFO] Worker exiting (pid: 3123143)
+[2026-01-14 06:40:55 +0000] [3089979] [INFO] Worker exiting (pid: 3089979)
+[2026-01-14 06:40:55 +0000] [3094913] [INFO] Worker exiting (pid: 3094913)
+[2026-01-14 06:40:55 +0000] [3092143] [INFO] Worker exiting (pid: 3092143)
+[2026-01-14 06:40:55 +0000] [3083599] [INFO] Worker exiting (pid: 3083599)
+[2026-01-14 06:40:55 +0000] [2684198] [INFO] Handling signal: term
+[2026-01-14 06:40:56 +0000] [2684198] [ERROR] Worker (pid:3083599) was sent SIGTERM!
+[2026-01-14 06:40:56 +0000] [2684198] [ERROR] Worker (pid:3089979) was sent SIGTERM!
+[2026-01-14 06:40:56 +0000] [2684198] [ERROR] Worker (pid:3092143) was sent SIGTERM!
+[2026-01-14 06:40:56 +0000] [2684198] [ERROR] Worker (pid:3094913) was sent SIGTERM!
+[2026-01-14 06:40:56 +0000] [2684198] [ERROR] Worker (pid:3123143) was sent SIGTERM!
+[2026-01-14 06:40:56 +0000] [2684198] [INFO] Shutting down: Master
+[2026-01-14 06:41:01 +0000] [3124514] [INFO] Starting gunicorn 21.2.0
+[2026-01-14 06:41:01 +0000] [3124514] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3124514)
+[2026-01-14 06:41:01 +0000] [3124514] [INFO] Using worker: sync
+[2026-01-14 06:41:01 +0000] [3124517] [INFO] Booting worker with pid: 3124517
+[2026-01-14 06:41:01 +0000] [3124518] [INFO] Booting worker with pid: 3124518
+[2026-01-14 06:41:01 +0000] [3124519] [INFO] Booting worker with pid: 3124519
+[2026-01-14 06:41:01 +0000] [3124520] [INFO] Booting worker with pid: 3124520
+[2026-01-14 06:41:01 +0000] [3124521] [INFO] Booting worker with pid: 3124521
+[2026-01-14 06:44:20 +0000] [3124519] [INFO] Worker exiting (pid: 3124519)
+[2026-01-14 06:44:20 +0000] [3124521] [INFO] Worker exiting (pid: 3124521)
+[2026-01-14 06:44:20 +0000] [3124520] [INFO] Worker exiting (pid: 3124520)
+[2026-01-14 06:44:20 +0000] [3124518] [INFO] Worker exiting (pid: 3124518)
+[2026-01-14 06:44:20 +0000] [3124517] [INFO] Worker exiting (pid: 3124517)
+[2026-01-14 06:44:21 +0000] [3124514] [INFO] Handling signal: term
+[2026-01-14 06:44:21 +0000] [3124514] [ERROR] Worker (pid:3124518) was sent SIGTERM!
+[2026-01-14 06:44:21 +0000] [3124514] [ERROR] Worker (pid:3124519) was sent SIGTERM!
+[2026-01-14 06:44:21 +0000] [3124514] [ERROR] Worker (pid:3124520) was sent SIGTERM!
+[2026-01-14 06:44:21 +0000] [3124514] [ERROR] Worker (pid:3124521) was sent SIGTERM!
+[2026-01-14 06:44:21 +0000] [3124514] [ERROR] Worker (pid:3124517) was sent SIGTERM!
+[2026-01-14 06:44:21 +0000] [3124514] [INFO] Shutting down: Master
+[2026-01-14 06:44:26 +0000] [3124694] [INFO] Starting gunicorn 21.2.0
+[2026-01-14 06:44:26 +0000] [3124694] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3124694)
+[2026-01-14 06:44:26 +0000] [3124694] [INFO] Using worker: sync
+[2026-01-14 06:44:26 +0000] [3124698] [INFO] Booting worker with pid: 3124698
+[2026-01-14 06:44:26 +0000] [3124699] [INFO] Booting worker with pid: 3124699
+[2026-01-14 06:44:26 +0000] [3124700] [INFO] Booting worker with pid: 3124700
+[2026-01-14 06:44:26 +0000] [3124701] [INFO] Booting worker with pid: 3124701
+[2026-01-14 06:44:26 +0000] [3124702] [INFO] Booting worker with pid: 3124702
+[2026-01-14 06:58:36 +0000] [3124700] [INFO] Worker exiting (pid: 3124700)
+[2026-01-14 06:58:36 +0000] [3124702] [INFO] Worker exiting (pid: 3124702)
+[2026-01-14 06:58:36 +0000] [3124701] [INFO] Worker exiting (pid: 3124701)
+[2026-01-14 06:58:36 +0000] [3124699] [INFO] Worker exiting (pid: 3124699)
+[2026-01-14 06:58:36 +0000] [3124698] [INFO] Worker exiting (pid: 3124698)
+[2026-01-14 06:58:36 +0000] [3124694] [INFO] Handling signal: term
+[2026-01-14 06:58:36 +0000] [3124694] [ERROR] Worker (pid:3124699) was sent SIGTERM!
+[2026-01-14 06:58:36 +0000] [3124694] [ERROR] Worker (pid:3124700) was sent SIGTERM!
+[2026-01-14 06:58:36 +0000] [3124694] [ERROR] Worker (pid:3124701) was sent SIGTERM!
+[2026-01-14 06:58:36 +0000] [3124694] [ERROR] Worker (pid:3124698) was sent SIGTERM!
+[2026-01-14 06:58:36 +0000] [3124694] [ERROR] Worker (pid:3124702) was sent SIGTERM!
+[2026-01-14 06:58:36 +0000] [3124694] [INFO] Shutting down: Master
+[2026-01-14 06:58:40 +0000] [3125116] [INFO] Starting gunicorn 21.2.0
+[2026-01-14 06:58:40 +0000] [3125116] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3125116)
+[2026-01-14 06:58:40 +0000] [3125116] [INFO] Using worker: sync
+[2026-01-14 06:58:40 +0000] [3125118] [INFO] Booting worker with pid: 3125118
+[2026-01-14 06:58:40 +0000] [3125119] [INFO] Booting worker with pid: 3125119
+[2026-01-14 06:58:40 +0000] [3125120] [INFO] Booting worker with pid: 3125120
+[2026-01-14 06:58:40 +0000] [3125121] [INFO] Booting worker with pid: 3125121
+[2026-01-14 06:58:40 +0000] [3125122] [INFO] Booting worker with pid: 3125122
+[2026-01-14 07:01:54 +0000] [3125119] [INFO] Worker exiting (pid: 3125119)
+[2026-01-14 07:01:54 +0000] [3125121] [INFO] Worker exiting (pid: 3125121)
+[2026-01-14 07:01:54 +0000] [3125118] [INFO] Worker exiting (pid: 3125118)
+[2026-01-14 07:01:54 +0000] [3125122] [INFO] Worker exiting (pid: 3125122)
+[2026-01-14 07:01:54 +0000] [3125120] [INFO] Worker exiting (pid: 3125120)
+[2026-01-14 07:01:54 +0000] [3125116] [INFO] Handling signal: term
+[2026-01-14 07:01:54 +0000] [3125116] [ERROR] Worker (pid:3125119) was sent SIGTERM!
+[2026-01-14 07:01:54 +0000] [3125116] [ERROR] Worker (pid:3125120) was sent SIGTERM!
+[2026-01-14 07:01:54 +0000] [3125116] [ERROR] Worker (pid:3125121) was sent SIGTERM!
+[2026-01-14 07:01:54 +0000] [3125116] [ERROR] Worker (pid:3125122) was sent SIGTERM!
+[2026-01-14 07:01:54 +0000] [3125116] [ERROR] Worker (pid:3125118) was sent SIGTERM!
+[2026-01-14 07:01:54 +0000] [3125116] [INFO] Shutting down: Master
+[2026-01-14 07:01:56 +0000] [3125252] [INFO] Starting gunicorn 21.2.0
+[2026-01-14 07:01:56 +0000] [3125252] [INFO] Listening at: unix:/home/ubuntu/sky-sense/skysense.sock (3125252)
+[2026-01-14 07:01:56 +0000] [3125252] [INFO] Using worker: sync
+[2026-01-14 07:01:56 +0000] [3125254] [INFO] Booting worker with pid: 3125254
+[2026-01-14 07:01:56 +0000] [3125255] [INFO] Booting worker with pid: 3125255
+[2026-01-14 07:01:57 +0000] [3125256] [INFO] Booting worker with pid: 3125256
+[2026-01-14 07:01:57 +0000] [3125257] [INFO] Booting worker with pid: 3125257
+[2026-01-14 07:01:57 +0000] [3125258] [INFO] Booting worker with pid: 3125258
