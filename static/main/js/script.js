@@ -123,15 +123,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    // Parallax effect for hero section
+    // Parallax effect for hero section (desktop only)
     window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const parallaxElements = document.querySelectorAll('.hero-visual');
-        
-        parallaxElements.forEach(element => {
-            const speed = 0.5;
-            element.style.transform = `translateY(${scrolled * speed}px)`;
-        });
+        if (window.innerWidth > 768) {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.hero-visual');
+
+            parallaxElements.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        }
     });
 
     // Card hover effects

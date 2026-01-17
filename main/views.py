@@ -9,6 +9,9 @@ def index(request):
 def embud_map(request):
     return render(request, 'embud-map.html')
 
+def team(request):
+    return render(request, 'team.html')
+
 def creek_data_proxy(request):
     """Proxy API calls to Strawberry Creek to avoid CORS issues"""
     try:

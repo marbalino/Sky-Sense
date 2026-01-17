@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Team - Sky Sense{% endblock %}
+
+{% block content %}
+<section class="team-section">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Our Team</span>
+            <h2>Founders</h2>
+            <p>The people behind Sky Sense</p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Andrew Glaros -->
+            <div class="team-card">
+                <div class="team-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Andrew</h3>
+                <p class="team-title">Co-Founder</p>
+                <ul class="team-credentials">
+                    <li>M.S. Civil and Environmental Systems Engineering</li>
+                    <li>Founder of UC Berkeley's Strawberry Creek Monitoring Group</li>
+                </ul>
+            </div>
+
+            <!-- Alfredo Chavez -->
+            <div class="team-card">
+                <div class="team-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Alfredo</h3>
+                <p class="team-title">Co-Founder</p>
+                <ul class="team-credentials">
+                    <li>B.S. Electrical Engineering and Computer Science</li>
+                    <li>Embedded Systems Engineer and Educator</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
